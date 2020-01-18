@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/rome_head_veteran.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/sheath_gladius.xml" attachpoint="sheath_01_R"/>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
+      </props>
+      <textures>
+        <texture file="skeletal/hele_scale_3_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Scutum-01">
+      <props>
+        <prop actor="props/units/shields/scutum_rome_isp_08.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Scutum-02">
+      <props>
+        <prop actor="props/units/shields/scutum_rome_isp_09.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Scutum-03">
+      <props>
+        <prop actor="props/units/shields/scutum_rome_isp_10.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Scutum-04">
+      <props>
+        <prop actor="props/units/shields/scutum_rome_isp_11.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Scutum-05">
+      <props>
+        <prop actor="props/units/shields/scutum_rome_isp_12.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Scutum-06">
+      <props>
+        <prop actor="props/units/shields/scutum_rome_isp_13.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Scutum-07">
+      <props>
+        <prop actor="props/units/shields/scutum_rome_isp_14.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Greave-01">
+      <props>
+        <prop actor="props/units/armor/greave_06_bronze_r.xml" attachpoint="leg_R"/>
+        <prop actor="props/units/armor/greave_06_bronze_l.xml" attachpoint="leg_L"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Greave-03">
+      <props>
+        <prop actor="props/units/armor/greave_08_bronze_r.xml" attachpoint="leg_R"/>
+        <prop actor="props/units/armor/greave_08_bronze_l.xml" attachpoint="leg_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Apulo-Corinthian-A">
+      <props>
+        <prop actor="props/units/helmets/rome_apulo_corinthian_e1.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Apulo-Corinthian-B">
+      <props>
+        <prop actor="props/units/helmets/rome_apulo_corinthian_e2.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Apulo-Booeotian-C">
+      <props>
+        <prop actor="props/units/helmets/rome_apulo_itallic_e1.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="9" name="rome-cuirass-1a">
+      <textures>
+        <texture file="skeletal/rome_cuirass_1_a.png" name="baseTex"/>
+        <texture file="skeletal/hele_cuirass_2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="rome-scale-1a">
+      <textures>
+        <texture file="skeletal/rome_scale_1_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="rome-scale-1b">
+      <textures>
+        <texture file="skeletal/rome_scale_1_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="rome-scale-1c">
+      <textures>
+        <texture file="skeletal/rome_scale_1_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="rome-scale-2a">
+      <textures>
+        <texture file="skeletal/rome_scale_2_a.png" name="baseTex"/>
+        <texture file="skeletal/rome_scale_1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="rome-scale-2b">
+      <textures>
+        <texture file="skeletal/rome_scale_2_b.png" name="baseTex"/>
+        <texture file="skeletal/rome_scale_1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="rome-scale-2c">
+      <textures>
+        <texture file="skeletal/rome_scale_2_c.png" name="baseTex"/>
+        <texture file="skeletal/rome_scale_1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="rome-compound-cardiopylax-1a">
+      <textures>
+        <texture file="skeletal/rome_compound_cardiopylax_1_a.png" name="baseTex"/>
+        <texture file="skeletal/hele_linothorax_1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="rome-compound-cardiopylax-1b">
+      <textures>
+        <texture file="skeletal/rome_compound_cardiopylax_1_b.png" name="baseTex"/>
+        <texture file="skeletal/hele_linothorax_1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="rome-compound-cardiopylax-1c">
+      <textures>
+        <texture file="skeletal/rome_compound_cardiopylax_1_c.png" name="baseTex"/>
+        <texture file="skeletal/hele_linothorax_1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="rome-chainmail-4-padded-a">
+      <textures>
+        <texture file="skeletal/rome_chainmail_4_padded_a.png" name="baseTex"/>
+        <texture file="skeletal/celt_chainmail_2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="armour-texture-Color root">
+      <textures>
+        <texture file="skeletal/rome_isp_e_1.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="armour-texture-White root">
+      <textures>
+        <texture file="skeletal/rome_isp_e_2.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_spearman_shield_relax_rome.xml"/>
+    <variant file="biped/formations/anti_cavalry_front.xml"/>
+    <variant file="biped/formations/anti_cavalry_back.xml"/>
+    <variant file="biped/formations/testudo_top.xml"/>
+    <variant file="biped/formations/testudo_front.xml"/>
+    <variant file="biped/formations/testudo_front_left.xml"/>
+    <variant file="biped/formations/testudo_front_right.xml"/>
+    <variant file="biped/formations/testudo_left.xml"/>
+    <variant file="biped/formations/testudo_right.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/gather_tree.xml"/>
+    <variant file="biped/gather_grain.xml"/>
+    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/gather_rock.xml"/>
+    <variant file="biped/gather_ore.xml"/>
+    <variant file="biped/gather_ruins.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/carry_food.xml"/>
+    <variant file="biped/carry_meat.xml"/>
+    <variant file="biped/carry_wood.xml"/>
+    <variant file="biped/carry_stone.xml"/>
+    <variant file="biped/carry_metal.xml"/>
+    <variant file="biped/approach_tree.xml"/>
+    <variant file="biped/approach_grain.xml"/>
+    <variant file="biped/approach_fruit.xml"/>
+    <variant file="biped/approach_meat.xml"/>
+    <variant file="biped/approach_rock.xml"/>
+    <variant file="biped/approach_ore.xml"/>
+    <variant file="biped/approach_ruins.xml"/>
+    <variant file="biped/approach_praise.xml"/>
+  </group>
+  <group>
+    <variant name="Idle"/>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

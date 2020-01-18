@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/aspis_spart_p.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/weapons/sarissa.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
+        <prop actor="props/units/armor/greave_03_bronze_r.xml" attachpoint="leg_R"/>
+        <prop actor="props/units/armor/greave_03_bronze_l.xml" attachpoint="leg_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Hele Pilos Helmet-05">
+      <props>
+        <prop actor="props/units/helmets/hele_pilos_crested.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Hele Thracian Helmet-05">
+      <props>
+        <prop actor="props/units/helmets/hele_thracian_b1_crested.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Hele Thracian Helmet-02">
+      <props>
+        <prop actor="props/units/helmets/hele_thracian_b2_crested.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Hele Thracian Helmet-05">
+      <props>
+        <prop actor="props/units/helmets/hele_thracian_b5_crested.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="5" name="Armour-Linen-Linothorax">
+      <textures>
+        <texture file="skeletal/hele_pezhetairoi_3.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="5" name="Armour-Reinforced Linothorax">
+      <textures>
+        <texture file="skeletal/hele_pezhetairoi.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="2" name="Armour-Bronze Cuirass">
+      <textures>
+        <texture file="skeletal/hele_pezhetairoi_2.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Armour-Officer">
+      <textures>
+        <texture file="skeletal/spart_phalangite_officer.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_pikeman_relax.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/formations/syntagma_front.xml"/>
+    <variant file="biped/formations/syntagma_01.xml"/>
+    <variant file="biped/formations/syntagma_02.xml"/>
+    <variant file="biped/formations/syntagma_03.xml"/>
+    <variant file="biped/formations/syntagma_04.xml"/>
+    <variant file="biped/formations/syntagma_back.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

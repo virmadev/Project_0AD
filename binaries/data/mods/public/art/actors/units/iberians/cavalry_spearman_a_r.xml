@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_iber_adv.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="3" name="cardiopylax-2a">
+      <textures>
+        <texture file="skeletal/iber_cardiopylax_2_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="cardiopylax-2b">
+      <textures>
+        <texture file="skeletal/iber_cardiopylax_2_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="cardiopylax-2c">
+      <textures>
+        <texture file="skeletal/iber_cardiopylax_2_c.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_spearman_relax_02.xml" name="Spearman-Relax-02" frequency="1"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/promotion.xml"/>
+    <variant file="biped/rider/attack_slaughter_iber.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

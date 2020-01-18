@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_driver_chariot_celt.xml">
+      <props>
+        <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Celtic Port Helmet">
+      <props>
+        <prop actor="props/units/helmets/celt_helmet_port.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Celtic Montefortino Helmet-01">
+      <props>
+        <prop actor="props/units/helmets/celt_helmet_montefortino_01.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Celtic Montefortino Helmet-02">
+      <props>
+        <prop actor="props/units/helmets/celt_helmet_montefortino_02.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Celtic Montefortino Helmet-03">
+      <props>
+        <prop actor="props/units/helmets/celt_helmet_montefortino_03.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Celtic Coolus Helmet-01">
+      <props>
+        <prop actor="props/units/helmets/celt_helmet_coolus_01.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Celtic Coolus Helmet-02">
+      <props>
+        <prop actor="props/units/helmets/celt_helmet_coolus_02.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Celtic Meyrick Helmet">
+      <props>
+        <prop actor="props/units/helmets/celt_helmet_meyrick.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="2" name="d-Tattoos-1">
+      <mesh>skeletal/new/m_naked.dae</mesh>
+      <textures>
+        <texture file="skeletal/celt_ijv_e_01.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="2" name="d-Tattoos-2">
+      <mesh>skeletal/new/m_naked.dae</mesh>
+      <textures>
+        <texture file="skeletal/celt_ijv_e_02.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="3" name="d-Tattoos-3">
+      <mesh>skeletal/new/m_naked.dae</mesh>
+      <textures>
+        <texture file="skeletal/kart_isw_a_01.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="3" name="d-Tattoos-4">
+      <mesh>skeletal/new/m_naked.dae</mesh>
+      <textures>
+        <texture file="skeletal/kart_isw_a_02.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="5" name="d-Trousers-1">
+      <mesh>skeletal/new/m_pants.dae</mesh>
+      <textures>
+        <texture file="skeletal/kart_isw_a_03.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="5" name="d-Trousers-2">
+      <mesh>skeletal/new/m_pants.dae</mesh>
+      <textures>
+        <texture file="skeletal/kart_isw_a_04.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="10" name="d-Trousers-3">
+      <mesh>skeletal/new/m_pants.dae</mesh>
+      <textures>
+        <texture file="skeletal/kart_isw_a_05.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

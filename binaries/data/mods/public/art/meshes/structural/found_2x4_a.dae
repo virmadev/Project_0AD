@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2014-03-07T11:18:29Z</created><keywords></keywords><modified>2014-03-07T11:18:29Z</modified><revision></revision><subject></subject><title></title><unit meter="0.025400" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_geometries>
+    <geometry id="Plane001-lib" name="Plane001Mesh">
+      <mesh>
+        <source id="Plane001-POSITION">
+          <float_array id="Plane001-POSITION-array" count="9">
+-1.968504 -1.968504 0.000000
+-1.968504 1.968504 0.000000
+1.968504 1.968504 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Plane001-POSITION-array" count="3" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane001-Normal0">
+          <float_array id="Plane001-Normal0-array" count="9">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Plane001-Normal0-array" count="3" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane001-UV0">
+          <float_array id="Plane001-UV0-array" count="8">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Plane001-UV0-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane001-VERTEX">
+          <input semantic="POSITION" source="#Plane001-POSITION"/>
+        </vertices>
+        <polylist count="1"><input semantic="VERTEX" offset="0" source="#Plane001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Plane001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Plane001-UV0"/><vcount>3 </vcount><p> 1 0 2 0 1 0 2 2 3</p></polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="found_2x4_a" name="found_2x4_a">
+      <node name="Plane001" id="Plane001" sid="Plane001"><translate sid="translate">0.000000 -1.221539 -0.000000</translate><rotate sid="jointOrientX">1 0 0 -90.000000</rotate><scale sid="scale">0.342977 0.342977 0.342977</scale><instance_geometry url="#Plane001-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="prop_brick001" id="prop_brick001" sid="prop_brick001"><translate sid="translate">1.721840 -0.114789 3.561580</translate><rotate sid="rotateZ">0 0 1 -90.000009</rotate><scale sid="scale">2.915650 2.915650 2.915650</scale><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="prop_box001" id="prop_box001" sid="prop_box001"><translate sid="translate">5.509890 23.646608 3.561580</translate><scale sid="scale">2.915650 2.915650 2.915650</scale><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="prop_brick002" id="prop_brick002" sid="prop_brick002"><translate sid="translate">-12.397251 18.825457 3.561580</translate><scale sid="scale">2.915650 2.915650 2.915650</scale><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="prop_woodpile001" id="prop_woodpile001" sid="prop_woodpile001"><translate sid="translate">-0.229579 9.757096 3.561580</translate><rotate sid="rotateZ">0 0 1 -119.999994</rotate><scale sid="scale">2.915650 2.915650 2.915650</scale><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="prop_brick003" id="prop_brick003" sid="prop_brick003"><translate sid="translate">6.657784 20.202930 3.561580</translate><rotate sid="rotateZ">0 0 1 15.000000</rotate><scale sid="scale">2.915650 2.915650 2.915650</scale><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="prop_woodlog002" id="prop_woodlog002" sid="prop_woodlog002"><translate sid="translate">11.364147 -7.690888 3.561580</translate><rotate sid="rotateZ">0 0 1 -64.999985</rotate><scale sid="scale">2.915650 2.915650 2.915650</scale><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="prop_woodlog001" id="prop_woodlog001" sid="prop_woodlog001"><translate sid="translate">2.984524 -24.220554 3.561580</translate><rotate sid="rotateZ">0 0 1 60.000004</rotate><scale sid="scale">2.915650 2.915650 2.915650</scale><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="prop_brickpilebig001" id="prop_brickpilebig001" sid="prop_brickpilebig001"><translate sid="translate">-10.331043 7.576098 3.561580</translate><scale sid="scale">2.915650 2.915650 2.915650</scale><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="prop_brickpilebig003" id="prop_brickpilebig003" sid="prop_brickpilebig003"><translate sid="translate">-9.297938 14.807828 3.561580</translate><rotate sid="rotateZ">0 0 1 -90.000009</rotate><scale sid="scale">2.915650 2.915650 2.915650</scale><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="prop_delimitator001" id="prop_delimitator001" sid="prop_delimitator001"><translate sid="translate">-14.807828 28.582550 3.561580</translate><scale sid="scale">2.915650 2.915650 2.915650</scale><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="prop_delimitator002" id="prop_delimitator002" sid="prop_delimitator002"><translate sid="translate">14.807828 28.582550 3.561580</translate><rotate sid="rotateZ">0 0 1 -90.000009</rotate><scale sid="scale">2.915650 2.915650 2.915650</scale><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="prop_delimitator003" id="prop_delimitator003" sid="prop_delimitator003"><translate sid="translate">14.807828 -28.582550 3.561580</translate><rotate sid="rotateZ">0 0 1 179.999981</rotate><scale sid="scale">2.915650 2.915650 2.915650</scale><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="prop_delimitator004" id="prop_delimitator004" sid="prop_delimitator004"><translate sid="translate">-14.807828 -28.582550 3.561580</translate><rotate sid="rotateZ">0 0 1 89.999972</rotate><scale sid="scale">2.915650 2.915650 2.915650</scale><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="prop_brickpilebig002" id="prop_brickpilebig002" sid="prop_brickpilebig002"><translate sid="translate">-6.542995 23.761400 3.561580</translate><scale sid="scale">2.915650 2.915650 2.915650</scale><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="prop_brickpilebig004" id="prop_brickpilebig004" sid="prop_brickpilebig004"><translate sid="translate">11.138144 12.670116 3.561580</translate><scale sid="scale">2.915650 2.915650 2.915650</scale><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>3.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#found_2x4_a"></instance_visual_scene>
+  </scene>
+</COLLADA>

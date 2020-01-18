@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Variant 01">
+      <mesh>props/scaffold_01.dae</mesh>
+    </variant>
+    <variant frequency="1" name="Variant 02">
+      <mesh>props/scaffold_02.dae</mesh>
+    </variant>
+    <variant frequency="1" name="Variant 03">
+      <mesh>props/scaffold_03.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="props/scaffold.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>default.xml</material>
+</actor>
