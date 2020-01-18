@@ -1,0 +1,1278 @@
+# Translation template for 0 A.D. — Empires Ascendant.
+# Copyright (C) 2019 Wildfire Games
+# This file is distributed under the same license as the 0 A.D. — Empires Ascendant project.
+# 
+# Translators:
+# ValihrAnt <go.3@inbox.lv>, 2018
+# Beāte Lakševica <tava.unochka@inbox.lv>, 2016
+# Jānis Ločmelis <minimenlatvia@gmail.com>, 2017
+# Vladimirs Kuzmins, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2019-11-22 08:08+0000\n"
+"PO-Revision-Date: 2019-11-22 15:16+0000\n"
+"Last-Translator: Beāte Lakševica <tava.unochka@inbox.lv>\n"
+"Language-Team: Latvian (http://www.transifex.com/wildfire-games/0ad/language/lv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+#: gui/lobby/LobbyPage/AnnouncementHandler.js:18
+msgid "Notice"
+msgstr "Paziņojums"
+
+#: gui/lobby/LobbyPage/ConnectionHandler.js:45
+msgid "BANNED"
+msgstr "BLOĶĒTS"
+
+#: gui/lobby/LobbyPage/ConnectionHandler.js:45
+msgid "KICKED"
+msgstr "IZMESTS"
+
+#: gui/lobby/LobbyPage/ConnectionHandler.js:61
+msgid "You have been disconnected from the lobby. Do you want to reconnect?"
+msgstr ""
+
+#: gui/lobby/LobbyPage/ConnectionHandler.js:62
+#: gui/lobby/LobbyPage/Buttons/JoinButton.js:53
+#: gui/prelobby/common/credentials/credentials.js:55
+msgid "Confirmation"
+msgstr "Apstiprinājums"
+
+#: gui/lobby/LobbyPage/ConnectionHandler.js:63
+#: gui/lobby/LobbyPage/Buttons/JoinButton.js:44
+#: gui/lobby/LobbyPage/Buttons/JoinButton.js:54
+#: gui/prelobby/common/credentials/credentials.js:56
+msgid "No"
+msgstr "Nē"
+
+#: gui/lobby/LobbyPage/ConnectionHandler.js:63
+#: gui/lobby/LobbyPage/Buttons/JoinButton.js:44
+#: gui/lobby/LobbyPage/Buttons/JoinButton.js:54
+#: gui/prelobby/common/credentials/credentials.js:56
+msgid "Yes"
+msgstr "Jā"
+
+#. Translation: The number of players and observers in this game
+#: gui/lobby/LobbyPage/Game.js:298
+#, javascript-format
+msgid "%(current)s/%(max)s +%(observercount)s"
+msgstr ""
+
+#. Translation: The number of players in this game
+#: gui/lobby/LobbyPage/Game.js:301
+#, javascript-format
+msgid "%(current)s/%(max)s"
+msgstr ""
+
+#: gui/lobby/LobbyPage/GameDetails.js:65
+msgctxt "victory condition"
+msgid "Endless Game"
+msgstr "Bezgalīga spēle"
+
+#: gui/lobby/LobbyPage/GameDetails.js:117
+#, javascript-format
+msgid "Host: %(playername)s"
+msgstr ""
+
+#: gui/lobby/LobbyPage/GameDetails.js:119
+#, javascript-format
+msgid "Players: %(current)s/%(total)s"
+msgstr "Spēlētāji: %(current)s/ %(total)s"
+
+#: gui/lobby/LobbyPage/GameDetails.js:121
+msgid "Victory Conditions:"
+msgstr ""
+
+#. Translation: Comma used to concatenate victory conditions
+#: gui/lobby/LobbyPage/GameDetails.js:124
+msgid ", "
+msgstr ", "
+
+#: gui/lobby/LobbyPage/GameDetails.js:126
+msgid "Mods:"
+msgstr ""
+
+#. Translation: %(time)s is the hour and minute here.
+#: gui/lobby/LobbyPage/GameDetails.js:129
+#, javascript-format
+msgid "Game started at %(time)s"
+msgstr "Spēle sākās %(time)s"
+
+#: gui/lobby/LobbyPage/GameDetails.js:131
+#: gui/lobby/LobbyPage/Chat/TimestampWrapper.js:33
+msgid "HH:mm"
+msgstr "HH:mm"
+
+#: gui/lobby/LobbyPage/GameDetails.js:133
+msgid "Map Type:"
+msgstr "Kartes tips:"
+
+#: gui/lobby/LobbyPage/GameDetails.js:135
+msgid "Map Size:"
+msgstr "Kartes Izmērs:"
+
+#: gui/lobby/LobbyPage/GameDetails.js:137
+msgid "Map Description:"
+msgstr ""
+
+#: gui/lobby/LobbyPage/KickStrings.js:39
+msgid "You have been kicked from the lobby!"
+msgstr "Tu tiki izmests no istabas!"
+
+#: gui/lobby/LobbyPage/KickStrings.js:40
+msgid "You have been banned from the lobby!"
+msgstr "Tu tiki bloķēts no istabas!"
+
+#: gui/lobby/LobbyPage/KickStrings.js:43
+#, javascript-format
+msgid "%(nick)s has been kicked from the lobby."
+msgstr "%(nick)s tika izmests no istabas."
+
+#: gui/lobby/LobbyPage/KickStrings.js:44
+#, javascript-format
+msgid "%(nick)s has been banned from the lobby."
+msgstr "%(nick)s tika bloķēts no istabas."
+
+#: gui/lobby/LobbyPage/KickStrings.js:49
+#, javascript-format
+msgctxt "lobby kick"
+msgid "Reason: %(reason)s"
+msgstr "Iemesls: %(reason)s"
+
+#: gui/lobby/LobbyPage/PlayerColor.js:34
+#, javascript-format
+msgid "%(nick)s (%(rating)s)"
+msgstr "%(nick)s (%(rating)s)"
+
+#: gui/lobby/LobbyPage/PlayerList.js:178
+msgid "Online"
+msgstr "Tiešsaitē"
+
+#: gui/lobby/LobbyPage/PlayerList.js:184
+msgid "Away"
+msgstr "Prom"
+
+#: gui/lobby/LobbyPage/PlayerList.js:190
+msgid "Busy"
+msgstr "Aizņemts"
+
+#: gui/lobby/LobbyPage/PlayerList.js:196
+msgid "Offline"
+msgstr "Bezsaistē"
+
+#: gui/lobby/LobbyPage/PlayerList.js:202
+msgctxt "lobby presence"
+msgid "Unknown"
+msgstr "Nezināms"
+
+#: gui/lobby/LobbyPage/ProfilePanel.js:106
+msgid "N/A"
+msgstr "Nav pieejams"
+
+#: gui/lobby/LobbyPage/ProfilePanel.js:112
+msgid "Moderator"
+msgstr "Moderators"
+
+#: gui/lobby/LobbyPage/ProfilePanel.js:113
+msgid "Player"
+msgstr "Spēlētājs"
+
+#: gui/lobby/LobbyPage/ProfilePanel.js:114
+msgid "Muted Player"
+msgstr "Klusināts spēlētājs"
+
+#: gui/lobby/LobbyPage/ProfilePanel.js:120
+msgctxt "Used for an undefined winning rate"
+msgid "-"
+msgstr "-"
+
+#: gui/lobby/LobbyPage/ProfilePanel.js:122
+#, javascript-format
+msgid "%(percentage)s%%"
+msgstr "%(percentage)s%%"
+
+#: gui/lobby/LobbyPage/Buttons/BuddyButton.js:69
+msgid "Mark as Buddy"
+msgstr "Iezīmēt kā draugu"
+
+#: gui/lobby/LobbyPage/Buttons/BuddyButton.js:70
+msgid "Unmark as Buddy"
+msgstr "Noņemt drauga apzīmējumu"
+
+#: gui/lobby/LobbyPage/Buttons/HostButton.js:10
+msgid "Host Game"
+msgstr "Izmitināt spēli"
+
+#: gui/lobby/LobbyPage/Buttons/JoinButton.js:40
+msgid "Your active mods do not match the mods of this game."
+msgstr "Tavas aktīvās modifikācijas nesakrīt ar spēles modifikācijām."
+
+#: gui/lobby/LobbyPage/Buttons/JoinButton.js:42
+msgid "Do you want to switch to the mod selection page?"
+msgstr ""
+
+#: gui/lobby/LobbyPage/Buttons/JoinButton.js:43
+msgid "Incompatible mods"
+msgstr "Nesakrītošas modifikācijas"
+
+#: gui/lobby/LobbyPage/Buttons/JoinButton.js:52
+msgid "The game has already started. Do you want to join as observer?"
+msgstr "Šī spēle jau ir sākusies. Vai vēlaties pievienoties kā novērotājs?"
+
+#: gui/lobby/LobbyPage/Buttons/JoinButton.js:89
+#, javascript-format
+msgid "This game's address '%(ip)s' does not appear to be valid."
+msgstr "Spēles adrese '%(ip)s' šķiet ir nederīga."
+
+#: gui/lobby/LobbyPage/Buttons/JoinButton.js:91
+msgid "Error"
+msgstr "Kļūda"
+
+#. Translation: Join the game currently selected in the list.
+#: gui/lobby/LobbyPage/Buttons/JoinButton.js:130
+msgid "Join Game"
+msgstr "Pievienoties spēlei"
+
+#: gui/lobby/LobbyPage/Buttons/LeaderboardButton.js:9
+#: gui/lobby/LeaderboardPage/LeaderboardPage.xml:(caption):10
+msgid "Leaderboard"
+msgstr "Līderu tabula"
+
+#: gui/lobby/LobbyPage/Buttons/ProfileButton.js:9
+#: gui/lobby/ProfilePage/ProfilePage.xml:(caption):10
+msgid "Player Profile Lookup"
+msgstr ""
+
+#: gui/lobby/LobbyPage/Buttons/QuitButton.js:15
+msgctxt "previous page"
+msgid "Back"
+msgstr "Atpakaļ"
+
+#: gui/lobby/LobbyPage/Buttons/QuitButton.js:16
+msgctxt "previous page"
+msgid "Main Menu"
+msgstr "Galvenā Izvēlne"
+
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:32
+#, javascript-format
+msgid "The command '%(cmd)s' is not supported."
+msgstr "Komanda %(cmd)s nav atbalstīta."
+
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:44
+#, javascript-format
+msgid "The command '%(cmd)s' is restricted to moderators."
+msgstr "Komanda %(cmd)s pieejama tikai moderatoriem."
+
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:66
+#, javascript-format
+msgid "The command '%(cmd)s' requires at least one argument."
+msgstr ""
+
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:87
+msgid "Set your state to 'Away'."
+msgstr "Nomainīt stāvokli uz ''Prom''"
+
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:94
+msgid "Set your state to 'Online'."
+msgstr "Nomainīt stāvokli uz ''Tiešsaistē''"
+
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:101
+msgid "Kick a specified user from the lobby. Usage: /kick nick reason"
+msgstr ""
+
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:113
+msgid "Ban a specified user from the lobby. Usage: /ban nick reason"
+msgstr ""
+
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:125
+msgid "Show this help."
+msgstr "Rādīt šo palīdzību."
+
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:128
+msgid "Chat commands:"
+msgstr "Čata komandas:"
+
+#. Translation: Chat command help format
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:132
+#, javascript-format
+msgid "%(command)s - %(description)s"
+msgstr ""
+
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:146
+msgid "Send a chat message about yourself. Example: /me goes swimming."
+msgstr ""
+
+#. Translation: Chat command
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:149
+msgid "/me"
+msgstr ""
+
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:153
+msgid ""
+"Send text as a chat message (even if it starts with slash). Example: /say "
+"/help is a great command."
+msgstr ""
+
+#. Translation: Chat command
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:156
+msgid "/say"
+msgstr ""
+
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:160
+msgid "Clear all chat scrollback."
+msgstr ""
+
+#. Translation: Chat message format when there is a time prefix.
+#: gui/lobby/LobbyPage/Chat/TimestampWrapper.js:25
+#, javascript-format
+msgid "%(time)s %(message)s"
+msgstr "%(time)s %(message)s"
+
+#. Translation: Time prefix as shown in the multiplayer lobby (when you enable
+#. it in the options page).
+#: gui/lobby/LobbyPage/Chat/TimestampWrapper.js:28
+#, javascript-format
+msgid "\\[%(time)s]"
+msgstr "\\[%(time)s]"
+
+#. Translation: Chat message issued using the ‘/me’ command.
+#: gui/lobby/LobbyPage/Chat/ChatMessages/ChatMessageFormatMe.js:24
+#, javascript-format
+msgid "* %(sender)s %(message)s"
+msgstr ""
+
+#: gui/lobby/LobbyPage/Chat/ChatMessages/ChatMessageFormatSay.js:29
+#, javascript-format
+msgid "<%(sender)s>"
+msgstr "<%(sender)s>"
+
+#: gui/lobby/LobbyPage/Chat/ChatMessages/ChatMessageFormatSay.js:31
+#, javascript-format
+msgid "%(sender)s %(message)s"
+msgstr "%(sender)s %(message)s"
+
+#: gui/lobby/LobbyPage/Chat/ChatMessages/ChatMessagePrivateWrapper.js:23
+msgid "Private"
+msgstr "Privāts"
+
+#: gui/lobby/LobbyPage/Chat/ChatMessages/ChatMessagePrivateWrapper.js:25
+#, javascript-format
+msgid "(%(private)s) %(message)s"
+msgstr ""
+
+#: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:47
+#, javascript-format
+msgid "%(nick)s has joined."
+msgstr "%(nick)s pievienojās."
+
+#: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:48
+#, javascript-format
+msgid "%(nick)s has left."
+msgstr "%(nick)s izgāja."
+
+#: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:70
+#, javascript-format
+msgid "%(oldnick)s is now known as %(newnick)s."
+msgstr "%(oldnick)s tagad ir zināms kā %(newnick)s."
+
+#: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:107
+msgid "You have been muted."
+msgstr "Tu tiki apklusināts"
+
+#: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:108
+#, javascript-format
+msgid "%(nick)s has been muted."
+msgstr "%(nick)s tika apklusināts"
+
+#: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:112
+msgid "You are now a moderator."
+msgstr "Tu tagad esi moderators."
+
+#: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:113
+#, javascript-format
+msgid "%(nick)s is now a moderator."
+msgstr "%(nick)s tagad ir moderators."
+
+#: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:118
+msgid "You have been unmuted."
+msgstr "Tu vairāk neesi apklusināts."
+
+#: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:119
+#, javascript-format
+msgid "%(nick)s has been unmuted."
+msgstr "%(nick)s vairāk nav apklusināts."
+
+#: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:124
+msgid "You are not a moderator anymore."
+msgstr "Tu vairāk neesi moderators."
+
+#: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:125
+#, javascript-format
+msgid "%(nick)s is not a moderator anymore."
+msgstr "%(nick)s vairāk nav moderators."
+
+#: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:152
+#, javascript-format
+msgid "%(nick)s changed the lobby subject to:"
+msgstr ""
+
+#: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:153
+#, javascript-format
+msgid "%(nick)s deleted the lobby subject."
+msgstr ""
+
+#. Translation: Chat status message
+#: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageFormat.js:25
+#, javascript-format
+msgid "== %(message)s"
+msgstr "== %(message)s"
+
+#: gui/lobby/LobbyPage/Chat/SystemMessages/SystemMessageEvents.js:55
+msgid "Connected."
+msgstr ""
+
+#: gui/lobby/LobbyPage/Chat/SystemMessages/SystemMessageEvents.js:56
+msgid "Disconnected."
+msgstr "Atslēgts."
+
+#. Translation: Caption for system notifications shown in the chat panel
+#: gui/lobby/LobbyPage/Chat/SystemMessages/SystemMessageFormat.js:25
+msgid "System:"
+msgstr ""
+
+#: gui/lobby/LobbyPage/Chat/SystemMessages/SystemMessageFormat.js:32
+#, javascript-format
+msgid "=== %(system)s %(message)s"
+msgstr ""
+
+#: gui/lobby/LobbyPage/GameListFilters/MapSize.js:9
+msgctxt "map size"
+msgid "Any"
+msgstr "Ikviens"
+
+#: gui/lobby/LobbyPage/GameListFilters/MapType.js:9
+#: gui/lobby/LobbyPage/GameListFilters/Rating.js:11
+msgctxt "map"
+msgid "Any"
+msgstr "Ikviens"
+
+#: gui/lobby/LobbyPage/GameListFilters/PlayerCount.js:10
+msgctxt "player number"
+msgid "Any"
+msgstr "Ikviens"
+
+#: gui/lobby/LobbyPage/GameListFilters/Rating.js:19
+#, javascript-format
+msgctxt "gamelist filter"
+msgid "> %(rating)s"
+msgstr "> %(rating)s"
+
+#: gui/lobby/LobbyPage/GameListFilters/Rating.js:20
+#, javascript-format
+msgctxt "gamelist filter"
+msgid "< %(rating)s"
+msgstr "< %(rating)s"
+
+#: gui/lobby/ProfilePage/ProfilePage.js:70
+#, javascript-format
+msgid "Player \"%(nick)s\" not found."
+msgstr "Spēlētājs \"%(nick)s\" nav atrasts."
+
+#: gui/prelobby/common/credentials/credentials.js:5
+msgid "Please enter your username"
+msgstr "Lūdzu ievadiet savu lietotājvārdu"
+
+#: gui/prelobby/common/credentials/credentials.js:8
+msgid "Invalid username"
+msgstr "Nederīgs lietotājvards"
+
+#: gui/prelobby/common/credentials/credentials.js:19
+msgctxt "register"
+msgid "Please enter your password"
+msgstr "Lūdzu ievadiet savu paroli"
+
+#: gui/prelobby/common/credentials/credentials.js:20
+msgctxt "login"
+msgid "Please enter your password"
+msgstr "Lūdzu ievadiet savu paroli"
+
+#: gui/prelobby/common/credentials/credentials.js:23
+msgid "Please choose a longer password"
+msgstr "Lūdzu izvēlēties garāku paroli"
+
+#: gui/prelobby/common/credentials/credentials.js:32
+msgid "Please enter your password again"
+msgstr "Lūdzu vēlreiz ievadiet savu paroli"
+
+#: gui/prelobby/common/credentials/credentials.js:36
+msgid "Passwords do not match"
+msgstr "Paroles nesakrīt"
+
+#: gui/prelobby/common/credentials/credentials.js:54
+msgid "Are you sure you want to delete the password after connecting?"
+msgstr "Vai esi drošs, ka vēlies dzēst paroli pēc pieslēgšanās?"
+
+#: gui/prelobby/common/feedback/feedback.js:4
+msgid ""
+"Unknown error. This usually occurs because the same IP address is not "
+"allowed to register more than one account within one hour."
+msgstr ""
+
+#: gui/prelobby/common/terms/termslobby.js:9
+msgid "Terms of Service"
+msgstr "Pakalpojumu sniegšanas noteikumi"
+
+#: gui/prelobby/common/terms/termslobby.js:10
+msgid "Please read and accept the Terms of Service."
+msgstr "Lūdzu izlasiet un pieņemiet Pakalpojumu sniegšanas noteikumus"
+
+#: gui/prelobby/common/terms/termslobby.js:19
+msgid "Terms of Use"
+msgstr "Lietošanas noteikumi"
+
+#: gui/prelobby/common/terms/termslobby.js:20
+msgid "Please read and accept the Terms of Use."
+msgstr "Lūdzu izlasiet un pieņemiet Lietošanas noteikumus."
+
+#: gui/prelobby/common/terms/termslobby.js:29
+msgid "Privacy Policy"
+msgstr "Privātuma politika"
+
+#: gui/prelobby/common/terms/termslobby.js:30
+msgid "Please read and accept the Privacy Policy."
+msgstr "Lūdzu izlasiet un pieņemiet Privātuma politiku."
+
+#: gui/prelobby/login/login.js:5
+msgid "Connect"
+msgstr "Pieslēgties"
+
+#: gui/prelobby/login/login.js:32
+msgid "Connecting…"
+msgstr "Pieslēdzas..."
+
+#: gui/prelobby/register/register.js:5
+msgid "Register"
+msgstr "Reģistrēties"
+
+#: gui/prelobby/register/register.js:26
+msgid "Registering…"
+msgstr "Reģistrējas..."
+
+#: gui/prelobby/register/register.js:39
+msgid "Registered"
+msgstr "Reģistrēts"
+
+#: gui/lobby/LeaderboardPage/LeaderboardPage.xml:(heading):15
+msgid "Rank"
+msgstr "Rangs"
+
+#: gui/lobby/LeaderboardPage/LeaderboardPage.xml:(heading):18
+#: gui/lobby/LobbyPage/GameList.xml:(heading):12
+#: gui/lobby/LobbyPage/PlayerList.xml:(heading):15
+msgid "Name"
+msgstr "Vārds"
+
+#: gui/lobby/LeaderboardPage/LeaderboardPage.xml:(heading):21
+#: gui/lobby/LobbyPage/GameList.xml:(heading):27
+#: gui/lobby/LobbyPage/PlayerList.xml:(heading):18
+msgid "Rating"
+msgstr "Reitings"
+
+#: gui/lobby/LeaderboardPage/LeaderboardPage.xml:(caption):26
+#: gui/lobby/ProfilePage/ProfilePage.xml:(caption):59
+msgid "Back"
+msgstr "Atpakaļ"
+
+#: gui/lobby/LeaderboardPage/LeaderboardPage.xml:(caption):30
+msgid "Update"
+msgstr "Atjaunināt"
+
+#: gui/lobby/LobbyPage/GameList.xml:(heading):15
+msgid "Map Name"
+msgstr "Kartes Nosaukums"
+
+#: gui/lobby/LobbyPage/GameList.xml:(heading):18
+msgctxt "map"
+msgid "Size"
+msgstr "Izmērs"
+
+#: gui/lobby/LobbyPage/GameList.xml:(heading):21
+msgctxt "map"
+msgid "Type"
+msgstr "Veids"
+
+#: gui/lobby/LobbyPage/GameList.xml:(heading):24
+msgid "Players"
+msgstr "Spēlētāji"
+
+#: gui/lobby/LobbyPage/GameListFilters.xml:(caption):5
+msgid "Show only open games"
+msgstr "Rādīt tikai atvērtas spēles"
+
+#: gui/lobby/LobbyPage/LobbyPage.xml:(caption):10
+#: gui/prelobby/entrance/entrance.xml:(caption):14
+msgid "Multiplayer Lobby"
+msgstr "Vairāku spēlētāju priekšnams"
+
+#: gui/lobby/LobbyPage/PlayerList.xml:(heading):12
+msgid "Status"
+msgstr "Statuss"
+
+#: gui/lobby/LobbyPage/ProfilePanel.xml:(caption):8
+#: gui/lobby/ProfilePage/ProfilePage.xml:(caption):28
+msgid "Current Rank:"
+msgstr "Pašreizējais rangs:"
+
+#: gui/lobby/LobbyPage/ProfilePanel.xml:(caption):12
+#: gui/lobby/ProfilePage/ProfilePage.xml:(caption):32
+msgid "Highest Rating:"
+msgstr "Augstākais Reitings:"
+
+#: gui/lobby/LobbyPage/ProfilePanel.xml:(caption):16
+#: gui/lobby/ProfilePage/ProfilePage.xml:(caption):36
+msgid "Total Games:"
+msgstr "Pavisam spēles:"
+
+#: gui/lobby/LobbyPage/ProfilePanel.xml:(caption):20
+#: gui/lobby/ProfilePage/ProfilePage.xml:(caption):40
+msgid "Wins:"
+msgstr "Uzvaras:"
+
+#: gui/lobby/LobbyPage/ProfilePanel.xml:(caption):24
+#: gui/lobby/ProfilePage/ProfilePage.xml:(caption):44
+msgid "Losses:"
+msgstr "Zaudējumi:"
+
+#: gui/lobby/LobbyPage/ProfilePanel.xml:(caption):28
+#: gui/lobby/ProfilePage/ProfilePage.xml:(caption):48
+msgid "Win Rate:"
+msgstr "Uzvaru proporcija:"
+
+#: gui/lobby/LobbyPage/Chat/ChatPanel.xml:(caption):6
+msgid "Send"
+msgstr "Sūtīt"
+
+#: gui/lobby/ProfilePage/ProfilePage.xml:(caption):14
+msgid "Enter playername:"
+msgstr ""
+
+#: gui/lobby/ProfilePage/ProfilePage.xml:(caption):20
+msgid "View Profile"
+msgstr "Apskatīt Profilu"
+
+#: gui/lobby/ProfilePage/ProfilePage.xml:(caption):53
+msgid "Please enter a player name."
+msgstr "Lūdzu ievadiet spēlētāja vārdu."
+
+#: gui/prelobby/common/credentials/confirmpassword.xml:(caption):4
+msgid "Password again:"
+msgstr "Parole atkārtoti:"
+
+#: gui/prelobby/common/credentials/credentials.xml:(caption):6
+msgid "Login:"
+msgstr "Lietotāja vārds:"
+
+#: gui/prelobby/common/credentials/credentials.xml:(caption):15
+msgid "Password:"
+msgstr "Parole:"
+
+#: gui/prelobby/common/credentials/rememberpassword.xml:(caption):7
+msgid "Remember Password"
+msgstr "Atcerēties paroli"
+
+#: gui/prelobby/common/feedback/feedback.xml:(caption):10
+#: gui/prelobby/entrance/entrance.xml:(caption):30
+msgid "Cancel"
+msgstr "Atcelt"
+
+#: gui/prelobby/entrance/entrance.xml:(caption):20
+msgid "Create a new account"
+msgstr "Izveidot jaunu kontu"
+
+#: gui/prelobby/entrance/entrance.xml:(caption):25
+msgid "Login to an existing account"
+msgstr "Pieslēgties esošā kontā"
+
+#: gui/prelobby/login/login.xml:(caption):13
+msgid "Connect to the game lobby"
+msgstr "Pieslēgties spēles priekšnamam"
+
+#: gui/prelobby/register/register.xml:(caption):13
+msgid "Registration"
+msgstr "Reģistrācija"
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:1
+msgid ""
+"[font=\"sans-bold-18\"]0 A.D. Empires Ascendant Multiplayer Lobby Privacy "
+"Policy[/font]"
+msgstr "[font=\"sans-bold-18\"]0 A.D. Empires Ascendant Daudzspēlētāju istabas Privātuma politika[/font]"
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:3
+#: gui/prelobby/common/terms/Terms_of_Service.txt:3
+msgid "[font=\"sans-bold-14\"]Document Date:[/font] 2018-10-16"
+msgstr "[font=\"sans-bold-14\"]Dokumenta datums:[/font] 2018-10-16"
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:5
+msgid ""
+"[font=\"sans-bold-16\"]Personal data processed by Wildfire Games and "
+"purposes of processing:[/font]"
+msgstr "[font=\"sans-bold-16\"]Wildfire Games personālo datu pārstrāde un pārstrādes iemesli:[/font]"
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:6
+msgid "[font=\"sans-bold-14\"]1. Playername[/font]"
+msgstr "[font=\"sans-bold-14\"]1. Lietotājvārds[/font]"
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:7
+msgid ""
+"The player is identified by a name that the player chooses at the time of "
+"registration."
+msgstr "Spēlētājs tiek identificēts pēc vārda, kuru spēlētājs izvēlas reģistrācijas brīdī."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:8
+msgid ""
+"Having a unique playername is a requirement to gain a rating, to allow "
+"players, moderators and developers to identify players they met before, "
+"communicate about the game, coordinate matches and enables moderators to "
+"enforce the Terms of Use."
+msgstr "Unikāls lietotājvārds ir prasība, lai iegūtu reitingu, kurš atļauj spēlētājiem, moderatoriem un izstrādātājiem identificēt iepriekš satiktus spēlētājus, komunicēt par spēli, koordinēt mačus un atļauj moderatoriem izpildīt Lietošanas Noteikumus."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:9
+msgid ""
+"The playername serves as a pseudoynm. The identity (natural person) of "
+"players is not known to Wildfire Games, except where personally identifiable"
+" information (such as the realname) was disclosed on the Lobby Chat, other "
+"services of Wildfire Games or elsewhere in the public, or when the IP "
+"address is used to bring criminal proceedings."
+msgstr "Lietotājvārds strādā kā pseidonīms. Spēlētāja identitāte (naturāls cilvēks) nav zināma Wildfire Games, izņemot, kad personīgi identificējama informācija (piemēram, faktiskais vārds) tiek atklāta istabas čatā, citos Wildfire Games pakalpojumos vai citur sabiedrībā, vai kad IP adrese tiek izmantota kriminālprocesa uzsākšanai."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:11
+msgid "[font=\"sans-bold-14\"]2. Password[/font]"
+msgstr "[font=\"sans-bold-14\"]2. Parole[/font]"
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:12
+msgid ""
+"A player is authenticated using a password that the player chooses at the "
+"time of registration."
+msgstr "Spēlētājs tiek autentificēts, izmantojot paroli, kuru spēlētājs izvēlas reģistrācijas brīdī."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:13
+msgid ""
+"Wildfire Games only receives an encrypted version of the password, so that "
+"the password chosen by the user is not revealed to Wildfire Games or others "
+"in case of a breach."
+msgstr "Wildfire Games saņem tikai šifrētu paroles versiju, lai izvēlēta paroli nav atklāta Wildfire Games vai citiem ielaušanās gadījumā."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:15
+msgid "[font=\"sans-bold-14\"]3. IP address[/font]"
+msgstr "[font=\"sans-bold-14\"]3. IP adrese[/font]"
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:16
+msgid ""
+"When a player hosts a match in the Multiplayer Lobby, the IP address of that"
+" player is sent to every player who is online, so that other players can "
+"join that game."
+msgstr "Kad spēlētājs vada maču daudzspēlētāju priekšnamā, , šī spēlētāja IP adrese tiek nosūtīta katram spēlētājam, kurš ir tiešsaistē, lai citi spēlētāji varētu pievienoties šai spēlei."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:17
+msgid ""
+"Wildfire Games stores players IP addresses and may infer publicly available "
+"geolocation and internet service provider data (for example \"geolite2\") "
+"from the IP address in order to:"
+msgstr "Wildfire Games saglabā spēlētāju IP adreses un var secināt publiski pieejamu ģeolokāciju, un interneta pakalpojumu sniedzēju datus (piemēram ''geolite2'') no IP adreses, lai:"
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:18
+msgid ""
+" 1. Enforce the Terms of Use where persons create multiple accounts without "
+"Wildfire Games permission, in particular after having been banned from the "
+"service for violating the Terms of Use."
+msgstr "1. Izpildītu Lietošanas Noteikumus, kur personas izveido vairākus kontus bez Wildfire Games atļaujas, it īpaši pēc bloķēšanas no pakalpojuma pēc Lietošanas Noteikumu pārkāpšanas."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:19
+msgid ""
+"    IP addresses will not be saved for longer than three years for this "
+"purpose."
+msgstr ""
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:20
+msgid ""
+" 2. Make it possible to bring criminal proceedings in case of a cyberattack "
+"(EU Court of Justice Press Release No 112/16)."
+msgstr "Ļaut uzsākt kriminālprocesu, ja notiek kiberuzbrukums (ES Tiesas paziņojums presei Nr. 112/16)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:21
+msgid ""
+"Wildfire Games will not use the IP address logs for any other purpose, in "
+"particular not for marketing, not otherwise disclose IP addresses to the "
+"public or third parties and erase IP addresses if they are not relevant for "
+"the stated purposes anymore."
+msgstr "Wildfire Games neizmantos IP adrešu žurnālus nevienam citam mērķim, it īpaši priekš mārketinga, un citādi neizdos IP adreses publikai vai trešajām partijām un dzēsīs IP adreses, ja tās vairs nav būtiskas priekš augstāk norādītajiem mērķiem."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:23
+msgid "[font=\"sans-bold-14\"]4. Online presence[/font]"
+msgstr "[font=\"sans-bold-14\"]4. Tiešsaistes klātbūtne[/font]"
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:24
+msgid ""
+"Which players are currently connected to the Multiplayer Lobby and which "
+"match they joined is shown to all online players."
+msgstr "Kuri spēlētāji šobrīd pieslēgušies daudzspēlētaju istabai un kurai spēlei tie pievienojušies ir redzams visiem spēlētājiem tiešsaistē."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:26
+msgid "[font=\"sans-bold-14\"]5. Chat messages[/font]"
+msgstr "[font=\"sans-bold-14\"]5. Čata ziņas[/font]"
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:27
+msgid ""
+"The Multiplayer Lobby features a public chat room that enables players to "
+"discuss the game and organize multiplayer matches."
+msgstr "Daudzspēlētāju priekšnams satur publisku tērzēšanas istabu, kas ļauj spēlētājiem diskutēt par spēli un organizēt daudzspēlētāju mačus."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:28
+msgid ""
+"Wildfire Games stores a log of the public chat messages and online presence "
+"to meet the following purposes:"
+msgstr "Wildfire Games saglabā žurnālu ar publiskajām čata ziņām un tiešsaistes klātbūtni, lai sasniegtu sekojošos mērķus:"
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:29
+msgid " 1. Moderators may screen chat messages to enforce the Terms of Use."
+msgstr "1. Moderatori var pārlūkot čata ziņas, lai izpildītu Lietošanas Noteikumus."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:30
+msgid ""
+" 2. Wildfire Games may address or resolve bug reports, balancing issues or "
+"feature proposals indicated by players in the chat room."
+msgstr "2. Wildfire Games var adresēt vai atrisināt problēmu ziņojumus, balansēšanas problēmas vai idejas, kuras izsaka spēlētāji."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:31
+msgid ""
+" 3. Wildfire Games may assess trends amongst discussed topics, the growth of"
+" the active community and use these indicators as feedback to assess, "
+"improve and direct development of the game and the service."
+msgstr "3. Wildfire Games var novērtēt trendus starp diskusētām tēmām un aktīvās kopienas izaugsmi, un izmantot šos indikatorus kā atsauksmes, lai novērtētu, uzlabotu un vadītu spēles, un pakalpojuma attīstību."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:33
+msgid "[font=\"sans-bold-14\"]6. Match statistics[/font]"
+msgstr "[font=\"sans-bold-14\"]6. Maču statistika[/font]"
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:34
+msgid ""
+"Players can gain a rating on the Multiplayer Lobby that reflects their skill"
+" at the game."
+msgstr "Spēlētāji var iegūt reitingu daudzspēlētāju priekšnamā, kas atspoguļo viņu prasmes spēlē."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:35
+msgid ""
+"The rating of all players is published by Wildfire Games and allows players "
+"to focus on competitive or balanced matchmaking if they wish to."
+msgstr "Wildfire Games publicē visu spēlētāju reitingu un ļauj spēlētājiem koncentrēties uz konkurējošu vai līdzsvarotu maču veidošanu, ja viņi vēlas."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:36
+msgid ""
+"During a rated match, players send data relating to the game (such as the "
+"number of units trained, resources gathered and the winner of the match) to "
+"Wildfire Games, so that Wildfire Games can adapt the players ratings based "
+"on these statistics."
+msgstr "Vērtētas spēles laikā, spēlētāji sūta datus, kas attiecas uz spēli (piemēram, apmācīto vienību skaitu, savāktos resursus un spēles uzvarētāju) Wildfire Games, lai Wildfire Games varētu pielāgot spēlētāju vērtējumus, pamatojoties uz šo statistiku."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:37
+msgid "Wildfire Games stores match statistics to:"
+msgstr "Wildfire Games saglabā maču statistiku, lai"
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:38
+msgid ""
+" 1. Verify the accuracy of the rating score and identify and enforce Terms "
+"of Use violations relating to that."
+msgstr "1. Pārbaudītu spēlētāja vērtējuma precizitāti un identificētu, un uzspiestu Lietošanas Noteikumu pārkāpumus attiecīgi tam."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:39
+msgid ""
+" 2. Compute and publish community statistics to improve the game and the "
+"service, for example to improve the balancing of the game or to make certain"
+" aspects of the game more appealing."
+msgstr "2. Aprēķinātu un publicētu kopienas statistiku, lai uzlabotu spēli un pakalpojumu, piemēram, lai uzlabotu spēles balansēšanu vai padarītu dažus spēles aspektus pievilcīgākus."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:41
+msgid "[font=\"sans-bold-14\"]Security of processing:[/font]"
+msgstr "[font=\"sans-bold-14\"]Apstrādes drošība:[/font]"
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:42
+msgid ""
+"The transmission of personal data is secured using TLS encryption (GDPR 32)."
+msgstr "Personisko datu pārraide tiek nodrošināta, izmantojot TLS šifrēšanu (GDPR 32)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:43
+msgid ""
+"Personal data is protected against unintentional loss in encrypted backups "
+"for additional time (GDPR 30.1.g, GDPR 32)."
+msgstr "Personiskie dati tiek pasargāti no netīšiem zaudējumiem šifrētos dublējumos priekš papildus laika (GDPR 30.1.g, GDPR 32)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:45
+msgid ""
+"All personal data that Wildfire Games processes is obtained from the user "
+"(GDPR 14)."
+msgstr ""
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:46
+msgid ""
+"Wildfire Games reserves the right to delete any service data (including "
+"personal data) at any time, except where a user has objected to the erasure "
+"of his or her personal data for performance of a legal claim."
+msgstr "Wildfire Games patur tiesības jebkurā laikā izdzēst visus pakalpojuma datus (tostarp personas datus), izņemot gadījumus, kad lietotājs ir iebildis pret viņa vai viņas personas datu dzēšanu, lai veiktu juridisko prasību."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:48
+msgid "[font=\"sans-bold-16\"]Legal basis for the processing:[/font]"
+msgstr "[font=\"sans-bold-16\"]Apstrādes juridiskais pamats:[/font]"
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:49
+msgid ""
+"1. The processing is necessary for the performance of the service defined in"
+" the terms (GDPR 6.1.b)."
+msgstr "1. Apstrāde ir vajadzīga pakalpojumu sniegšanai, kas definēts noteikumos (GDPR 6.1.b)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:50
+msgid ""
+"2. Wildfire Games has legitimate interests in providing the Multiplayer "
+"Lobby, in the development and improvement of 0 A.D. and the Multiplayer "
+"Lobby, in enforcing the Terms of Use and in the protection against "
+"cyberattacks (GDPR 6.1.f)."
+msgstr "2. Wildfire Spēles ir īstas intereses nodrošināt daudzspēlētāju priekšnamu, izstrādāt un uzlabot 0 A.D. un daudzspēlētāju priekšnamu, izpildīt Lietošanas noteikumus un aizsargātu pret kiberuzbrukumiem (GDPR 6.1.f)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:51
+msgid ""
+"3. Wildfire Games does not process any further data for the Multiplayer "
+"Lobby and does not ask for consent to process data (GDPR 6.1.a, GDPR 7, GDPR"
+" 8, GDPR 13.2.c)."
+msgstr "3. Wildfire Games neapstrādā papildu datus priekš daudzspēlētaju priekšnama un nepieprasa piekrišanu apstrādāt datus (GDPR 6.1.a, GDPR 7, GDPR 8, GDPR 13.2.c)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:53
+msgid "[font=\"sans-bold-16\"]User rights:[/font]"
+msgstr "[font=\"sans-bold-16\"]Lietotāja tiesības:[/font]"
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:54
+msgid ""
+"1. Contact Wildfire Games, by sending an email to webmaster at wildfiregames"
+" dot com (GDPR 13.1.a, GDPR 13.1.b)."
+msgstr "1. Sazinieties ar Wildfire Games, nosūtot e-pastu webmaster at wildfiregames dot com (GDPR 13.1.a, GDPR 13.1.b)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:55
+msgid "   To exercise any user right, please refer to this contact."
+msgstr ""
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:56
+msgid "2. Right of access to personal data concerning him or her (GDPR 15)."
+msgstr "2. Tiesības piekļūt personas datiem, kas attiecas uz viņu vai viņas (GDPR 15)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:57
+msgid ""
+"3. Right to obtain personal data in a machine-readable format (GDPR 20)."
+msgstr "3. Tiesības iegūt personas datus mašīnlasāmā formātā (GDPR 20)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:58
+msgid "4. Right to rectification of inaccurate personal data (GDPR 16)."
+msgstr "4. Tiesības labot neprecīzus personas datus (GDPR 16)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:59
+msgid ""
+"5. Right to erasure of personal data where it is not relevant to the stated "
+"purposes, if the data was processed unlawfully or if the user objects to the"
+" processing and has overriding legitimate grounds (GDPR 17)."
+msgstr "5. Tiesības dzēst personas datus, ja tie nav saistīti ar norādītajiem mērķiem, ja dati ir apstrādāti nelikumīgi vai ja lietotājs iebilst pret apstrādi un tam ir galvenie likumīgie iemesli (GDPR 17)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:60
+msgid ""
+"6. Right to restriction of personal data processing where the accuracy of "
+"the data is contested by the user, if the data was processed unlawfully or "
+"if the user requires the data for a legal claim (GDPR 18)."
+msgstr "6. Tiesības uz personas datu apstrādes ierobežošanu, kur datu precizitāti apstrīdē lietotājs, ja dati ir apstrādāti nelikumīgi vai ja lietotājs pieprasa datus par juridisku prasību (GDPR 18)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:61
+msgid ""
+"7. Right to object to the processing of personal data concerning him or her "
+"on grounds relating to their particular situation (GDPR 21)."
+msgstr "7. Tiesības iebilst pret personas datu apstrādi, kas attiecas uz viņu, pamatojoties uz viņu konkrēto situāciju (GDPR 21)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:62
+msgid ""
+"8. Right to lodge a complaint with a supervisory authority (GDPR 13.2.d, "
+"GDPR 77)."
+msgstr "8. Tiesības iesniegt sūdzību ar uzraudzības iestādi (GDPR 13.2.d, GDPR 77)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:63
+msgid ""
+"Requests that are manifestly unfounded or excessive are not responded to or "
+"may be charged (GDPR 12.4, GDPR 12.5)."
+msgstr "Pieprasījumi, kas ir acīmredzami nepamatoti vai pārmērīgi, netiek atbildēti vai var būt par maksu (GDPR 12.4, GDPR 12.5)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:65
+msgid "[font=\"sans-bold-16\"]Wildfire Games obligations:[/font]"
+msgstr "[font=\"sans-bold-16\"]Wildfire Games saistības:[/font]"
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:66
+msgid ""
+" 1. Wildfire Games demonstrates compliance with GDPR (GDPR 5.2 "
+"'accountability')."
+msgstr "1. Wildfire Games demonstrē atbilstību GDPR (GDPR 5.2 \"accountability\")."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:67
+msgid ""
+" 2. Wildfire Games documents their processing activities appropriately, in "
+"particular the categories of processed personal data and security measures "
+"to protect it (GDPR 30)."
+msgstr "2. Wildfire Games pienācīgi dokumentē savu apstrādes darbību, jo īpaši apstrādāto personas datu un aizsardzības pasākumu kategorijas, lai tos aizsargātu (GDPR 30)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:68
+msgid ""
+" 3. Wildfire Games processes personal data lawfully, fairly and "
+"transparently (GDPR 5.1.a, GDPR 12.1)."
+msgstr "3. Wildfire Games apstrādā personas datus likumīgi, taisnīgi un pārredzami (GDPR 5.1.a, GDPR 12.1)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:69
+msgid ""
+" 4. Wildfire Games informs users of the purposes, legal grounds, legitimate "
+"interests and retention periods of personal data processing at the time it "
+"is processed, recipients of personal data and where applicable, transfer of "
+"personal data to third countries and automated decision-making (GDPR "
+"13.1.c-f, GDPR 13.2.a, GDPR 13.2.e-f, GDPR 15.1, GDPR 15.4)."
+msgstr "4. Wildfire Games informē lietotājus par personas datu apstrādes procesa mērķiem, juridisko pamatojumu, likumīgajām interesēm un saglabāšanas periodiem, personas datu saņēmējiem un attiecīgā gadījumā personas datu nodošanu trešām valstīm un automatizētu lēmumu pieņemšanu ( GDPR 13.1.cf, GDPR 13.2.a, GDPR 13.2.ef, GDPR 15.1, GDPR 15.4)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:70
+msgid ""
+" 5. Wildfire Games does not processes personal data for purposes other than "
+"the specified ones (GDPR 5.1.b, 'purpose limitation', GDPR 13.3)."
+msgstr "5. Wildfire Games neapstrādā personas datus citiem mērķiem, izņemot norādītos (GDPR 5.1.b, 'purpose limitation', GDPR 13.3)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:71
+msgid ""
+" 6. Wildfire Games does not process personal data that is not needed for the"
+" specified purposes (GDPR 5.1.c, 'data minimization')."
+msgstr "6. Wildfire Games neapstrādā personas datus, kas nav vajadzīgi norādītajiem mērķiem (GDPR 5.1.c, 'data minimization')."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:72
+msgid ""
+" 7. Wildfire Games uses a storage form that does not allow identification of"
+" natural persons for longer than necessary (GDPR 5.1.e 'storage "
+"limitation')."
+msgstr "7. Wildfire Games izmanto uzglabāšanas formu, kas neļauj identificēt fiziskas personas ilgāk nekā nepieciešams (GDPR 5.1.e 'storage limitation')."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:73
+msgid ""
+" 8. Wildfire Games secures personal data processing to prevent unauthorised "
+"or unlawful processing and accidental loss (GDPR 5.1.f. 'integrity and "
+"confidentiality')."
+msgstr "8. Wildfire Games nodrošina personas datu apstrādi, lai novērstu neatļautu vai nelikumīgu apstrādi un nejaušus zaudējumus (GDPR 5.1.f 'integrity and confidentiality')."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:74
+msgid ""
+" 9. Wildfire Games informs users of their right to access, to rectify, to "
+"erase personal data and the right to restrict, to withdraw consent to, to "
+"object to personal data processing and to complain at a supervisory "
+"authority (GDPR 13.2.b, GDPR 13.2.c, GDPR 13.2.d)."
+msgstr "9. Wildfire Games informē lietotājus par viņu tiesībām piekļūt, labot, dzēst personas datus un tiesības ierobežot, atsaukt piekrišanu, iebilst pret personas datu apstrādi un iesniegt sūdzību uzraudzības iestādē (GDPR 13.2.b, GDPR 13.2.c, GDPR 13.2.d)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:75
+msgid ""
+"10. Wildfire Games facilitates the exercise of user rights where possible "
+"(GDPR 12.2), without undue delay (GDPR 12.3)."
+msgstr "10. Wildfire Games, bez liekas kavēšanās veicina lietotāju tiesību izmantošanu, kur iespējams (GDPR 12.2) (GDPR 12.3)."
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:76
+msgid ""
+"11. Wildfire Games informs the users that to exercise their rights, users "
+"might need to provide additional information to identify the natural person "
+"or the data (GDPR 12.6, GDPR 13.2.e)."
+msgstr ""
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:77
+msgid ""
+"12. Wildfire Games will not knowingly collect personal data from children "
+"under the age of 13 (Children's Online Privacy Protection Act). If you "
+"believe Wildfire Games received any personal data from or about a child "
+"under 13, please contact Wildfire Games."
+msgstr ""
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:78
+msgid ""
+"13. Where Wildfire Games processes sensitive personal data based on "
+"legitimate interests, Wildfire Games considers performing, recording and "
+"periodically reviewing Legitimate Interests Assessments and Data Protection "
+"Impact Assessments (GDPR 35) to become confident that the individual's "
+"interests do not override Wildfire Games legitimate interests, and that "
+"Wildfire Games is not using personal data in intrusive ways unless there is "
+"a very good reason to."
+msgstr ""
+
+#: gui/prelobby/common/terms/Privacy_Policy.txt:80
+msgid ""
+"For further information on Wildfire Games Privacy Policies, visit "
+"https://trac.wildfiregames.com/wiki/UserDataProtection"
+msgstr "Lai iegūtu papildinformāciju par Wildfire Spēļu privātuma politiku, apmeklējiet vietni https://trac.wildfiregames.com/wiki/UserDataProtection"
+
+#: gui/prelobby/common/terms/Terms_of_Service.txt:1
+msgid ""
+"[font=\"sans-bold-18\"]0 A.D. Empires Ascendant Multiplayer Lobby Terms of "
+"Service[/font]"
+msgstr "[font=\"sans-bold-18\"]0 A.D. Empires Ascendant Daudzspēlētāju priekšnama Pakalpojumu sniegšanas noteikumi[/font]"
+
+#: gui/prelobby/common/terms/Terms_of_Service.txt:5
+msgid ""
+"The 0 A.D. Empires Ascendant Multiplayer Lobby is an online service provided"
+" by Wildfire Games that allows players to setup online multiplayer matches, "
+"discuss the game in a public chat room and gain a rating that reflects their"
+" skill."
+msgstr "0 A.D. Empires Ascendant daudzspēlētāju priekšnams ir tiešsaistes pakalpojums, ko nodrošina Wildfire Games, kas ļauj spēlētājiem iestatīt tiešsaistes daudzspēlētāju mačus, diskutēt par spēli publiskā tērzēšanas istabā un iegūt reitingu, kas atspoguļo viņu prasmi."
+
+#: gui/prelobby/common/terms/Terms_of_Service.txt:7
+msgid ""
+"Due to the subject matter of historic warfare, description and depiction of "
+"violence and the language on the Multiplayer Lobby, 0 A.D. and the "
+"Multiplayer Lobby are not directed to young children (COPPA §312.2)."
+msgstr ""
+
+#: gui/prelobby/common/terms/Terms_of_Service.txt:8
+msgid "The minimum age to use the Multiplayer Lobby is 13."
+msgstr "Minimālais vecums, lai izmantotu daudzspēlētāju priekšnamu ir 13 gadi."
+
+#: gui/prelobby/common/terms/Terms_of_Service.txt:10
+#: gui/prelobby/common/terms/Terms_of_Use.txt:5
+msgid ""
+"[font=\"sans-bold-14\"]By using the 0 A.D. Multiplayer Lobby, you agree "
+"to:[/font]"
+msgstr "[font=\"sans-bold-14\"]Izmantojot 0 A.D. daudzspēlētāju priekšnamu, tu piekrīti:[/font]"
+
+#: gui/prelobby/common/terms/Terms_of_Service.txt:11
+msgid " 1. Follow all usage policies."
+msgstr "1. Sekot visām lietošanas politikām."
+
+#: gui/prelobby/common/terms/Terms_of_Service.txt:12
+msgid ""
+" 2. Not use the service with third-party software or mods that prevents the "
+"user from being informed of updated Terms and Conditions, unless authorized "
+"by a Wildfire Games team member."
+msgstr "2. Neizmantot pakalpojumu ar trešās puses programmatūru vai modifikācijām, kas neļauj lietotājam tikt informētam par atjauninātiem Noteikumiem un Nosacījumiem, ja vien to nav atļāvis Wildfire Games komandas loceklis."
+
+#: gui/prelobby/common/terms/Terms_of_Service.txt:13
+msgid ""
+" 3. Use the service at your own risk. Wildfire Games does not take "
+"responsibility for the content posted by users or damages resulting from "
+"this service."
+msgstr "3. Izmantot pakalpojumu uz savu risku. Wildfire Games neuzņemas atbildību par lietotāju ievietoto saturu vai par zaudējumiem, kas rodas no šī pakalpojuma."
+
+#: gui/prelobby/common/terms/Terms_of_Service.txt:15
+msgid "[font=\"sans-bold-14\"]Wildfire Games reserves the right to:[/font]"
+msgstr "[font=\"sans-bold-14\"]Wildfire Games patur tiesības:[/font]"
+
+#: gui/prelobby/common/terms/Terms_of_Service.txt:16
+msgid ""
+" 1. Moderate the service, i.e. to enforce the Terms of Use by restricting, "
+"suspending or terminating user accounts."
+msgstr "1. Moderēt pakalpojumu, t.i., lai izpildītu Lietošanas noteikumus, ierobežojot, apturot vai pārtraucot lietotāju kontus."
+
+#: gui/prelobby/common/terms/Terms_of_Service.txt:17
+msgid " 2. Appoint others to moderate the service."
+msgstr "2. Ievietot citus, lai moderētu pakalpojumu."
+
+#: gui/prelobby/common/terms/Terms_of_Service.txt:18
+msgid " 3. Discontinue or interrupt any part of the service at any time."
+msgstr "3. Jebkurā laikā pārtraukt jebkuru pakalpojuma daļu."
+
+#: gui/prelobby/common/terms/Terms_of_Service.txt:19
+msgid ""
+" 4. Change the service or the terms. The document date of the terms indicate"
+" its version, and the user is informed of the new terms before being able to"
+" use the service again."
+msgstr "4. Mainīt pakalpojumu vai noteikumus. Noteikumu dokumenta datums norāda tā versiju, un lietotājs tiek informēts par jaunajiem noteikumiem, pirms atkal varēs izmantot pakalpojumu."
+
+#: gui/prelobby/common/terms/Terms_of_Service.txt:20
+msgid ""
+" 5. Process personal data in accordance with the Lobby Privacy Policy, the "
+"General Data Protection Regulation (GDPR) and the Children's Online Privacy "
+"Protection Act (COPPA) where applicable."
+msgstr "5. Pārstrādāt personas datus saskaņā ar daudzspēlētāju priekšnama privātuma politiku, Vispārīgo datu aizsardzības regulu (GDPR) un Children's Online Privacy Protection Act (COPPA), kur iespējams."
+
+#: gui/prelobby/common/terms/Terms_of_Service.txt:22
+msgid ""
+"If parts of the terms are held to be illegal or otherwise unenforceable, the"
+" remainder of the terms shall still apply ('severability')."
+msgstr "Ja terminu daļas tiek uzskatītas par nelikumīgām vai citādi neizpildāmām, atlikušo noteikumu daļu joprojām piemēro (\"severability\")."
+
+#: gui/prelobby/common/terms/Terms_of_Use.txt:1
+msgid ""
+"[font=\"sans-bold-18\"]0 A.D. Empires Ascendant Multiplayer Lobby Terms of "
+"Use[/font]"
+msgstr "[font=\"sans-bold-18\"]0 A.D. Empires Ascendant daudzspēlētāju priekšnama Lietošanas noteikumi[/font]"
+
+#: gui/prelobby/common/terms/Terms_of_Use.txt:3
+msgid "[font=\"sans-bold-14\"]Document Date:[/font] 2018-10-13"
+msgstr "[font=\"sans-bold-14\"]Dokumenta datums:[/font] 2018-10-13"
+
+#: gui/prelobby/common/terms/Terms_of_Use.txt:6
+msgid ""
+" 1. Only create one account per person on the service unless authorized by "
+"Wildfire Games."
+msgstr "1. Tikai izveidot vienu kontu vienai personai pakalpojumā, ja nav Wildfire Games atļauja."
+
+#: gui/prelobby/common/terms/Terms_of_Use.txt:7
+msgid ""
+" 2. Not impersonate other users of the service and only use your registered "
+"username in multiplayer matches."
+msgstr "2. Neattēlojiet citus pakalpojuma lietotājus un izmantojiet tikai savu reģistrēto lietotājvārdu daudzspēlētāju mačos."
+
+#: gui/prelobby/common/terms/Terms_of_Use.txt:8
+msgid " 3. Not post profanity, pejorative terms or pornographic content."
+msgstr "3. Nepublicējiet ļaunprātību, nežēlīgus vārdus vai pornogrāfisku saturu."
+
+#: gui/prelobby/common/terms/Terms_of_Use.txt:9
+msgid ""
+" 4. Not harass, harm, intimidate, discriminate, threaten, defame, cause "
+"damage to others or purposefully demean the worth of others using this "
+"service."
+msgstr "4. Nemazināt, nekaitēt, neiebiedēt, nediskriminēt, neapdraudēt, nenicināt, nenodarīt kaitējumu citiem vai mērķtiecīgi mazināt to vērtību, kas izmanto šo pakalpojumu."
+
+#: gui/prelobby/common/terms/Terms_of_Use.txt:10
+msgid ""
+" 5. Not violate the privacy of others by disclosing personally identifiable "
+"information (for example real name, location, ID) or private details (for "
+"example social media or messenger account names) of others without their "
+"consent."
+msgstr "5. Nepārkāpt citu personu konfidencialitāti, atklājot citu personu datus (piemēram, reālo vārdu, atrašanās vietu, ID) vai privātas ziņas (piemēram, sociālo mediju vai ziņojumapmaiņas kontu nosaukumus) citiem bez viņu piekrišanas."
+
+#: gui/prelobby/common/terms/Terms_of_Use.txt:11
+msgid " 6. Not incite violence or promote illegal acts."
+msgstr "6. Nesākt vardarbību vai veicināt nelikumīgas darbības."
+
+#: gui/prelobby/common/terms/Terms_of_Use.txt:12
+msgid ""
+" 7. Not attempt to artificially adjust any user of the service's rating or "
+"any of the statistics which impact it. (Examples of this are, but are not "
+"limited to: cheating in ranked games, reverse engineering the service, and "
+"taking advantage of other users of the service.)"
+msgstr "7. Nemēģināt mākslīgi izmainīt jebkuru pakalpojuma lietotāja reitingu vai statistiku, kas to ietekmē lietotājam. (Šādi piemēri ir, bet ne tikai: krāpšanās ar vērtētām spēlēm, pakalpojuma atgriezeniska inženierija un citu pakalpojumu lietotāju izmantošana.)"
+
+#: gui/prelobby/common/terms/Terms_of_Use.txt:13
+msgid ""
+" 8. Not undermine the intended gameplay or purposefully gain unfair "
+"advantages in multiplayer matches (for example cheating, using exploits or "
+"bugs)."
+msgstr "8. Netraucēt paredzēto spēli vai mērķtiecīgi iegūt netaisnīgas priekšrocības daudzspēlētāju mačos (piemēram, krāpšanās, izmantojot ekspluatācijas vai kļūdas)."
+
+#: gui/prelobby/common/terms/Terms_of_Use.txt:14
+msgid ""
+" 9. Not spam the service and not post large amounts of repetitive or "
+"unwanted messages."
+msgstr "9. Nepakļaut pakalpojumu surogātpastam, neievietot lielu skaitu atkārtotu vai nevēlamu ziņojumu."
+
+#: gui/prelobby/common/terms/Terms_of_Use.txt:15
+msgid ""
+"10. Not use the service to promote specific goods, services, or products "
+"unless authorized by Wildfire Games."
+msgstr "10. Neizmantot pakalpojumu, lai reklamētu konkrētas preces, pakalpojumus vai produktus, ja vien to nav atļāvis Wildfire Games."
+
+#: gui/prelobby/common/terms/Terms_of_Use.txt:17
+msgid ""
+"If a moderator deems your behavior to be inconsistent with these terms, your"
+" account may be restricted, suspended or terminated."
+msgstr "Ja moderators uzskata, ka jūsu uzvedība neatbilst šiem noteikumiem, jūsu kontu var ierobežot, apturēt vai izbeigt."

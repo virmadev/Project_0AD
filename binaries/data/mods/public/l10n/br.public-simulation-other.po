@@ -1,0 +1,897 @@
+# Translation template for 0 A.D. — Empires Ascendant.
+# Copyright (C) 2019 Wildfire Games
+# This file is distributed under the same license as the 0 A.D. — Empires Ascendant project.
+# 
+# Translators:
+# Envel PICHON <envel_ras@hotmail.fr>, 2016
+# Feñch Gallig <ducraig@hotmail.fr>, 2017
+# Goulven <goulvenbreizh@hotmail.fr>, 2019
+# Irriep Nala Novram <allannkorh@yahoo.fr>, 2016-2018
+# Thierry Vignaud <thierry.vignaud@gmail.com>, 2016-2017
+# Irriep Nala Novram <allannkorh@yahoo.fr>, 2016
+# Goulven <goulvenbreizh@hotmail.fr>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2019-05-24 09:43+0200\n"
+"PO-Revision-Date: 2019-05-24 14:54+0000\n"
+"Last-Translator: Adrián Chaves Fernández <adriyetichaves@gmail.com>\n"
+"Language-Team: Breton (http://www.transifex.com/wildfire-games/0ad/language/br/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: br\n"
+"Plural-Forms: nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);\n"
+
+#: simulation/ai/petra/chatHelper.js:6
+#, javascript-format
+msgid ""
+"I am starting a massive military campaign against %(_player_)s, come and "
+"join me."
+msgstr "Stagañ a ran gant ur vrezeliadenn vras a-enep da %(_player_)s, deuit ganin."
+
+#: simulation/ai/petra/chatHelper.js:7
+#, javascript-format
+msgid ""
+"I have set up a huge army to crush %(_player_)s. Join me and you will have "
+"your share of the loot."
+msgstr "Savet em eus ur pezh arme da flastrañ  %(_player_)s. Deuit ganin ha bez ho po ho lodenn eus ar breizhadenn."
+
+#: simulation/ai/petra/chatHelper.js:10
+#, javascript-format
+msgid "I am launching an attack against %(_player_)s."
+msgstr "Kregiñ a ran gant un dagadenn a-enep da %(_player_)s."
+
+#: simulation/ai/petra/chatHelper.js:11
+#, javascript-format
+msgid "I have just sent an army against %(_player_)s."
+msgstr "Emaon o paouez kas un arme a-enep da %(_player_)s."
+
+#: simulation/ai/petra/chatHelper.js:17
+#, javascript-format
+msgid "Let me regroup my army and I will then join you against %(_player_)s."
+msgstr "Lez ac'hanon da vodañ en-dro ma arme hag e teuin da harpañ ac'hanout a-enep da %(_player_)s."
+
+#: simulation/ai/petra/chatHelper.js:18
+#, javascript-format
+msgid "I am finishing preparations to attack %(_player_)s."
+msgstr "Emaon oc'h echuiñ d'en em brientiñ da dagañ %(_player_)s."
+
+#: simulation/ai/petra/chatHelper.js:21
+#, javascript-format
+msgid ""
+"Sorry, I do not have enough soldiers currently; but my next attack will "
+"target %(_player_)s."
+msgstr "Digarezit, n'em eus ket trawalc'h a soudarded evit ar mare; met ma zagadenn a zeu a vo a-enep  %(_player_)s."
+
+#: simulation/ai/petra/chatHelper.js:22
+#, javascript-format
+msgid ""
+"Sorry, I still need to strengthen my army. However, I will attack "
+"%(_player_)s next."
+msgstr "Digarezit, ezhomm em befe kreñvaat ma arme c'hoazh. Tagañ a rin %(_player_)s war-lerc'h koulskoude."
+
+#: simulation/ai/petra/chatHelper.js:25
+#, javascript-format
+msgid ""
+"I cannot help you against %(_player_)s for the time being, I am planning to "
+"attack %(_player_2)s first."
+msgstr "N'hallan ket reiñ an dorn deoc'h a-enep %(_player_)s evit ar mare, emaon o prientiñ un dagadenn a-enep %(_player_2)s da gentañ."
+
+#: simulation/ai/petra/chatHelper.js:30
+#, javascript-format
+msgid "Here is a gift for you, %(_player_)s. Make good use of it."
+msgstr "Setu ur prof evit %(_player_)s. Implij anezhañ mat."
+
+#: simulation/ai/petra/chatHelper.js:31
+#, javascript-format
+msgid "I see you are in a bad situation, %(_player_)s. I hope this helps."
+msgstr "Gwelout a ran ez out en ur blegenn fall %(_player_)s. Spi em eus e sikouro ac'hanout."
+
+#: simulation/ai/petra/chatHelper.js:32
+#, javascript-format
+msgid ""
+"I can help you this time, %(_player_)s, but you should manage your resources"
+" more carefully in the future."
+msgstr "Gellout a ran sikour ac'hanout an dro-mañ,  %(_player_)s, met rankout a ri bezañ evezhiekoc'h ouzh da vammennoù en amzer da zont."
+
+#: simulation/ai/petra/chatHelper.js:36
+#, javascript-format
+msgid "I am in need of %(resource)s, can you help? I will make it up to you."
+msgstr "Ezhomm em eus eus %(resource)s, ha gellout a rit reiñ an dorn din? Reiñ a rin en-dro deoc'h."
+
+#: simulation/ai/petra/chatHelper.js:37
+#, javascript-format
+msgid ""
+"I would participate more efficiently in our common war effort if you could "
+"provide me some %(resource)s."
+msgstr "Gallout a rafen kemer-perzh muioc'h en hor c'henskoazell-vrezel ha gellout a rafec'h reiñ din un nebeud %(resource)s."
+
+#: simulation/ai/petra/chatHelper.js:38
+#, javascript-format
+msgid ""
+"If you can spare me some %(resource)s, I will be able to strengthen my army."
+msgstr "Ma c'hellfec'h rannañ nebeut %(resource)s ganin e vin gouest da greñvaat va arme."
+
+#: simulation/ai/petra/chatHelper.js:42
+#, javascript-format
+msgid ""
+"I have set up a new route with %(_player_)s. Trading will be profitable for "
+"all of us."
+msgstr "Lakaet em eus e-plas un hent nevez gant %(_player_)s. Ober kenwerzh kenetrezomp a vo mat evidomp holl."
+
+#: simulation/ai/petra/chatHelper.js:43
+#, javascript-format
+msgid ""
+"A new trade route is set up with %(_player_)s. Take your share of the "
+"profits."
+msgstr "Un hent nevez a zo bet savet gant %(_player_)s. Tennit gounid eus kement-mañ."
+
+#: simulation/ai/petra/chatHelper.js:48
+#, javascript-format
+msgid "%(_player_)s and I are now allies."
+msgstr "%(_player_)s a zo bremañ kevredet ganin."
+
+#: simulation/ai/petra/chatHelper.js:51
+#, javascript-format
+msgid "%(_player_)s and I are now neutral."
+msgstr "%(_player_)s a zo bremañ neptuek ganin."
+
+#: simulation/ai/petra/chatHelper.js:54
+#, javascript-format
+msgid "%(_player_)s and I are now enemies."
+msgstr "%(_player_)s a zo bremañ enebour ganin."
+
+#: simulation/ai/petra/chatHelper.js:61
+#, javascript-format
+msgid "I cannot accept your offer to become allies, %(_player_)s."
+msgstr "N'hallan ket degemer ar c'hinnig dont da vezañ kevredet ganit, %(_player_)s."
+
+#: simulation/ai/petra/chatHelper.js:64
+#, javascript-format
+msgid ""
+"I will not be your ally, %(_player_)s. However, I will consider a neutrality"
+" pact."
+msgstr "Ne gevredin ket ganit %(_player_)s. Padal e tegemerin a-walc'h un emglev a neptuegezh."
+
+#: simulation/ai/petra/chatHelper.js:65
+#, javascript-format
+msgid ""
+"I reject your request for alliance, %(_player_)s, but we could become "
+"neutral."
+msgstr "Nac'hañ a rin da c'houlenn emglev,  %(_player_)s, met gellout a reomp dont da vezañ neptu."
+
+#: simulation/ai/petra/chatHelper.js:66
+#, javascript-format
+msgid "%(_player_)s, only a neutrality agreement is conceivable to me."
+msgstr "%(_player_)s, n'eus nemet un emglev a neptuegezh a zo dereat din."
+
+#: simulation/ai/petra/chatHelper.js:69
+#, javascript-format
+msgid ""
+"Our previous alliance did not work out, %(_player_)s. I must decline your "
+"offer."
+msgstr "N'eo ket aet en-dro hon emglev kent,  %(_player_)s. Rankout a ran nac'hañ ho ginnig."
+
+#: simulation/ai/petra/chatHelper.js:70
+#, javascript-format
+msgid "I won’t ally you again, %(_player_)s!"
+msgstr "Ne skoulmin emglev ebet ganeoc'h adarre, %(_player_)s!"
+
+#: simulation/ai/petra/chatHelper.js:71
+#, javascript-format
+msgid "No more alliances between us, %(_player_)s!"
+msgstr "Emglev ebet kenetrezomp, %(_player_)s!"
+
+#: simulation/ai/petra/chatHelper.js:72
+#, javascript-format
+msgid "Your request for peace means nothing to me anymore, %(_player_)s!"
+msgstr "Ho koulenn a beoc'h na dalvez netra ken din, %(_player_)s!"
+
+#: simulation/ai/petra/chatHelper.js:73
+#, javascript-format
+msgid ""
+"My answer to your repeated peace proposal will remain war, %(_player_)s!"
+msgstr "Ma respont d'ho koulennoù dibaouez a beoc'h a chomo ar brezel, %(_player_)s!"
+
+#: simulation/ai/petra/chatHelper.js:76
+#, javascript-format
+msgid ""
+"I will accept your offer to become allies, %(_player_)s. We will both "
+"benefit from this partnership."
+msgstr "Degemer a ran ar c'hinnig da vezañ kevredet ganit %(_player_)s. Tennañ a rimp gounid eus ar c'hevel-mañ."
+
+#: simulation/ai/petra/chatHelper.js:77
+#, javascript-format
+msgid "An alliance between us is a good idea, %(_player_)s."
+msgstr "Ur soñj-kaer eo un emglev kenetrezomp, %(_player_)s."
+
+#: simulation/ai/petra/chatHelper.js:78
+#, javascript-format
+msgid ""
+"Let both of our people prosper from a peaceful association, %(_player_)s."
+msgstr "Laoskomp hon pobloù bleuñviñ en ur genvevañ e peoc'h, %(_player_)s."
+
+#: simulation/ai/petra/chatHelper.js:79
+#, javascript-format
+msgid "We have found common ground, %(_player_)s. I accept the alliance."
+msgstr "Kavet eo bet ganeomp un dachenn emglev, %(_player_)s.. Degemer a ran an emglev."
+
+#: simulation/ai/petra/chatHelper.js:80
+#, javascript-format
+msgid "%(_player_)s, consider us allies from now on."
+msgstr "%(_player_)s, sellout a ran ouzhoc'h evel ur c'hevredad diwar-vremañ."
+
+#: simulation/ai/petra/chatHelper.js:83
+#, javascript-format
+msgid ""
+"I will ally with you, %(_player_)s, but only if you send me a tribute of "
+"%(_amount_)s %(_resource_)s."
+msgstr "Kevrediñ a ran ganeoc'h, %(_player_)s, hepken ma kasfes un truaj a %(_amount_)s %(_resource_)s."
+
+#: simulation/ai/petra/chatHelper.js:84
+#, javascript-format
+msgid ""
+"%(_player_)s, you must send me a tribute of %(_amount_)s %(_resource_)s "
+"before I accept an alliance with you."
+msgstr "%(_player_)s, rankout a rez kas din un truaj a %(_amount_)s e %(_resource_)s a-raok na asantin da gevrediñ ganit."
+
+#: simulation/ai/petra/chatHelper.js:85
+#, javascript-format
+msgid ""
+"Unless you send me %(_amount_)s %(_resource_)s, an alliance won’t be formed,"
+" %(_player_)s."
+msgstr ""
+
+#: simulation/ai/petra/chatHelper.js:88
+#, javascript-format
+msgid ""
+"%(_player_)s, my offer still stands. I will ally with you only if you send "
+"me a tribute of %(_amount_)s %(_resource_)s."
+msgstr "%(_player_)s, mat eo atav ma c'hinnig. Kevrediñ a rin ganeoc'h nemetken ma kasfec'h un truaj a %(_amount_)s e %(_resource_)s."
+
+#: simulation/ai/petra/chatHelper.js:89
+#, javascript-format
+msgid ""
+"I’m still waiting for %(_amount_)s %(_resource_)s before accepting your "
+"alliance, %(_player_)s."
+msgstr "O c'hortoz emaon c'hoazh war-lerc'h %(_amount_)s %(_resource_)s a-raok asantiñ hoc'h emglev, %(_player_)s."
+
+#: simulation/ai/petra/chatHelper.js:90 simulation/ai/petra/chatHelper.js:111
+#, javascript-format
+msgid ""
+"%(_player_)s, if you do not send me part of the %(_amount_)s %(_resource_)s "
+"tribute soon, I will break off our negotiations."
+msgstr "%(_player_)s, ma ne kasfes ket ul lodenn eus an truaj a-benn nebeut %(_amount_)s e %(_resource_)s, torret e vo ganin an atroperezh skoulmet kenetrezomp."
+
+#: simulation/ai/petra/chatHelper.js:95
+#, javascript-format
+msgid "I will not become neutral with you, %(_player_)s."
+msgstr "Dont a rin da vezañ neptuek ganit, %(_player_)s."
+
+#: simulation/ai/petra/chatHelper.js:96
+#, javascript-format
+msgid "%(_player_)s, I must decline your request for a neutrality pact."
+msgstr "%(_player_)s, rankout a ran nac'hañ da'z koulenn emglev neptuegezh."
+
+#: simulation/ai/petra/chatHelper.js:99
+#, javascript-format
+msgid ""
+"Our previous neutrality agreement ended in failure, %(_player_)s; I will not"
+" consider another one."
+msgstr "Graet en deus kazeg hon emglev a neptuegezh kent, %(_player_)s; Ne gontin ket ken war unan all."
+
+#: simulation/ai/petra/chatHelper.js:102
+#, javascript-format
+msgid ""
+"I welcome your request for peace between our civilizations, %(_player_)s. I "
+"will accept."
+msgstr "Degemer a ran ho koulenn a beoc'h etre hon div sevenadurezh, %(_player_)s. Asantiñ a rin."
+
+#: simulation/ai/petra/chatHelper.js:103
+#, javascript-format
+msgid ""
+"%(_player_)s, I will accept your neutrality request. May both our "
+"civilizations benefit."
+msgstr "%(_player_)s, degemer a rin ho koulenn neptuegezh. Ra denno gounid hon div sevenadurezh."
+
+#: simulation/ai/petra/chatHelper.js:106
+#, javascript-format
+msgid ""
+"If you send me a tribute of %(_amount_)s %(_resource_)s, I will accept your "
+"neutrality request, %(_player_)s."
+msgstr "Ma kasfec'h un truaj a %(_amount_)s %(_resource_)s, degemer a rin ho koulenn a neptuegezh, %(_player_)s."
+
+#: simulation/ai/petra/chatHelper.js:107
+#, javascript-format
+msgid ""
+"%(_player_)s, if you send me %(_amount_)s %(_resource_)s, I will accept a "
+"neutrality pact."
+msgstr "%(_player_)s, ma kases din %(_amount_)s %(_resource_)s, asantiñ a rin ouzh an emglev neptuegezh."
+
+#: simulation/ai/petra/chatHelper.js:110
+#, javascript-format
+msgid ""
+"%(_player_)s, I will not accept your neutrality request unless you tribute "
+"me %(_amount_)s %(_resource_)s soon."
+msgstr "%(_player_)s, ne zegemerin ket ho koulenn emglev betek ma vo kaset ganit %(_amount_)s %(_resource_)s a-benn nebeut."
+
+#: simulation/ai/petra/chatHelper.js:119
+#, javascript-format
+msgid ""
+"%(_player_)s, it would help both of our civilizations if we formed an "
+"alliance. If you become allies with me, I will respond in kind."
+msgstr "%(_player_)s, spletus e vefe d'hon daou sevenadur mont da gevredidi. Ma'z it da gevredad ganin e rin ar memes tra."
+
+#: simulation/ai/petra/chatHelper.js:122
+#, javascript-format
+msgid "%(_player_)s, my offer for an alliance has expired."
+msgstr "%(_player_)s, ma c'hinnig kevredad a zo tremenet."
+
+#: simulation/ai/petra/chatHelper.js:123
+#, javascript-format
+msgid ""
+"%(_player_)s, I have rescinded my previous offer for an alliance between us."
+msgstr "%(_player_)s, Nullet em eus ma c'hinnig kevredad kent etrezomp."
+
+#: simulation/ai/petra/chatHelper.js:128
+#, javascript-format
+msgid ""
+"%(_player_)s, I would like to request a neutrality pact between our "
+"civilizations. If you become neutral with me, I will respond in kind."
+msgstr "%(_player_)s, fellout a ra din goulenn un emglev a neptuegezh etre hor sevenadurioù. Maz it da neptuek ganin e rin ar memes tra."
+
+#: simulation/ai/petra/chatHelper.js:129
+#, javascript-format
+msgid ""
+"%(_player_)s, it would be both to our benefit if we negotiated a neutrality "
+"pact. I will become neutral with you if you do the same."
+msgstr "%(_player_)s, spletus e vefe deomp kevraouiñ un emglev a neptuegezh. Mont a rin da neptuek ganeoc'h ma rit ar memes tra."
+
+#: simulation/ai/petra/chatHelper.js:132
+#, javascript-format
+msgid "%(_player_)s, I have decided to revoke my offer for a neutrality pact."
+msgstr "%(_player_)s, dibabet am eus lemel ma c'hulenn emglev neptuegezh."
+
+#: simulation/ai/petra/chatHelper.js:133
+#, javascript-format
+msgid ""
+"%(_player_)s, as you have failed to respond to my request for peace between "
+"us, I have abrogated my offer."
+msgstr "%(_player_)s, dre ma n'ho peus ket respontet d'am goulenn peoc'h etrezomp, me am eus torret ma c'hinnig."
+
+#: simulation/components/BuildRestrictions.js:87
+#, javascript-format
+msgid "%(name)s cannot be built due to unknown error"
+msgstr "Ne c'hell ket bezañ savet %(name)s abalamour d'ur fazi dianav"
+
+#: simulation/components/BuildRestrictions.js:108
+#, javascript-format
+msgid "%(name)s cannot be built in unexplored area"
+msgstr "%(name)s na c'hell ket bezañ savet war ur gorread ha n'eo ket bet dizoloet c'hoazh"
+
+#: simulation/components/BuildRestrictions.js:156
+#, javascript-format
+msgid "%(name)s cannot be built on another building or resource"
+msgstr "N'hall ket bezañ savet %(name)s war ur savadur all pe ur vammenn"
+
+#: simulation/components/BuildRestrictions.js:160
+#, javascript-format
+msgid "%(name)s cannot be built on invalid terrain"
+msgstr "%(name)s n'hall ket bezañ savet war un dachenn fall"
+
+#. Translation: territoryType being displayed in a translated sentence in the
+#. form: "House cannot be built in %(territoryType)s territory.".
+#: simulation/components/BuildRestrictions.js:184
+msgctxt "Territory type"
+msgid "own"
+msgstr "perc'hennet"
+
+#. Translation: territoryType being displayed in a translated sentence in the
+#. form: "House cannot be built in %(territoryType)s territory.".
+#: simulation/components/BuildRestrictions.js:187
+msgctxt "Territory type"
+msgid "unconnected own"
+msgstr "perc'hennet nann-gevreet"
+
+#. Translation: territoryType being displayed in a translated sentence in the
+#. form: "House cannot be built in %(territoryType)s territory.".
+#: simulation/components/BuildRestrictions.js:193
+msgctxt "Territory type"
+msgid "allied"
+msgstr "Kevredet"
+
+#. Translation: territoryType being displayed in a translated sentence in the
+#. form: "House cannot be built in %(territoryType)s territory.".
+#: simulation/components/BuildRestrictions.js:196
+msgctxt "Territory type"
+msgid "unconnected allied"
+msgstr "kevredet nann-gevreet"
+
+#. Translation: territoryType being displayed in a translated sentence in the
+#. form: "House cannot be built in %(territoryType)s territory.".
+#: simulation/components/BuildRestrictions.js:202
+msgctxt "Territory type"
+msgid "neutral"
+msgstr "neptuek"
+
+#. Translation: territoryType being displayed in a translated sentence in the
+#. form: "House cannot be built in %(territoryType)s territory.".
+#: simulation/components/BuildRestrictions.js:209
+msgctxt "Territory type"
+msgid "enemy"
+msgstr "enebour"
+
+#: simulation/components/BuildRestrictions.js:214
+#, javascript-format
+msgid ""
+"%(name)s cannot be built in %(territoryType)s territory. Valid territories: "
+"%(validTerritories)s"
+msgstr "%(name)s n'hall ket bezañ savet war un tiriad %(territoryType)s. Tiriad reizh: %(validTerritories)s"
+
+#: simulation/components/BuildRestrictions.js:228
+#, javascript-format
+msgid "%(name)s must be built on a valid shoreline"
+msgstr "War un aod dereat e rank bezañ savet %(name)s"
+
+#: simulation/components/BuildRestrictions.js:256
+#, javascript-format
+msgid ""
+"%(name)s too close to a %(category)s, must be at least %(distance)s meter "
+"away"
+msgid_plural ""
+"%(name)s too close to a %(category)s, must be at least %(distance)s meters "
+"away"
+msgstr[0] "Re dost emañ %(name)s diouzh %(category)s, rankout a ra bezañ da vihanañ da %(distance)s metrad hed"
+msgstr[1] "Re dost emañ %(name)s diouzh %(category)s, rankout a ra bezañ da vihanañ da %(distance)s metrad hed"
+msgstr[2] "Re dost emañ %(name)s diouzh %(category)s, rankout a ra bezañ da vihanañ da %(distance)s metrad hed"
+msgstr[3] "Re dost emañ %(name)s diouzh %(category)s, rankout a ra bezañ da vihanañ da %(distance)s metrad hed"
+msgstr[4] "Re dost emañ %(name)s diouzh %(category)s, rankout a ra bezañ da vihanañ da %(distance)s metrad hed"
+
+#: simulation/components/BuildRestrictions.js:277
+#, javascript-format
+msgid ""
+"%(name)s too far from a %(category)s, must be within %(distance)s meter"
+msgid_plural ""
+"%(name)s too far from a %(category)s, must be within %(distance)s meters"
+msgstr[0] "%(name)s a zo re bell diouzh %(category)s, rankout a ra bezañ da nebeutoc'h evit %(distance)s metrad"
+msgstr[1] "%(name)s a zo re bell diouzh %(category)s, rankout a ra bezañ da nebeutoc'h evit %(distance)s metrad"
+msgstr[2] "%(name)s a zo re bell diouzh %(category)s, rankout a ra bezañ da nebeutoc'h evit %(distance)s metrad"
+msgstr[3] "%(name)s a zo re bell diouzh %(category)s, rankout a ra bezañ da nebeutoc'h evit %(distance)s metrad"
+msgstr[4] "%(name)s a zo re bell diouzh %(category)s, rankout a ra bezañ da nebeutoc'h evit %(distance)s metrad"
+
+#. Translation: Territory types being displayed as part of a list like "Valid
+#. territories: own, ally".
+#: simulation/components/BuildRestrictions.js:317
+msgctxt "Territory type list"
+msgid "own"
+msgstr "perc'hennet"
+
+#. Translation: Territory types being displayed as part of a list like "Valid
+#. territories: own, ally".
+#: simulation/components/BuildRestrictions.js:319
+msgctxt "Territory type list"
+msgid "ally"
+msgstr "kevredad"
+
+#. Translation: Territory types being displayed as part of a list like "Valid
+#. territories: own, ally".
+#: simulation/components/BuildRestrictions.js:321
+msgctxt "Territory type list"
+msgid "neutral"
+msgstr "neptuek"
+
+#. Translation: Territory types being displayed as part of a list like "Valid
+#. territories: own, ally".
+#: simulation/components/BuildRestrictions.js:323
+msgctxt "Territory type list"
+msgid "enemy"
+msgstr "enebour"
+
+#: simulation/components/CeasefireManager.js:99
+#, javascript-format
+msgid "You can attack in %(time)s"
+msgstr "Gellout a rit tagañ a-benn %(time)s"
+
+#: simulation/components/CeasefireManager.js:112
+msgid "You can attack now!"
+msgstr "Gellout a rit tagañ bremañ!"
+
+#: simulation/components/EndGameManager.js:171
+#, javascript-format
+msgid "%(lastPlayer)s has won (last player alive)."
+msgid_plural "%(players)s and %(lastPlayer)s have won (last players alive)."
+msgstr[0] "%(lastPlayer)s a zo aet ar maout gantañ (c'hoarier diwezhañ o vevañ)."
+msgstr[1] "%(players)s ha %(lastPlayer)s a zo aet ar maout ganto (c'hoarierien diwezhañ o vevañ)."
+msgstr[2] "%(players)s ha %(lastPlayer)s a zo aet ar maout ganto (c'hoarierien diwezhañ o vevañ)."
+msgstr[3] "%(players)s ha %(lastPlayer)s a zo aet ar maout ganto (c'hoarierien diwezhañ o vevañ)."
+msgstr[4] "%(players)s ha %(lastPlayer)s a zo aet ar maout ganto (c'hoarierien diwezhañ o vevañ)."
+
+#: simulation/components/EndGameManager.js:179
+msgid "Last remaining player wins."
+msgstr "Mont a ra ar maout gant ar c'hoarier diwezhañ bev."
+
+#: simulation/components/EntityLimits.js:165
+#, javascript-format
+msgid "%(category)s build limit of %(limit)s reached"
+msgstr "%(category)s bevenn ar savidigezh %(limit)s tizhet"
+
+#: simulation/components/EntityLimits.js:167
+#, javascript-format
+msgid "%(category)s training limit of %(limit)s reached"
+msgstr "%(category)s bevenn ar stummadur %(limit)s tizhet"
+
+#: simulation/components/EntityLimits.js:171
+#, javascript-format
+msgid "%(category)s limit of %(limit)s reached"
+msgstr "%(category)s bevenn a %(limit)s tizhet"
+
+#: simulation/components/Player.js:352
+#, javascript-format
+msgid "Insufficient resources - %(resourceAmount1)s %(resourceType1)s"
+msgstr "N'eus ket trawalc'h a vammennoù -  %(resourceAmount1)s \n%(resourceType1)s"
+
+#: simulation/components/Player.js:354
+#, javascript-format
+msgid ""
+"Insufficient resources - %(resourceAmount1)s %(resourceType1)s, "
+"%(resourceAmount2)s %(resourceType2)s"
+msgstr "N'eus ket trawalc'h a vammennoù - %(resourceAmount1)s %(resourceType1)s, %(resourceAmount2)s %(resourceType2)s"
+
+#: simulation/components/Player.js:356
+#, javascript-format
+msgid ""
+"Insufficient resources - %(resourceAmount1)s %(resourceType1)s, "
+"%(resourceAmount2)s %(resourceType2)s, %(resourceAmount3)s %(resourceType3)s"
+msgstr "N'eus ket trawalc'h a vammennoù -  %(resourceAmount1)s %(resourceType1)s, %(resourceAmount2)s %(resourceType2)s, %(resourceAmount3)s %(resourceType3)s"
+
+#: simulation/components/Player.js:358
+#, javascript-format
+msgid ""
+"Insufficient resources - %(resourceAmount1)s %(resourceType1)s, "
+"%(resourceAmount2)s %(resourceType2)s, %(resourceAmount3)s "
+"%(resourceType3)s, %(resourceAmount4)s %(resourceType4)s"
+msgstr "N'eus ket trawalc'h a vammennoù - %(resourceAmount1)s %(resourceType1)s, %(resourceAmount2)s %(resourceType2)s, %(resourceAmount3)s %(resourceType3)s, %(resourceAmount4)s %(resourceType4)s"
+
+#: simulation/components/ProductionQueue.js:394
+msgid "The production queue is full."
+msgstr "Leun emañ ar steudad-c'hortoz."
+
+#: simulation/components/ProductionQueue.js:769
+msgid "Can't find free space to spawn trained units"
+msgstr "N'hall ket bezañ kavet plas ebet evit stummañ unanennoù."
+
+#: simulation/helpers/Cheat.js:53
+#, javascript-format
+msgid "%(player)s has been defeated (cheat)."
+msgstr "%(player)s a zo bet trec'het (trucherezh)."
+
+#: simulation/helpers/Cheat.js:62
+msgid "You need to select a building that trains units."
+msgstr "Ezhomm ho peus da ziuzañ ur savadur a stumm tud."
+
+#: simulation/helpers/Commands.js:124
+msgid "(Cheat - control all units)"
+msgstr "(Truchadurioù - Merañ an holl unanennoù)"
+
+#: simulation/helpers/Commands.js:139
+msgid "(Cheat - reveal map)"
+msgstr "(Truchadurioù - dizoloiñ ar gartenn)"
+
+#: simulation/helpers/Commands.js:466
+#, javascript-format
+msgid "%(player)s has resigned."
+msgstr "%(player)s en deus dilezet ar c'hoariadenn."
+
+#: simulation/helpers/Commands.js:608
+msgid "(Cheat - promoted units)"
+msgstr "(Truchadurioù - Unanennoù Gwellaet)"
+
+#: simulation/helpers/Commands.js:722
+msgid ""
+"Cannot upgrade as distance requirements are not verified or terrain is "
+"obstructed."
+msgstr "N'hall ket bezañ gwellaet abalamour da redioù na vez ket gwiriet pe stanket eo an dachenn."
+
+#: simulation/helpers/Commands.js:732
+msgid "Cannot upgrade a garrisoned entity."
+msgstr "N'haller ket gwellaat un hennad gwarnizonet."
+
+#: simulation/helpers/Commands.js:775
+#, javascript-format
+msgid "Attack against %(_player_)s requested."
+msgstr "Un dagadenn a-enep da %(_player_)s a zo goulennet."
+
+#: simulation/helpers/Commands.js:814
+msgid "There are no bribable units"
+msgstr "N'eus unanenn breinaduret ebet"
+
+#: simulation/helpers/Commands.js:860
+msgid "Unable to ungarrison unit(s)"
+msgstr "N'hall ket bezañ diwarnizonet an unanenn(où)"
+
+#: simulation/helpers/Commands.js:874
+msgid "Some unit(s) can't go back to work"
+msgstr "N'hall ket distreiñ d'al labour unan pe meur a unanenn."
+
+#: simulation/helpers/Commands.js:1112
+msgid "The building's technology requirements are not met."
+msgstr "Ne vez ket doujet ouzh an teknologiezhioù ret evit ar savadur-mañ."
+
+#: simulation/data/settings/player_defaults.jsonPlayerData[0].Name
+msgid "Gaia"
+msgstr "Gaia"
+
+#: simulation/data/settings/player_defaults.jsonPlayerData[1].Name
+msgid "Player 1"
+msgstr "C'hoarier 1"
+
+#: simulation/data/settings/player_defaults.jsonPlayerData[2].Name
+msgid "Player 2"
+msgstr "C'hoarier 2"
+
+#: simulation/data/settings/player_defaults.jsonPlayerData[3].Name
+msgid "Player 3"
+msgstr "C'hoarier 3"
+
+#: simulation/data/settings/player_defaults.jsonPlayerData[4].Name
+msgid "Player 4"
+msgstr "C'hoarier 4"
+
+#: simulation/data/settings/player_defaults.jsonPlayerData[5].Name
+msgid "Player 5"
+msgstr "C'hoarier 5"
+
+#: simulation/data/settings/player_defaults.jsonPlayerData[6].Name
+msgid "Player 6"
+msgstr "C'hoarier 6"
+
+#: simulation/data/settings/player_defaults.jsonPlayerData[7].Name
+msgid "Player 7"
+msgstr "C'hoarier 7"
+
+#: simulation/data/settings/player_defaults.jsonPlayerData[8].Name
+msgid "Player 8"
+msgstr "C'hoarier 8"
+
+#: simulation/data/settings/game_speeds.jsonData[0].Title
+msgid "Turtle (0.1x)"
+msgstr "Baot (0.1x)"
+
+#: simulation/data/settings/game_speeds.jsonData[1].Title
+msgid "Slow (0.25x)"
+msgstr "Goustad (0.25x)"
+
+#: simulation/data/settings/game_speeds.jsonData[2].Title
+msgid "Leisurely (0.5x)"
+msgstr "Sioul (0.5x)"
+
+#: simulation/data/settings/game_speeds.jsonData[3].Title
+msgid "Relaxed (0.75x)"
+msgstr "Dibres (0.75x)"
+
+#: simulation/data/settings/game_speeds.jsonData[4].Title
+msgid "Normal (1x)"
+msgstr "Normal (1x)"
+
+#: simulation/data/settings/game_speeds.jsonData[5].Title
+msgid "Fast (1.25x)"
+msgstr "Buan (1.25x)"
+
+#: simulation/data/settings/game_speeds.jsonData[6].Title
+msgid "Very Fast (1.5x)"
+msgstr "Buan-tre (1.5x)"
+
+#: simulation/data/settings/game_speeds.jsonData[7].Title
+msgid "Insane (2x)"
+msgstr "Diskianteg (2x)"
+
+#: simulation/data/settings/game_speeds.jsonData[8].Title
+msgid "Fast Forward (5x)"
+msgstr "Mont War-raok Buan (5x)"
+
+#: simulation/data/settings/game_speeds.jsonData[9].Title
+msgid "Fast Forward (10x)"
+msgstr "Mont War-raok Buan-tre (10x)"
+
+#: simulation/data/settings/game_speeds.jsonData[10].Title
+msgid "Fast Forward (20x)"
+msgstr "Mont War-raok Buan-Kenañ (20x)"
+
+#: simulation/data/settings/victory_conditions/capture_the_relic.jsonData.Description
+msgid ""
+"Capture all relics spread across the map and keep them for a certain time to"
+" win the game."
+msgstr "Pakit an holl relegoù war ar gartenn hag mirit anezho e-pad ur mare bennak a-benn gounit ar c'hoariadenn."
+
+#: simulation/data/settings/victory_conditions/capture_the_relic.jsonData.Title
+msgid "Capture the Relic"
+msgstr "Pakañ ar Relegenn"
+
+#: simulation/data/settings/victory_conditions/conquest.jsonData.Description
+msgid ""
+"Defeat opponents by killing all their units and destroying all their "
+"structures."
+msgstr "Bezañ trec'h war an enebourien en ur lazhañ pep unanenn anezho ha distrujañ o savadurioù a-bezh."
+
+#: simulation/data/settings/victory_conditions/conquest.jsonData.Title
+msgid "Conquest"
+msgstr "Aloubiñ"
+
+#: simulation/data/settings/victory_conditions/conquest_structures.jsonData.Description
+msgid "Defeat opponents by destroying all their structures."
+msgstr "Roit-lamm d'an enebourien en ur zistrujañ holl savadur anezho."
+
+#: simulation/data/settings/victory_conditions/conquest_structures.jsonData.Title
+msgid "Conquest Structures"
+msgstr "Aloubiñ ar Savadurioù"
+
+#: simulation/data/settings/victory_conditions/conquest_units.jsonData.Description
+msgid "Defeat opponents by killing all their units."
+msgstr "Roit-lamm d'an enebourien en ur lazhañ holl unanenn anezho."
+
+#: simulation/data/settings/victory_conditions/conquest_units.jsonData.Title
+msgid "Conquest Units"
+msgstr "Alouberezh an Unanennoù"
+
+#: simulation/data/settings/victory_conditions/regicide.jsonData.Description
+msgid "Defeat opponents by killing their hero."
+msgstr "Roit-lamm d'an enebourien en ur lazhañ o haroz."
+
+#: simulation/data/settings/victory_conditions/regicide.jsonData.Title
+msgid "Regicide"
+msgstr "Lazher-Roue"
+
+#: simulation/data/settings/victory_conditions/wonder.jsonData.Description
+msgid ""
+"Be the first to build or capture a Wonder and keep it for a certain time to "
+"win the game. The timer will be reset when the Wonder is destroyed or "
+"captured. If the allied victory mode is enabled, the timer will also be "
+"reset when the alliances of the owner change."
+msgstr "Bezit an hini kentañ o sevel pe o pakañ ur Varzhenn ha dalc'hit-hi e-pad ur mare evit bezañ trec'h. Ar munutenner a vo adlañset deus ar penn kentañ ma vez distrujet pe paket ar Varzhenn. Ma vez enaouet ar mod \"trec'h ar gevreded\" hag e cheñch an emglevioù e vo ivez adlañset ar munutenner deus ar penn kentañ."
+
+#: simulation/data/settings/victory_conditions/wonder.jsonData.Title
+msgid "Wonder"
+msgstr "Marzenn"
+
+#: simulation/data/settings/starting_resources.jsonData[0].Title
+msgctxt "startingResources"
+msgid "Very Low"
+msgstr "Izel-Kenañ"
+
+#: simulation/data/settings/starting_resources.jsonData[1].Title
+msgctxt "startingResources"
+msgid "Low"
+msgstr "Izel"
+
+#: simulation/data/settings/starting_resources.jsonData[2].Title
+msgctxt "startingResources"
+msgid "Medium"
+msgstr "Krenn"
+
+#: simulation/data/settings/starting_resources.jsonData[3].Title
+msgctxt "startingResources"
+msgid "High"
+msgstr "Uhel"
+
+#: simulation/data/settings/starting_resources.jsonData[4].Title
+msgctxt "startingResources"
+msgid "Very High"
+msgstr "Uhel-Kenañ"
+
+#: simulation/data/settings/starting_resources.jsonData[5].Title
+msgctxt "startingResources"
+msgid "Deathmatch"
+msgstr "Emgann d'ar marv"
+
+#: simulation/data/settings/trigger_difficulties.jsonData[0].Tooltip
+msgid "Choose this difficulty if you are discovering 0 A.D."
+msgstr "Diuzit an diaester-mañ m'emaoc'h o tizoleiñ 0 A.D."
+
+#: simulation/data/settings/trigger_difficulties.jsonData[0].Title
+msgid "Very Easy"
+msgstr "Aes-tre"
+
+#: simulation/data/settings/trigger_difficulties.jsonData[1].Tooltip
+msgid "Choose this difficulty if you do not like being knocked down."
+msgstr "Diuzit an diaester-mañ ma ne blij ket deoc'h bezañ diskaret."
+
+#: simulation/data/settings/trigger_difficulties.jsonData[1].Title
+msgid "Easy"
+msgstr "Aes"
+
+#: simulation/data/settings/trigger_difficulties.jsonData[2].Tooltip
+msgid ""
+"Choose this difficulty if you have already a good experience with 0 A.D."
+msgstr "Diuzit an diaester-mañ m'ho peus c'hoariet dija da 0 A.D."
+
+#: simulation/data/settings/trigger_difficulties.jsonData[2].Title
+#: simulation/data/settings/map_sizes.jsonData[2].Name
+msgid "Medium"
+msgstr "Krenn"
+
+#: simulation/data/settings/trigger_difficulties.jsonData[3].Tooltip
+msgid "Choose this difficulty if you want to be really challenged."
+msgstr "Diuzit an diaester-mañ m'ho peus c'hoant bezañ daeet da vat."
+
+#: simulation/data/settings/trigger_difficulties.jsonData[3].Title
+msgid "Hard"
+msgstr "Diaes"
+
+#: simulation/data/settings/trigger_difficulties.jsonData[4].Tooltip
+msgid "Choose this difficulty if you do not mind being swept out."
+msgstr "Diuzit an diaester-mañ ma n'hoc'h ket direnket da vezañ skubet kuit."
+
+#: simulation/data/settings/trigger_difficulties.jsonData[4].Title
+msgid "Very Hard"
+msgstr "Diaes-tre"
+
+#: simulation/data/settings/map_sizes.jsonData[0].Name
+msgid "Tiny"
+msgstr "Bitik"
+
+#: simulation/data/settings/map_sizes.jsonData[0].Tooltip
+msgid "This map size has barely any room for even the most basic resources."
+msgstr "Ment ar gartenn-mañ a ro nemet tachennigoù evit ar mammennoù diazezañ."
+
+#: simulation/data/settings/map_sizes.jsonData[1].Name
+msgid "Small"
+msgstr "Bihan"
+
+#: simulation/data/settings/map_sizes.jsonData[1].Tooltip
+msgid ""
+"Small maps are suitable for 1v1 matches, as players can reach the enemy "
+"quickly while still having some room to expand."
+msgstr "Ar c'hartennoù bihan a zo mat evit ar c'hoariadennoù 1v1, peogwir e c'hallont ar c'hoarierien tizhout o enebour buan ha kaout lec'h a-walc'h evit an emastenn."
+
+#: simulation/data/settings/map_sizes.jsonData[2].Tooltip
+msgid ""
+"Medium-sized maps provide plenty of space for two players, but even eight "
+"players fit."
+msgstr "Ar c'hartennoù ment-etre a ro an takadoù ret evit 2 choarier met 8 a c'hell mont warni."
+
+#: simulation/data/settings/map_sizes.jsonData[3].Name
+msgid "Normal"
+msgstr "Reizh"
+
+#: simulation/data/settings/map_sizes.jsonData[3].Tooltip
+msgid ""
+"This is the ideal mapsize for 4 to 8 players, because there is plenty of "
+"space to expand while the neighbors are quickly reachable."
+msgstr "Ment ar gartenn-mañ a zo a-feson evit 4 da 8 c'hoarier, peogwir emañ tachennoù a-walc'h evit en em astenn hag an amezeien a c'hall bezañ tizhet buan a-walc'h."
+
+#: simulation/data/settings/map_sizes.jsonData[4].Name
+msgid "Large"
+msgstr "Bras"
+
+#: simulation/data/settings/map_sizes.jsonData[4].Tooltip
+msgid ""
+"The large mapsize is recommended when great portions of the map are covered "
+"with water or inaccessible mountains."
+msgstr "Ar gartenn ment bras a zo erbedet pa vez tachennoù bras anezhi goloet gant dour pe menezioù diamen."
+
+#: simulation/data/settings/map_sizes.jsonData[5].Name
+msgid "Very Large"
+msgstr "Bras-Kenañ"
+
+#: simulation/data/settings/map_sizes.jsonData[5].Tooltip
+#: simulation/data/settings/map_sizes.jsonData[6].Tooltip
+msgid ""
+"Very large maps are not recommended as it takes very long to reach the enemy"
+" and the game performance can be reduced."
+msgstr "Ar c'hartennoù ment bras-kenañ n'int ket erbedet peogwir eo ret tapout hir-amzer evit tizhout an enebour hag efedusted ar c'hoari a c'hall koazhañ."
+
+#: simulation/data/settings/map_sizes.jsonData[6].Name
+msgid "Giant"
+msgstr "Ramz"
+
+#: simulation/ai/petra/data.jsonname
+msgid "Petra Bot"
+msgstr "Petra Bot"
+
+#: simulation/ai/petra/data.jsondescription
+msgid ""
+"Petra is the default 0 A.D. AI bot. Please report issues to Wildfire Games (see the link in the main menu).\n"
+"\n"
+"The AI's resource gathering rate and trade gain depend on the difficulty level (Sandbox −58%, Very Easy −44%, Easy −25%, Medium ±0%, Hard +25%, Very Hard +56%). The easiest levels also have a slower research, training, and building rate. In addition, the Sandbox level does not expand nor attack."
+msgstr "Petra a zo NA bot dre-ziouer 0 A.D. Trugarez da ziskleriañ forzh peseurt kudenn da Wildfire Games (gwelet al liamm el lañser-pennañ).\n\nFeur dastum ha gounidoù kenwerzhel an NA a vez liammet ouzh an diaested dibabet (Kestenn-draezh -5%, Aes-Tre -44%, Aes -25%, Etre ±0%, Diaes +25%, Diaes-tre +56%). Al liveoù aesañ o deus feurioù enklask, stummañ ha sevel tier goustatoc'h. Ouzhpenn da-se ne vez ket klasket aloubiñ pe tagañ gant ar Gestenn-draezh."

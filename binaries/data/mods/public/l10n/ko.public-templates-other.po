@@ -1,0 +1,1108 @@
+# Translation template for 0 A.D. — Empires Ascendant.
+# Copyright (C) 2019 Wildfire Games
+# This file is distributed under the same license as the 0 A.D. — Empires Ascendant project.
+# 
+# Translators:
+# Aksidion Kreimben <aksidionkreimben@gmail.com>, 2016
+# Aksidion Kreimben <aksidionkreimben@gmail.com>, 2016
+# Asakura, 2017
+# 신 희윤 <eustaph7725@gmail.com>, 2017
+# Gr Nada <inactive+Granada45621@transifex.com>, 2016
+# Gu Hong Min <placidmoon1@gmail.com>, 2015
+# Hn Dsu <lomio97@naver.com>, 2016
+# moolow <copyhyeon@gmail.com>, 2018
+# jjj <triplej03@nate.com>, 2014
+# Gu Hong Min <placidmoon1@gmail.com>, 2015
+# ks k, 2017,2019
+# ks k, 2019
+# moolow <copyhyeon@gmail.com>, 2018
+# naoki yoshida <oimotanaka1122@gmail.com>, 2015
+# red hare <www3@hotmail.co.jp>, 2017
+# sang gyu nam <destro0419@naver.com>, 2018
+# Taejin Kim <manowar72@gmail.com>, 2015
+# Takaki IEKURA <tacostea@gmail.com>, 2018
+# Valtiel <shinhs6291@naver.com>, 2014
+# YongNam Kim <darkgem11@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2019-11-15 08:09+0000\n"
+"PO-Revision-Date: 2019-11-20 13:14+0000\n"
+"Last-Translator: ks k\n"
+"Language-Team: Korean (http://www.transifex.com/wildfire-games/0ad/language/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: simulation/templates/template_gaia.xml:7
+msgid "Gaia"
+msgstr "가이아ehsms 자연"
+
+#: simulation/templates/template_gaia_fish.xml:8
+#: simulation/templates/gaia/fauna_fish.xml:4
+msgid "Fish"
+msgstr "물고기"
+
+#: simulation/templates/template_gaia_fish.xml:10
+msgid "Catch fish for food."
+msgstr "식량을 위해 물고기를 잡습니다."
+
+#: simulation/templates/template_gaia_flora.xml:6
+msgid "Chop trees for wood."
+msgstr "목재를 위해 나무를 팹니다."
+
+#: simulation/templates/template_gaia_flora_bush.xml:8
+#: simulation/templates/gaia/flora_bush_temperate.xml:4
+#: simulation/templates/gaia/flora_bush_temperate_winter.xml:4
+#: simulation/templates/gaia/flora_bush_tropic.xml:4
+msgid "Bush"
+msgstr "덤불"
+
+#: simulation/templates/template_gaia_flora_bush_berry.xml:4
+#: simulation/templates/template_gaia_flora_tree_fruit.xml:8
+msgid "Pick fruit for food."
+msgstr "식량을 위해 과일을 땁니다."
+
+#: simulation/templates/template_gaia_flora_tree.xml:8
+msgid "Tree"
+msgstr "나무"
+
+#: simulation/templates/template_gaia_geo.xml:8
+msgid "Generic Geology"
+msgstr "일반적인 지질학"
+
+#: simulation/templates/template_gaia_geo_mineral.xml:4
+msgid "Metal Mine"
+msgstr "금속 광산"
+
+#: simulation/templates/template_gaia_geo_mineral.xml:5
+msgid "Mine ore for metal."
+msgstr "금속을 위해 광물을 캡니다."
+
+#: simulation/templates/template_gaia_geo_rock.xml:4
+msgid "Stone Quarry"
+msgstr "채석장"
+
+#: simulation/templates/template_gaia_geo_rock.xml:5
+msgid "Quarry rock for stone."
+msgstr "석재를 위해 바위를 캡니다."
+
+#: simulation/templates/template_gaia_ruins.xml:8
+msgid "Ruins"
+msgstr "유적"
+
+#: simulation/templates/template_gaia_ruins.xml:9
+msgid "Demolish ruins for stone."
+msgstr "석재를 위해 폐허를 철거합니다."
+
+#: simulation/templates/template_gaia_treasure.xml:8
+msgid "Treasure"
+msgstr "보물"
+
+#: simulation/templates/template_gaia_treasure.xml:9
+msgid "Collect treasures for resources."
+msgstr "자원을 위해 보물을 수집합니다."
+
+#: simulation/templates/template_structure.xml:61
+msgid "Structure"
+msgstr "건축물"
+
+#: simulation/templates/template_unit.xml:43
+msgid "Unit"
+msgstr "유닛"
+
+#: simulation/templates/template_wallset.xml:10
+msgid "City Wall"
+msgstr "성벽"
+
+#: simulation/templates/template_wallset.xml:13
+msgid "Wall off your town for a stout defense."
+msgstr "튼튼한 방어를 위해 마을에 벽을 쌓습니다."
+
+#: simulation/templates/campaigns/army_mace_hero_alexander.xml:27
+msgid "Army of Alexander the Great."
+msgstr "알렉산더 대왕의 군대."
+
+#: simulation/templates/campaigns/army_mace_hero_alexander.xml:28
+msgid "Army of Alexander the Great"
+msgstr "알렉산더 대왕의 군대"
+
+#: simulation/templates/campaigns/army_mace_hero_alexander.xml:29
+#: simulation/templates/campaigns/army_mace_standard.xml:21
+#: simulation/templates/campaigns/army_spart_hero_leonidas.xml:29
+msgid "This is what an army would look like on the Strat Map."
+msgstr "이것은 지도 위에서 군대같은 것입니다."
+
+#: simulation/templates/campaigns/army_mace_standard.xml:19
+msgid "Army of Macedonia"
+msgstr "마케도니아의 군대"
+
+#: simulation/templates/campaigns/army_mace_standard.xml:20
+msgid "Army of Macedon"
+msgstr "마케도니아인들의 군대"
+
+#: simulation/templates/campaigns/army_spart_hero_leonidas.xml:27
+msgid "Army of Leonidas I."
+msgstr "레오니다스 1세의 군대."
+
+#: simulation/templates/campaigns/army_spart_hero_leonidas.xml:28
+msgid "Army of Leonidas I"
+msgstr "레오니다스 1세의 군대"
+
+#: simulation/templates/campaigns/campaign_city_minor_test.xml:29
+#: simulation/templates/campaigns/campaign_city_test.xml:29
+msgid "Market"
+msgstr "시장"
+
+#: simulation/templates/campaigns/campaign_city_minor_test.xml:30
+#: simulation/templates/campaigns/campaign_city_test.xml:30
+msgid "Settlement"
+msgstr "합의"
+
+#: simulation/templates/campaigns/campaign_city_minor_test.xml:31
+msgid "Minor Greek Polis"
+msgstr "작은 그리스 폴리스"
+
+#: simulation/templates/campaigns/campaign_city_minor_test.xml:32
+msgid "This is a minor Greek city."
+msgstr "이것은 작은 그리스 도시입니다."
+
+#: simulation/templates/campaigns/campaign_city_test.xml:31
+msgid "Greek Polis"
+msgstr "그리스 폴리스"
+
+#: simulation/templates/campaigns/campaign_city_test.xml:32
+msgid "This is a major Greek city."
+msgstr "이것은 큰 그리스 도시입니다."
+
+#: simulation/templates/campaigns/campaign_religious_test.xml:12
+msgid "Religious Sanctuary"
+msgstr "종교 성역"
+
+#: simulation/templates/campaigns/campaign_religious_test.xml:13
+msgid "Greek Religious Sanctuary"
+msgstr "그리스 종교 안식처"
+
+#: simulation/templates/gaia/fauna_arctic_wolf.xml:4
+msgid "Arctic Wolf"
+msgstr "북극 늑대"
+
+#: simulation/templates/gaia/fauna_arctic_wolf.xml:5
+#: simulation/templates/gaia/fauna_wolf.xml:5
+msgid "Canis lupus"
+msgstr "회색 늑대"
+
+#: simulation/templates/gaia/fauna_bear.xml:19
+msgid "Brown Bear"
+msgstr "갈색 곰(불곰)"
+
+#: simulation/templates/gaia/fauna_bear.xml:20
+msgid "Ursus arctos"
+msgstr "큰 곰"
+
+#: simulation/templates/gaia/fauna_boar.xml:19
+msgid "Wild Boar"
+msgstr "멧돼지"
+
+#: simulation/templates/gaia/fauna_boar.xml:20
+msgid "Sus scrofa"
+msgstr "수스 스크로파"
+
+#: simulation/templates/gaia/fauna_camel.xml:8
+msgid "Dromedary"
+msgstr "단봉 낙타"
+
+#: simulation/templates/gaia/fauna_camel.xml:9
+msgid "Camelus dromedarius"
+msgstr "카메루스 드로메다리우스"
+
+#: simulation/templates/gaia/fauna_cattle_bull.xml:4
+msgid "Bull"
+msgstr "숫소"
+
+#: simulation/templates/gaia/fauna_cattle_bull.xml:5
+#: simulation/templates/gaia/fauna_cattle_cow.xml:5
+msgid "Bos taurus taurus"
+msgstr "보스 타우루스 타우루스"
+
+#: simulation/templates/gaia/fauna_cattle_cow.xml:4
+msgid "Cow"
+msgstr "암소"
+
+#: simulation/templates/gaia/fauna_cattle_sanga.xml:4
+msgid "Sanga Cattle"
+msgstr "뿔소"
+
+#: simulation/templates/gaia/fauna_cattle_sanga.xml:5
+msgid "Bos taurus africanus"
+msgstr "보스 타우루스 아프리카누스"
+
+#: simulation/templates/gaia/fauna_cattle_zebu.xml:4
+msgid "Zebu"
+msgstr "인도 혹소"
+
+#: simulation/templates/gaia/fauna_cattle_zebu.xml:5
+msgid "Bos taurus indicus"
+msgstr "보스 타우루스 인디쿠스"
+
+#: simulation/templates/gaia/fauna_chicken.xml:11
+msgid "Chicken"
+msgstr "닭"
+
+#: simulation/templates/gaia/fauna_chicken.xml:12
+msgid "Gallus gallus domesticus"
+msgstr "갈루스 갈루스 도메스티쿠스"
+
+#: simulation/templates/gaia/fauna_crocodile.xml:19
+msgid "Nile Crocodile"
+msgstr "나일 악어"
+
+#: simulation/templates/gaia/fauna_crocodile.xml:20
+msgid "Crocodylus niloticus"
+msgstr "크로코디루스 니로티쿠스"
+
+#: simulation/templates/gaia/fauna_deer.xml:8
+msgid "Red Deer"
+msgstr "붉은사슴"
+
+#: simulation/templates/gaia/fauna_deer.xml:9
+msgid "Cervus elaphus"
+msgstr "세르부스 에라푸스"
+
+#: simulation/templates/gaia/fauna_donkey.xml:4
+msgid "Donkey"
+msgstr "당나귀"
+
+#: simulation/templates/gaia/fauna_donkey.xml:5
+msgid "Equus africanus asinus"
+msgstr "에쿠우스 아프리카누스 아시누스"
+
+#: simulation/templates/gaia/fauna_elephant_african_bush.xml:11
+msgid "African Bush Elephant"
+msgstr "아프리카 초원 코끼리"
+
+#: simulation/templates/gaia/fauna_elephant_african_bush.xml:12
+#: simulation/templates/gaia/fauna_elephant_african_infant.xml:5
+msgid "Loxodonta africana"
+msgstr "로소돈타 아프리카나"
+
+#: simulation/templates/gaia/fauna_elephant_african_infant.xml:4
+msgid "African Bush Elephant Calf"
+msgstr "아프리카 덤불 새끼 코끼리"
+
+#: simulation/templates/gaia/fauna_elephant_asian.xml:11
+msgid "Asian Elephant"
+msgstr "아시아 코끼리"
+
+#: simulation/templates/gaia/fauna_elephant_asian.xml:12
+#: simulation/templates/gaia/fauna_elephant_asian_infant.xml:5
+msgid "Elephas maximus"
+msgstr "에레파스 막시무스"
+
+#: simulation/templates/gaia/fauna_elephant_asian_infant.xml:4
+msgid "Asian Elephant Calf"
+msgstr "아시아 새끼 코끼리"
+
+#: simulation/templates/gaia/fauna_elephant_north_african.xml:11
+msgid "African Forest Elephant"
+msgstr "아프리카 둥근귀 코끼리"
+
+#: simulation/templates/gaia/fauna_elephant_north_african.xml:12
+msgid "Loxodonta cyclotis"
+msgstr "로소돈타 시클로티스"
+
+#: simulation/templates/gaia/fauna_fish_tilapia.xml:4
+msgid "Tilapia"
+msgstr "틸라피아"
+
+#: simulation/templates/gaia/fauna_fish_tuna.xml:4
+msgid "Tuna"
+msgstr "참다랑어"
+
+#: simulation/templates/gaia/fauna_fox_arctic.xml:4
+msgid "Arctic Fox"
+msgstr "북극 여우"
+
+#: simulation/templates/gaia/fauna_fox_arctic.xml:5
+msgid "Vulpes lagopus"
+msgstr "불페스 라로푸스"
+
+#: simulation/templates/gaia/fauna_fox_red.xml:4
+msgid "Red Fox"
+msgstr "붉은 여우"
+
+#: simulation/templates/gaia/fauna_fox_red.xml:5
+msgid "Vulpes vulpes"
+msgstr "불페스 불페스"
+
+#: simulation/templates/gaia/fauna_gazelle.xml:8
+msgid "Thomson's Gazelle"
+msgstr "톰슨가젤"
+
+#: simulation/templates/gaia/fauna_gazelle.xml:9
+msgid "Eudorcas thomsonii"
+msgstr "에우도르카스 톰소니이"
+
+#: simulation/templates/gaia/fauna_giraffe.xml:11
+msgid "Giraffe"
+msgstr "기린"
+
+#: simulation/templates/gaia/fauna_giraffe.xml:12
+#: simulation/templates/gaia/fauna_giraffe_infant.xml:9
+msgid "Giraffa camelopardalis"
+msgstr "기라프파 카메로파르다리스"
+
+#: simulation/templates/gaia/fauna_giraffe_infant.xml:8
+msgid "Juvenile Giraffe"
+msgstr "어린 기린"
+
+#: simulation/templates/gaia/fauna_goat.xml:8
+msgid "Goat"
+msgstr "염소"
+
+#: simulation/templates/gaia/fauna_goat.xml:9
+msgid "Capra aegagrus hircus"
+msgstr "카프라 아에가그루스 히르쿠스"
+
+#: simulation/templates/gaia/fauna_horse.xml:8
+msgid "Horse"
+msgstr "말"
+
+#: simulation/templates/gaia/fauna_horse.xml:9
+msgid "Equus ferus caballus"
+msgstr "에쿠우스 페루스 카발루스"
+
+#: simulation/templates/gaia/fauna_lion.xml:19
+msgid "Lion"
+msgstr "사자"
+
+#: simulation/templates/gaia/fauna_lion.xml:20
+msgid "Panthera leo"
+msgstr "판테라 레오"
+
+#: simulation/templates/gaia/fauna_lioness.xml:4
+msgid "Lioness"
+msgstr "암사자"
+
+#: simulation/templates/gaia/fauna_mastiff.xml:4
+msgid "Mastiff"
+msgstr "잉글리쉬 마스티프"
+
+#: simulation/templates/gaia/fauna_mastiff.xml:5
+#: simulation/templates/gaia/fauna_wolfhound.xml:5
+msgid "Canis lupus familiaris"
+msgstr "카니스 루푸스 파미리아리스"
+
+#: simulation/templates/gaia/fauna_muskox.xml:8
+msgid "Muskox"
+msgstr "사향소"
+
+#: simulation/templates/gaia/fauna_muskox.xml:9
+msgid "Ovibos moschatus"
+msgstr "오비보스 모스차투스"
+
+#: simulation/templates/gaia/fauna_peacock.xml:7
+msgid "Peacock"
+msgstr "공작새"
+
+#: simulation/templates/gaia/fauna_peacock.xml:8
+msgid "Pavo cristatus"
+msgstr "파보 크리스타투스"
+
+#: simulation/templates/gaia/fauna_pig.xml:8
+msgid "Pig"
+msgstr "돼지"
+
+#: simulation/templates/gaia/fauna_pig.xml:9
+msgid "Sus scrofa domesticus"
+msgstr "수스 스크로파 도메스티쿠스"
+
+#: simulation/templates/gaia/fauna_pig_flaming.xml:18
+msgid "Flaming Pig"
+msgstr "불타는 돼지"
+
+#: simulation/templates/gaia/fauna_piglet.xml:8
+msgid "Piglet"
+msgstr "새끼돼지"
+
+#: simulation/templates/gaia/fauna_pony.xml:4
+msgid "Pony"
+msgstr "조랑말"
+
+#: simulation/templates/gaia/fauna_rabbit.xml:11
+msgid "Rabbit"
+msgstr "토끼"
+
+#: simulation/templates/gaia/fauna_rabbit.xml:12
+msgid "Oryctolagus cuniculus"
+msgstr "오리크토라구스 쿠니쿠루스"
+
+#: simulation/templates/gaia/fauna_rhino.xml:19
+msgid "White Rhinoceros"
+msgstr "흰 코뿔소"
+
+#: simulation/templates/gaia/fauna_rhino.xml:20
+msgid "Ceratotherium simum"
+msgstr "케라토테리움 시뭄"
+
+#: simulation/templates/gaia/fauna_shark.xml:12
+msgid "Great White Shark"
+msgstr "백상아리"
+
+#: simulation/templates/gaia/fauna_shark.xml:13
+msgid "Carcharodon carcharias"
+msgstr "카르차로돈 카르차리아스"
+
+#: simulation/templates/gaia/fauna_sheep.xml:8
+msgid "Sheep"
+msgstr "양"
+
+#: simulation/templates/gaia/fauna_sheep.xml:9
+msgid "Ovis aries"
+msgstr "오비스 아리에스"
+
+#: simulation/templates/gaia/fauna_tiger.xml:19
+msgid "Tiger"
+msgstr "호랑이"
+
+#: simulation/templates/gaia/fauna_tiger.xml:20
+msgid "Panthera tigris"
+msgstr "판테라 티그리스"
+
+#: simulation/templates/gaia/fauna_walrus.xml:26
+msgid "Walrus"
+msgstr "바다코끼리"
+
+#: simulation/templates/gaia/fauna_walrus.xml:27
+msgid "Odobenus rosmarus"
+msgstr "오도베누스 로스마루스"
+
+#: simulation/templates/gaia/fauna_whale_fin.xml:8
+msgid "Fin Whale"
+msgstr "긴 수염 고래"
+
+#: simulation/templates/gaia/fauna_whale_fin.xml:9
+msgid "Balaenoptera physalus"
+msgstr "바라에노프테라 프히사루스"
+
+#: simulation/templates/gaia/fauna_whale_humpback.xml:8
+msgid "Humpback Whale"
+msgstr "혹등 고래"
+
+#: simulation/templates/gaia/fauna_whale_humpback.xml:9
+msgid "Megaptera novaeangliae"
+msgstr "메가프테라 노바에안그리아에"
+
+#: simulation/templates/gaia/fauna_wildebeest.xml:8
+msgid "Blue Wildebeest"
+msgstr "검은꼬리 누"
+
+#: simulation/templates/gaia/fauna_wildebeest.xml:9
+msgid "Connochaetes taurinus"
+msgstr "콘토차에테스 타우리누스"
+
+#: simulation/templates/gaia/fauna_wolf.xml:4
+msgid "Wolf"
+msgstr "늑대"
+
+#: simulation/templates/gaia/fauna_wolfhound.xml:4
+msgid "Wolfhound"
+msgstr "울프호운드"
+
+#: simulation/templates/gaia/fauna_zebra.xml:8
+msgid "Common Zebra"
+msgstr "사바나 얼룩말"
+
+#: simulation/templates/gaia/fauna_zebra.xml:9
+msgid "Equus quagga"
+msgstr "에쿠우스 쿠아그가"
+
+#: simulation/templates/gaia/flora_bush_badlands.xml:4
+msgid "Hardy Bush"
+msgstr "거센 초원"
+
+#: simulation/templates/gaia/flora_bush_berry.xml:4
+#: simulation/templates/gaia/flora_bush_berry_02.xml:4
+#: simulation/templates/gaia/flora_bush_berry_03.xml:4
+#: simulation/templates/gaia/flora_bush_berry_autumn_01.xml:4
+msgid "Berries"
+msgstr "열매들"
+
+#: simulation/templates/gaia/flora_bush_grapes.xml:4
+msgid "Grapes"
+msgstr "포도"
+
+#: simulation/templates/gaia/flora_tree_acacia.xml:4
+msgid "Acacia Tree"
+msgstr "아카시아 나무"
+
+#: simulation/templates/gaia/flora_tree_aleppo_pine.xml:4
+msgid "Aleppo Pine Tree"
+msgstr "알레포 지역의 소나무"
+
+#: simulation/templates/gaia/flora_tree_apple.xml:4
+msgid "Apple Tree"
+msgstr "사과 나무"
+
+#: simulation/templates/gaia/flora_tree_bamboo.xml:4
+#: simulation/templates/gaia/flora_tree_bamboo_single.xml:4
+msgid "Bamboo"
+msgstr "대나무"
+
+#: simulation/templates/gaia/flora_tree_bamboo_dragon.xml:8
+msgid "Dragon Bamboo"
+msgstr "용 대나무??"
+
+#: simulation/templates/gaia/flora_tree_banana.xml:4
+msgid "Banana"
+msgstr "바나나"
+
+#: simulation/templates/gaia/flora_tree_banyan.xml:8
+msgid "Banyan"
+msgstr "반얀나무ehsms 바얀나무"
+
+#: simulation/templates/gaia/flora_tree_baobab.xml:8
+#: simulation/templates/gaia/flora_tree_baobab_3_mature.xml:8
+msgid "Baobab"
+msgstr "바오밥나무"
+
+#: simulation/templates/gaia/flora_tree_baobab_1_sapling.xml:4
+msgid "Baobab Sapling"
+msgstr "바오밥나무 묘목"
+
+#: simulation/templates/gaia/flora_tree_baobab_2_young.xml:4
+msgid "Young Baobab"
+msgstr "어린 바오밥나무"
+
+#: simulation/templates/gaia/flora_tree_baobab_4_dead.xml:8
+msgid "Dead Baobab"
+msgstr "죽은 바오밥나무"
+
+#: simulation/templates/gaia/flora_tree_carob.xml:4
+msgid "Carob Tree"
+msgstr "카롭나무"
+
+#: simulation/templates/gaia/flora_tree_cedar_atlas_1_sapling.xml:4
+msgid "Atlas Cedar Sapling"
+msgstr "상록수 묘목"
+
+#: simulation/templates/gaia/flora_tree_cedar_atlas_2_young.xml:4
+#: simulation/templates/gaia/flora_tree_cedar_atlas_3_mature.xml:4
+msgid "Atlas Cedar"
+msgstr "상록수"
+
+#: simulation/templates/gaia/flora_tree_cedar_atlas_4_dead.xml:4
+msgid "Dead Atlas Cedar"
+msgstr "죽은 상록수"
+
+#: simulation/templates/gaia/flora_tree_cretan_date_palm_patch.xml:8
+#: simulation/templates/gaia/flora_tree_cretan_date_palm_short.xml:4
+#: simulation/templates/gaia/flora_tree_cretan_date_palm_tall.xml:4
+msgid "Cretan Date Palm"
+msgstr "크리탄 섬 대추야자 나무"
+
+#: simulation/templates/gaia/flora_tree_cypress.xml:4
+#: simulation/templates/gaia/flora_tree_cypress_wild.xml:4
+#: simulation/templates/gaia/flora_tree_cypress_windswept.xml:4
+msgid "Cypress Tree"
+msgstr "사이프러스 나무"
+
+#: simulation/templates/gaia/flora_tree_date_palm.xml:4
+msgid "Date Palm"
+msgstr "대추야자 나무"
+
+#: simulation/templates/gaia/flora_tree_date_palm_dead.xml:4
+msgid "Dead Palm"
+msgstr "죽은 야자 나무"
+
+#: simulation/templates/gaia/flora_tree_date_palm_fruit.xml:4
+msgid "Fruiting Date Palm"
+msgstr "대추야자 열매맺히는 중??"
+
+#: simulation/templates/gaia/flora_tree_dead.xml:4
+msgid "Dead Deciduous Tree"
+msgstr "죽은 낙엽 나무"
+
+#: simulation/templates/gaia/flora_tree_elm.xml:4
+#: simulation/templates/gaia/flora_tree_elm_dead.xml:4
+msgid "Elm Tree"
+msgstr "느릅 나무"
+
+#: simulation/templates/gaia/flora_tree_euro_beech.xml:4
+#: simulation/templates/gaia/flora_tree_euro_beech_aut.xml:4
+msgid "European Beech Tree"
+msgstr "유럽 너도밤 나무"
+
+#: simulation/templates/gaia/flora_tree_euro_birch.xml:4
+msgid "Silver Birch"
+msgstr "자작나무"
+
+#: simulation/templates/gaia/flora_tree_fig.xml:7
+msgid "Fig"
+msgstr "무화과"
+
+#: simulation/templates/gaia/flora_tree_fir.xml:4
+#: simulation/templates/gaia/flora_tree_fir_winter.xml:4
+msgid "Fir Tree"
+msgstr "전나무"
+
+#: simulation/templates/gaia/flora_tree_fir_sapling.xml:4
+msgid "Fir Sapling"
+msgstr "전나무 묘목"
+
+#: simulation/templates/gaia/flora_tree_juniper_prickly.xml:4
+msgid "Prickly Juniper"
+msgstr "향나무 가시 몽둥이"
+
+#: simulation/templates/gaia/flora_tree_mangrove.xml:4
+msgid "Mangrove"
+msgstr "맹그로브"
+
+#: simulation/templates/gaia/flora_tree_maple.xml:4
+msgid "Maple"
+msgstr "단풍"
+
+#: simulation/templates/gaia/flora_tree_medit_fan_palm.xml:4
+msgid "Mediterranean Fan Palm"
+msgstr "지중해 야자나무"
+
+#: simulation/templates/gaia/flora_tree_oak.xml:4
+#: simulation/templates/gaia/flora_tree_oak_aut.xml:4
+#: simulation/templates/gaia/flora_tree_oak_aut_new.xml:4
+#: simulation/templates/gaia/flora_tree_oak_dead.xml:4
+#: simulation/templates/gaia/flora_tree_oak_new.xml:4
+msgid "Oak Tree"
+msgstr "참나무"
+
+#: simulation/templates/gaia/flora_tree_oak_holly.xml:4
+msgid "Holly Oak"
+msgstr "사철가시나무ehsms떡갈나무"
+
+#: simulation/templates/gaia/flora_tree_oak_hungarian.xml:4
+#: simulation/templates/gaia/flora_tree_oak_hungarian_autumn.xml:4
+msgid "Hungarian Oak"
+msgstr "헝가리 참나무"
+
+#: simulation/templates/gaia/flora_tree_oak_large.xml:4
+msgid "Large Oak Tree"
+msgstr "큰 참나무"
+
+#: simulation/templates/gaia/flora_tree_olive.xml:4
+msgid "Olive Tree"
+msgstr "올리브나무"
+
+#: simulation/templates/gaia/flora_tree_palm_areca.xml:4
+msgid "Areca Palm"
+msgstr "아레카 야자"
+
+#: simulation/templates/gaia/flora_tree_palm_doum.xml:4
+msgid "Doum Palm"
+msgstr "둠야자"
+
+#: simulation/templates/gaia/flora_tree_palm_palmyra.xml:4
+msgid "Palmyra Palm"
+msgstr "다라수"
+
+#: simulation/templates/gaia/flora_tree_palm_tropic.xml:4
+msgid "Palm"
+msgstr "야자수"
+
+#: simulation/templates/gaia/flora_tree_palm_tropical.xml:4
+msgid "Tropical Palm"
+msgstr "열대 야자수"
+
+#: simulation/templates/gaia/flora_tree_pine.xml:4
+#: simulation/templates/gaia/flora_tree_pine_w.xml:4
+msgid "Pine Tree"
+msgstr "소나무"
+
+#: simulation/templates/gaia/flora_tree_pine_black.xml:4
+#: simulation/templates/gaia/flora_tree_pine_black_dead.xml:4
+msgid "Black Pine"
+msgstr "니그라 소나무"
+
+#: simulation/templates/gaia/flora_tree_pine_maritime.xml:4
+#: simulation/templates/gaia/flora_tree_pine_maritime_short.xml:4
+msgid "Maritime Pine"
+msgstr "해안 소나무"
+
+#: simulation/templates/gaia/flora_tree_poplar.xml:4
+msgid "Poplar Tree"
+msgstr "포플러 나무"
+
+#: simulation/templates/gaia/flora_tree_poplar_lombardy.xml:4
+msgid "Black Poplar Tree"
+msgstr "검은포플라"
+
+#: simulation/templates/gaia/flora_tree_senegal_date_palm.xml:4
+msgid "Senegal Date Palm"
+msgstr "세네갈 대추야자"
+
+#: simulation/templates/gaia/flora_tree_strangler.xml:8
+msgid "Strangler Fig"
+msgstr "교살 무화과"
+
+#: simulation/templates/gaia/flora_tree_tamarix.xml:4
+msgid "Tamarix Tree"
+msgstr "소금 삼나무"
+
+#: simulation/templates/gaia/flora_tree_teak.xml:8
+msgid "Teak"
+msgstr "티크 나무"
+
+#: simulation/templates/gaia/flora_tree_temperate.xml:4
+#: simulation/templates/gaia/flora_tree_temperate_autumn.xml:4
+#: simulation/templates/gaia/flora_tree_temperate_winter.xml:4
+msgid "Deciduous Tree"
+msgstr "낙엽 나무"
+
+#: simulation/templates/gaia/flora_tree_toona.xml:4
+msgid "Toona Tree"
+msgstr "투나 나무"
+
+#: simulation/templates/gaia/flora_tree_tropic_rainforest.xml:4
+msgid "Rainforest Tree"
+msgstr "열대 우림 나무"
+
+#: simulation/templates/gaia/ruins/column_doric.xml:8
+msgid "Ancient Ruins"
+msgstr "고대 유적"
+
+#: simulation/templates/gaia/ruins/pyramid_great.xml:8
+msgid "Great Pyramid"
+msgstr "큰 피라미드"
+
+#: simulation/templates/gaia/ruins/pyramid_minor.xml:8
+msgid "Minor Pyramid"
+msgstr "작은 피라미드"
+
+#: simulation/templates/gaia/ruins/standing_stone.xml:8
+#: simulation/templates/gaia/treasure/standing_stone.xml:8
+msgid "Celtic Standing Stone"
+msgstr "켈트 서있는 돌"
+
+#: simulation/templates/gaia/ruins/stone_statues_egyptian.xml:8
+msgid "Ptolemaic Egyptian Statues"
+msgstr "프톨레마이오스 이집트 동상"
+
+#: simulation/templates/gaia/ruins/stone_statues_kushite.xml:8
+msgid "Kushite Statue"
+msgstr "쿠시 동상"
+
+#: simulation/templates/gaia/ruins/stone_statues_roman.xml:8
+msgid "Roman Statues"
+msgstr "로마 동상들"
+
+#: simulation/templates/gaia/ruins/unfinished_greek_temple.xml:8
+msgid "Unfinished Greek Temple"
+msgstr "미완성된 그리스 사원"
+
+#: simulation/templates/gaia/treasure/food_barrel.xml:8
+#: simulation/templates/gaia/treasure/food_bin.xml:8
+#: simulation/templates/gaia/treasure/food_crate.xml:8
+#: simulation/templates/gaia/treasure/food_jars.xml:8
+msgid "Food Treasure"
+msgstr "음식 보물"
+
+#: simulation/templates/gaia/treasure/food_barrels_buried.xml:8
+msgid "Half-buried Barrels"
+msgstr "반쯤 묻은 원통"
+
+#: simulation/templates/gaia/treasure/food_persian_big.xml:8
+msgid "Persian Food Stores"
+msgstr "페르시안 음식 저장고"
+
+#: simulation/templates/gaia/treasure/food_persian_small.xml:8
+msgid "Persian Food Treasure"
+msgstr "페르시안 음식 보물"
+
+#: simulation/templates/gaia/treasure/golden_fleece.xml:8
+msgid "Golden Fleece"
+msgstr "황금 양털"
+
+#: simulation/templates/gaia/treasure/metal.xml:8
+msgid "Secret Box"
+msgstr "비밀 상자"
+
+#: simulation/templates/gaia/treasure/metal_persian_big.xml:8
+msgid "Persian Wares"
+msgstr "페르시아 상품"
+
+#: simulation/templates/gaia/treasure/metal_persian_small.xml:8
+msgid "Persian Rugs"
+msgstr "페르시아 양탄자들"
+
+#: simulation/templates/gaia/treasure/pegasus.xml:8
+msgid "Pegasus"
+msgstr "페가수스"
+
+#: simulation/templates/gaia/treasure/shipwreck.xml:8
+#: simulation/templates/gaia/treasure/shipwreck_ram_bow.xml:8
+#: simulation/templates/gaia/treasure/shipwreck_sail_boat.xml:8
+#: simulation/templates/gaia/treasure/shipwreck_sail_boat_cut.xml:8
+msgid "Shipwreck"
+msgstr "난파선"
+
+#: simulation/templates/gaia/treasure/shipwreck_debris.xml:8
+msgid "Shipwreck Cargo"
+msgstr "난파선 화물"
+
+#: simulation/templates/gaia/treasure/stone.xml:8
+msgid "Stone Treasure"
+msgstr "암석 보물"
+
+#: simulation/templates/gaia/treasure/wood.xml:8
+msgid "Wood Treasure"
+msgstr "목재 보물"
+
+#: simulation/templates/other/bench.xml:19
+msgid "Bench"
+msgstr "벤치"
+
+#: simulation/templates/other/bench.xml:20
+msgid "Wooden Bench"
+msgstr "나무 벤치"
+
+#: simulation/templates/other/bridge_hele.xml:15
+#: simulation/templates/other/bridge_hele.xml:16
+msgid "Bridge"
+msgstr "다리"
+
+#: simulation/templates/other/bridge_wooden.xml:15
+#: simulation/templates/other/bridge_wooden.xml:16
+msgid "Wooden Bridge"
+msgstr "나무 다리"
+
+#: simulation/templates/other/celt_hut.xml:21
+msgid "Hut"
+msgstr "오두막"
+
+#: simulation/templates/other/celt_longhouse.xml:21
+msgid "Longhouse"
+msgstr "롱하우스"
+
+#: simulation/templates/other/column_doric.xml:19
+#: simulation/templates/other/column_doric_fallen.xml:19
+#: simulation/templates/other/column_doric_fallen_b.xml:19
+msgid "Column"
+msgstr "기둥(칼럼)"
+
+#: simulation/templates/other/column_doric.xml:20
+msgid "Doric Column"
+msgstr "도리스 지방의 기둥(칼럼)"
+
+#: simulation/templates/other/column_doric_fallen.xml:20
+#: simulation/templates/other/column_doric_fallen_b.xml:20
+msgid "Fallen Doric Column"
+msgstr "추락한 도리스 지방의 기둥(칼럼)"
+
+#: simulation/templates/other/desert_trading_post.xml:14
+msgid "Desert Trading Post"
+msgstr "사막 교역소"
+
+#: simulation/templates/other/desert_trading_post.xml:15
+msgid "Ardatašta"
+msgstr "아르다타스타"
+
+#: simulation/templates/other/fence_long.xml:20
+#: simulation/templates/other/fence_short.xml:20
+msgid "Fence"
+msgstr "울타리"
+
+#: simulation/templates/other/fence_long.xml:21
+msgid "Long Wooden Fence"
+msgstr "긴 나무 울타리"
+
+#: simulation/templates/other/fence_short.xml:21
+msgid "Short Wooden Fence"
+msgstr "짧은 나무 울타리"
+
+#: simulation/templates/other/fence_stone.xml:20
+#: simulation/templates/other/fence_stone.xml:21
+msgid "Stone Fence"
+msgstr "돌울타리"
+
+#: simulation/templates/other/generic_field.xml:8
+msgid "Wheat Field"
+msgstr "밀밭"
+
+#: simulation/templates/other/hellenic_epic_temple.xml:23
+msgid "Epic Temple"
+msgstr "영웅 사원"
+
+#: simulation/templates/other/hellenic_epic_temple.xml:24
+msgid "Naos Parthenos"
+msgstr "나오스 파르테논 신전"
+
+#: simulation/templates/other/hellenic_epic_temple.xml:25
+msgid "Garrison units to heal them at a quick rate."
+msgstr "빠른 속도로 유닛들을 치유하기 위해서 유닛들을 주둔시키십시오."
+
+#: simulation/templates/other/hellenic_propylaea.xml:24
+msgid "Portico"
+msgstr "포르티코"
+
+#: simulation/templates/other/hellenic_propylaea.xml:25
+msgid "Propylaea"
+msgstr "아테네의 입구"
+
+#: simulation/templates/other/hellenic_stoa.xml:24
+msgid "Stoa"
+msgstr "스토아"
+
+#: simulation/templates/other/hellenic_stoa.xml:25
+msgid "Hellenic Stoa"
+msgstr "헬레닉 스토아"
+
+#: simulation/templates/other/obelisk.xml:19
+msgid "Obelisk"
+msgstr "오벨리스크"
+
+#: simulation/templates/other/obelisk.xml:20
+msgid "Egyptian Obelisk"
+msgstr "이집트 오벨리스크"
+
+#: simulation/templates/other/sele_colonnade.xml:19
+msgid "Colonnade"
+msgstr "열주(가로수)"
+
+#: simulation/templates/other/sele_colonnade.xml:20
+msgid "Corinthian Colonnade"
+msgstr "코린트식 열주(가로수)"
+
+#: simulation/templates/other/stall_big.xml:11
+msgid "Big stall"
+msgstr "큰 마구간"
+
+#: simulation/templates/other/stall_med.xml:11
+msgid "Medium stall"
+msgstr "중간 크기의 마구간"
+
+#: simulation/templates/other/stall_small_a.xml:11
+#: simulation/templates/other/stall_small_b.xml:11
+msgid "Small stall"
+msgstr "작은 마구간"
+
+#: simulation/templates/other/table_rectangle.xml:19
+#: simulation/templates/other/table_square.xml:19
+msgid "Table"
+msgstr "테이블(탁자)"
+
+#: simulation/templates/other/table_rectangle.xml:20
+msgid "Rectangle Table"
+msgstr "직사각형 테이블(탁자)"
+
+#: simulation/templates/other/table_square.xml:20
+msgid "Square Table"
+msgstr "정사각형 테이블(탁자)"
+
+#: simulation/templates/skirmish/structures/default_house_10.xml:5
+msgid ""
+"Changes in a 10-pop house for civilisations with those houses, is deleted "
+"for other civs"
+msgstr "인구수를 10명으로 만드는 것은 다른 문명에서는 삭제되었습니다."
+
+#: simulation/templates/skirmish/structures/default_house_5.xml:8
+msgid ""
+"Changes in a 5-pop house for civilisations with those houses, is deleted for"
+" other civs"
+msgstr "인구수를 5명으로 만드는 것은 다른 문명에서는 삭제되었습니다."
+
+#: simulation/templates/special/spy.xml:17
+msgid "Spy"
+msgstr "첩자"
+
+#: simulation/templates/special/formations/anti_cavalry.xml:6
+#: simulation/templates/special/formations/testudo.xml:6
+msgid "Requires at least 16 Melee Infantry."
+msgstr "최소 16기의 근접 보병 유닛이 필요합니다."
+
+#: simulation/templates/special/formations/anti_cavalry.xml:7
+msgid "Anti Cavalry"
+msgstr "반 기병대??"
+
+#: simulation/templates/special/formations/battle_line.xml:5
+msgid "Battle Line"
+msgstr "전선"
+
+#: simulation/templates/special/formations/box.xml:6
+msgid "Requires at least 4 Soldiers or Siege engines."
+msgstr "최소 4명의 병사나 공성 무기가 필요합니다."
+
+#: simulation/templates/special/formations/box.xml:7
+msgid "Box"
+msgstr "방진 - 사각대형"
+
+#: simulation/templates/special/formations/column_closed.xml:5
+msgid "Forced March"
+msgstr "강행군"
+
+#: simulation/templates/special/formations/column_open.xml:5
+msgid "Column Open"
+msgstr "개열진EHSMS산개 종대"
+
+#: simulation/templates/special/formations/flank.xml:6
+msgid "Requires at least 8 Soldiers or Siege engines."
+msgstr "최소 8명의 군인이나 공성 무기가 필요합니다."
+
+#: simulation/templates/special/formations/flank.xml:7
+msgid "Flank"
+msgstr "측면"
+
+#: simulation/templates/special/formations/line_closed.xml:5
+msgid "Close Order"
+msgstr "밀집대형"
+
+#: simulation/templates/special/formations/line_open.xml:5
+msgid "Open Order"
+msgstr "산개대형"
+
+#: simulation/templates/special/formations/null.xml:5
+msgid "None"
+msgstr "없음"
+
+#: simulation/templates/special/formations/phalanx.xml:6
+msgid "Requires at least 10 Infantry Hoplites."
+msgstr "최소 10명의 장갑 보병이 필요합니다."
+
+#: simulation/templates/special/formations/phalanx.xml:7
+msgid "Phalanx"
+msgstr "밀집 창대형"
+
+#: simulation/templates/special/formations/scatter.xml:5
+msgid "Scatter"
+msgstr "흩뜨림"
+
+#: simulation/templates/special/formations/skirmish.xml:5
+msgid "Requires a Ranged Soldier."
+msgstr "원거리 공격 병사가 필요합니다."
+
+#: simulation/templates/special/formations/skirmish.xml:6
+msgid "Skirmish"
+msgstr "접전지역"
+
+#: simulation/templates/special/formations/syntagma.xml:6
+msgid "Requires at least 16 Infantry Pikemen."
+msgstr "최소 16명의 장창 보병이 필요합니다."
+
+#: simulation/templates/special/formations/syntagma.xml:8
+msgid "Syntagma"
+msgstr "산테그마ehsms구성"
+
+#: simulation/templates/special/formations/testudo.xml:8
+msgid "Testudo"
+msgstr "바다거북이EHSMS귀갑(龜甲)모양의 큰 방패"
+
+#: simulation/templates/special/formations/wedge.xml:6
+msgid "Requires at least 6 Cavalry."
+msgstr "최소 6명의 기병이 필요합니다."
+
+#: simulation/templates/special/formations/wedge.xml:7
+msgid "Wedge"
+msgstr "쐐기"
+
+#: simulation/templates/special/player/player.xml:60
+msgid "Player"
+msgstr "선수"

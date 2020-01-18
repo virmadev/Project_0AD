@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+
+	<script directory="gui/common/"/>
+	<script directory="gui/gamesetup/"/>
+	<script directory="gui/gamesetup/Controls/"/>
+	<script directory="gui/gamesetup/GameSettings/"/>
+	<script directory="gui/gamesetup/GameSettings/PerPlayer/"/>
+	<script directory="gui/gamesetup/GameSettings/PerPlayer/Dropdowns/"/>
+	<script directory="gui/gamesetup/GameSettings/Single/"/>
+	<script directory="gui/gamesetup/GameSettings/Single/Checkboxes/"/>
+	<script directory="gui/gamesetup/GameSettings/Single/Dropdowns/"/>
+	<script directory="gui/gamesetup/NetMessages/"/>
+	<script directory="gui/gamesetup/Panels/"/>
+	<script directory="gui/gamesetup/Panels/Buttons/"/>
+	<script directory="gui/gamesetup/Panels/Chat/"/>
+	<script directory="gui/gamesetup/Panels/Chat/ChatMessages/"/>
+
+	<object type="image" style="ModernWindow">
+
+		<object style="TitleText" type="text" size="50%-128 4 50%+128 36">
+			<translatableAttribute id="caption">Match Setup</translatableAttribute>
+		</object>
+
+		<include file="gui/gamesetup/Panels/LoadingWindow.xml"/>
+
+		<include file="gui/gamesetup/GameSetupPage.xml"/>
+	</object>
+
+</objects>

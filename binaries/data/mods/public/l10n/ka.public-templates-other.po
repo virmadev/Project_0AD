@@ -1,0 +1,1089 @@
+# Translation template for 0 A.D. — Empires Ascendant.
+# Copyright (C) 2019 Wildfire Games
+# This file is distributed under the same license as the 0 A.D. — Empires Ascendant project.
+# 
+# Translators:
+# Rezo Imnadze <rezo@imnadze.ge>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2019-11-15 08:09+0000\n"
+"PO-Revision-Date: 2019-11-15 14:23+0000\n"
+"Last-Translator: Adrián Chaves Fernández <adriyetichaves@gmail.com>\n"
+"Language-Team: Georgian (http://www.transifex.com/wildfire-games/0ad/language/ka/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: simulation/templates/template_gaia.xml:7
+msgid "Gaia"
+msgstr "ცხოველი"
+
+#: simulation/templates/template_gaia_fish.xml:8
+#: simulation/templates/gaia/fauna_fish.xml:4
+msgid "Fish"
+msgstr "თევზი"
+
+#: simulation/templates/template_gaia_fish.xml:10
+msgid "Catch fish for food."
+msgstr ""
+
+#: simulation/templates/template_gaia_flora.xml:6
+msgid "Chop trees for wood."
+msgstr ""
+
+#: simulation/templates/template_gaia_flora_bush.xml:8
+#: simulation/templates/gaia/flora_bush_temperate.xml:4
+#: simulation/templates/gaia/flora_bush_temperate_winter.xml:4
+#: simulation/templates/gaia/flora_bush_tropic.xml:4
+msgid "Bush"
+msgstr "ბუჩქი"
+
+#: simulation/templates/template_gaia_flora_bush_berry.xml:4
+#: simulation/templates/template_gaia_flora_tree_fruit.xml:8
+msgid "Pick fruit for food."
+msgstr ""
+
+#: simulation/templates/template_gaia_flora_tree.xml:8
+msgid "Tree"
+msgstr "ხე"
+
+#: simulation/templates/template_gaia_geo.xml:8
+msgid "Generic Geology"
+msgstr "გეოლოგია"
+
+#: simulation/templates/template_gaia_geo_mineral.xml:4
+msgid "Metal Mine"
+msgstr "ლითონის საბადო"
+
+#: simulation/templates/template_gaia_geo_mineral.xml:5
+msgid "Mine ore for metal."
+msgstr ""
+
+#: simulation/templates/template_gaia_geo_rock.xml:4
+msgid "Stone Quarry"
+msgstr ""
+
+#: simulation/templates/template_gaia_geo_rock.xml:5
+msgid "Quarry rock for stone."
+msgstr ""
+
+#: simulation/templates/template_gaia_ruins.xml:8
+msgid "Ruins"
+msgstr "ნანგრევები"
+
+#: simulation/templates/template_gaia_ruins.xml:9
+msgid "Demolish ruins for stone."
+msgstr ""
+
+#: simulation/templates/template_gaia_treasure.xml:8
+msgid "Treasure"
+msgstr "განძი"
+
+#: simulation/templates/template_gaia_treasure.xml:9
+msgid "Collect treasures for resources."
+msgstr ""
+
+#: simulation/templates/template_structure.xml:61
+msgid "Structure"
+msgstr "შენობა"
+
+#: simulation/templates/template_unit.xml:43
+msgid "Unit"
+msgstr "ერთეული"
+
+#: simulation/templates/template_wallset.xml:10
+msgid "City Wall"
+msgstr "ქალაქის კედელი"
+
+#: simulation/templates/template_wallset.xml:13
+msgid "Wall off your town for a stout defense."
+msgstr "კედელი შენი ქალაქის კარგად დასაცავად."
+
+#: simulation/templates/campaigns/army_mace_hero_alexander.xml:27
+msgid "Army of Alexander the Great."
+msgstr "ალექსანდრე დიდის ჯარი."
+
+#: simulation/templates/campaigns/army_mace_hero_alexander.xml:28
+msgid "Army of Alexander the Great"
+msgstr "ალექსანდრე დიდის ჯარი"
+
+#: simulation/templates/campaigns/army_mace_hero_alexander.xml:29
+#: simulation/templates/campaigns/army_mace_standard.xml:21
+#: simulation/templates/campaigns/army_spart_hero_leonidas.xml:29
+msgid "This is what an army would look like on the Strat Map."
+msgstr "აი ასე უნდა გამოიყურებოდეს ჯარი საწყის რუკაზე."
+
+#: simulation/templates/campaigns/army_mace_standard.xml:19
+msgid "Army of Macedonia"
+msgstr "მაკედონიის ჯარი"
+
+#: simulation/templates/campaigns/army_mace_standard.xml:20
+msgid "Army of Macedon"
+msgstr "მაკედონიის ჯარი"
+
+#: simulation/templates/campaigns/army_spart_hero_leonidas.xml:27
+msgid "Army of Leonidas I."
+msgstr "ლეონიდას I-ის ჯარი."
+
+#: simulation/templates/campaigns/army_spart_hero_leonidas.xml:28
+msgid "Army of Leonidas I"
+msgstr "ლეონიდას I-ის ჯარი"
+
+#: simulation/templates/campaigns/campaign_city_minor_test.xml:29
+#: simulation/templates/campaigns/campaign_city_test.xml:29
+msgid "Market"
+msgstr ""
+
+#: simulation/templates/campaigns/campaign_city_minor_test.xml:30
+#: simulation/templates/campaigns/campaign_city_test.xml:30
+msgid "Settlement"
+msgstr "დასახლება"
+
+#: simulation/templates/campaigns/campaign_city_minor_test.xml:31
+msgid "Minor Greek Polis"
+msgstr "პატარა ბერძნული ქალაქი"
+
+#: simulation/templates/campaigns/campaign_city_minor_test.xml:32
+msgid "This is a minor Greek city."
+msgstr ""
+
+#: simulation/templates/campaigns/campaign_city_test.xml:31
+msgid "Greek Polis"
+msgstr "ბერძნული ქალაქი"
+
+#: simulation/templates/campaigns/campaign_city_test.xml:32
+msgid "This is a major Greek city."
+msgstr ""
+
+#: simulation/templates/campaigns/campaign_religious_test.xml:12
+msgid "Religious Sanctuary"
+msgstr "რელიგიური ტაძარი"
+
+#: simulation/templates/campaigns/campaign_religious_test.xml:13
+msgid "Greek Religious Sanctuary"
+msgstr "ბერძნული რელიგიური ტაძარი"
+
+#: simulation/templates/gaia/fauna_arctic_wolf.xml:4
+msgid "Arctic Wolf"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_arctic_wolf.xml:5
+#: simulation/templates/gaia/fauna_wolf.xml:5
+msgid "Canis lupus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_bear.xml:19
+msgid "Brown Bear"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_bear.xml:20
+msgid "Ursus arctos"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_boar.xml:19
+msgid "Wild Boar"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_boar.xml:20
+msgid "Sus scrofa"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_camel.xml:8
+msgid "Dromedary"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_camel.xml:9
+msgid "Camelus dromedarius"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_cattle_bull.xml:4
+msgid "Bull"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_cattle_bull.xml:5
+#: simulation/templates/gaia/fauna_cattle_cow.xml:5
+msgid "Bos taurus taurus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_cattle_cow.xml:4
+msgid "Cow"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_cattle_sanga.xml:4
+msgid "Sanga Cattle"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_cattle_sanga.xml:5
+msgid "Bos taurus africanus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_cattle_zebu.xml:4
+msgid "Zebu"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_cattle_zebu.xml:5
+msgid "Bos taurus indicus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_chicken.xml:11
+msgid "Chicken"
+msgstr "ქათამი"
+
+#: simulation/templates/gaia/fauna_chicken.xml:12
+msgid "Gallus gallus domesticus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_crocodile.xml:19
+msgid "Nile Crocodile"
+msgstr "ნილოსის ნიანგი"
+
+#: simulation/templates/gaia/fauna_crocodile.xml:20
+msgid "Crocodylus niloticus"
+msgstr "ნილოსის ნიანგი"
+
+#: simulation/templates/gaia/fauna_deer.xml:8
+msgid "Red Deer"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_deer.xml:9
+msgid "Cervus elaphus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_donkey.xml:4
+msgid "Donkey"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_donkey.xml:5
+msgid "Equus africanus asinus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_elephant_african_bush.xml:11
+msgid "African Bush Elephant"
+msgstr "აფრიკული სპილო"
+
+#: simulation/templates/gaia/fauna_elephant_african_bush.xml:12
+#: simulation/templates/gaia/fauna_elephant_african_infant.xml:5
+msgid "Loxodonta africana"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_elephant_african_infant.xml:4
+msgid "African Bush Elephant Calf"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_elephant_asian.xml:11
+msgid "Asian Elephant"
+msgstr "აზიური სპილო"
+
+#: simulation/templates/gaia/fauna_elephant_asian.xml:12
+#: simulation/templates/gaia/fauna_elephant_asian_infant.xml:5
+msgid "Elephas maximus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_elephant_asian_infant.xml:4
+msgid "Asian Elephant Calf"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_elephant_north_african.xml:11
+msgid "African Forest Elephant"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_elephant_north_african.xml:12
+msgid "Loxodonta cyclotis"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_fish_tilapia.xml:4
+msgid "Tilapia"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_fish_tuna.xml:4
+msgid "Tuna"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_fox_arctic.xml:4
+msgid "Arctic Fox"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_fox_arctic.xml:5
+msgid "Vulpes lagopus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_fox_red.xml:4
+msgid "Red Fox"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_fox_red.xml:5
+msgid "Vulpes vulpes"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_gazelle.xml:8
+msgid "Thomson's Gazelle"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_gazelle.xml:9
+msgid "Eudorcas thomsonii"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_giraffe.xml:11
+msgid "Giraffe"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_giraffe.xml:12
+#: simulation/templates/gaia/fauna_giraffe_infant.xml:9
+msgid "Giraffa camelopardalis"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_giraffe_infant.xml:8
+msgid "Juvenile Giraffe"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_goat.xml:8
+msgid "Goat"
+msgstr "თხა"
+
+#: simulation/templates/gaia/fauna_goat.xml:9
+msgid "Capra aegagrus hircus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_horse.xml:8
+msgid "Horse"
+msgstr "ცხენი"
+
+#: simulation/templates/gaia/fauna_horse.xml:9
+msgid "Equus ferus caballus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_lion.xml:19
+msgid "Lion"
+msgstr "ლომი"
+
+#: simulation/templates/gaia/fauna_lion.xml:20
+msgid "Panthera leo"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_lioness.xml:4
+msgid "Lioness"
+msgstr "დედალი ლომი"
+
+#: simulation/templates/gaia/fauna_mastiff.xml:4
+msgid "Mastiff"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_mastiff.xml:5
+#: simulation/templates/gaia/fauna_wolfhound.xml:5
+msgid "Canis lupus familiaris"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_muskox.xml:8
+msgid "Muskox"
+msgstr "არქტიკური ძროხა"
+
+#: simulation/templates/gaia/fauna_muskox.xml:9
+msgid "Ovibos moschatus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_peacock.xml:7
+msgid "Peacock"
+msgstr "ფარშევანგი"
+
+#: simulation/templates/gaia/fauna_peacock.xml:8
+msgid "Pavo cristatus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_pig.xml:8
+msgid "Pig"
+msgstr "ღორი"
+
+#: simulation/templates/gaia/fauna_pig.xml:9
+msgid "Sus scrofa domesticus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_pig_flaming.xml:18
+msgid "Flaming Pig"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_piglet.xml:8
+msgid "Piglet"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_pony.xml:4
+msgid "Pony"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_rabbit.xml:11
+msgid "Rabbit"
+msgstr "კურდღელი"
+
+#: simulation/templates/gaia/fauna_rabbit.xml:12
+msgid "Oryctolagus cuniculus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_rhino.xml:19
+msgid "White Rhinoceros"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_rhino.xml:20
+msgid "Ceratotherium simum"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_shark.xml:12
+msgid "Great White Shark"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_shark.xml:13
+msgid "Carcharodon carcharias"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_sheep.xml:8
+msgid "Sheep"
+msgstr "ცხვარი"
+
+#: simulation/templates/gaia/fauna_sheep.xml:9
+msgid "Ovis aries"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_tiger.xml:19
+msgid "Tiger"
+msgstr "ვეფხვი"
+
+#: simulation/templates/gaia/fauna_tiger.xml:20
+msgid "Panthera tigris"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_walrus.xml:26
+msgid "Walrus"
+msgstr "ლომვეშაპი"
+
+#: simulation/templates/gaia/fauna_walrus.xml:27
+msgid "Odobenus rosmarus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_whale_fin.xml:8
+msgid "Fin Whale"
+msgstr "ფინვალი"
+
+#: simulation/templates/gaia/fauna_whale_fin.xml:9
+msgid "Balaenoptera physalus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_whale_humpback.xml:8
+msgid "Humpback Whale"
+msgstr "კუზიანი ვეშაპი"
+
+#: simulation/templates/gaia/fauna_whale_humpback.xml:9
+msgid "Megaptera novaeangliae"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_wildebeest.xml:8
+msgid "Blue Wildebeest"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_wildebeest.xml:9
+msgid "Connochaetes taurinus"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_wolf.xml:4
+msgid "Wolf"
+msgstr "მგელი"
+
+#: simulation/templates/gaia/fauna_wolfhound.xml:4
+msgid "Wolfhound"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_zebra.xml:8
+msgid "Common Zebra"
+msgstr ""
+
+#: simulation/templates/gaia/fauna_zebra.xml:9
+msgid "Equus quagga"
+msgstr ""
+
+#: simulation/templates/gaia/flora_bush_badlands.xml:4
+msgid "Hardy Bush"
+msgstr "ამტანი ბუჩქი"
+
+#: simulation/templates/gaia/flora_bush_berry.xml:4
+#: simulation/templates/gaia/flora_bush_berry_02.xml:4
+#: simulation/templates/gaia/flora_bush_berry_03.xml:4
+#: simulation/templates/gaia/flora_bush_berry_autumn_01.xml:4
+msgid "Berries"
+msgstr "ცირცველი"
+
+#: simulation/templates/gaia/flora_bush_grapes.xml:4
+msgid "Grapes"
+msgstr "ყურძენი"
+
+#: simulation/templates/gaia/flora_tree_acacia.xml:4
+msgid "Acacia Tree"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_aleppo_pine.xml:4
+msgid "Aleppo Pine Tree"
+msgstr "ალეპოს ფიჭვი"
+
+#: simulation/templates/gaia/flora_tree_apple.xml:4
+msgid "Apple Tree"
+msgstr "ვაშლის ხე"
+
+#: simulation/templates/gaia/flora_tree_bamboo.xml:4
+#: simulation/templates/gaia/flora_tree_bamboo_single.xml:4
+msgid "Bamboo"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_bamboo_dragon.xml:8
+msgid "Dragon Bamboo"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_banana.xml:4
+msgid "Banana"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_banyan.xml:8
+msgid "Banyan"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_baobab.xml:8
+#: simulation/templates/gaia/flora_tree_baobab_3_mature.xml:8
+msgid "Baobab"
+msgstr "ბაობაბი"
+
+#: simulation/templates/gaia/flora_tree_baobab_1_sapling.xml:4
+msgid "Baobab Sapling"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_baobab_2_young.xml:4
+msgid "Young Baobab"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_baobab_4_dead.xml:8
+msgid "Dead Baobab"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_carob.xml:4
+msgid "Carob Tree"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_cedar_atlas_1_sapling.xml:4
+msgid "Atlas Cedar Sapling"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_cedar_atlas_2_young.xml:4
+#: simulation/templates/gaia/flora_tree_cedar_atlas_3_mature.xml:4
+msgid "Atlas Cedar"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_cedar_atlas_4_dead.xml:4
+msgid "Dead Atlas Cedar"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_cretan_date_palm_patch.xml:8
+#: simulation/templates/gaia/flora_tree_cretan_date_palm_short.xml:4
+#: simulation/templates/gaia/flora_tree_cretan_date_palm_tall.xml:4
+msgid "Cretan Date Palm"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_cypress.xml:4
+#: simulation/templates/gaia/flora_tree_cypress_wild.xml:4
+#: simulation/templates/gaia/flora_tree_cypress_windswept.xml:4
+msgid "Cypress Tree"
+msgstr "კიპაროსი"
+
+#: simulation/templates/gaia/flora_tree_date_palm.xml:4
+msgid "Date Palm"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_date_palm_dead.xml:4
+msgid "Dead Palm"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_date_palm_fruit.xml:4
+msgid "Fruiting Date Palm"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_dead.xml:4
+msgid "Dead Deciduous Tree"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_elm.xml:4
+#: simulation/templates/gaia/flora_tree_elm_dead.xml:4
+msgid "Elm Tree"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_euro_beech.xml:4
+#: simulation/templates/gaia/flora_tree_euro_beech_aut.xml:4
+msgid "European Beech Tree"
+msgstr "ევროპული წიფელი"
+
+#: simulation/templates/gaia/flora_tree_euro_birch.xml:4
+msgid "Silver Birch"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_fig.xml:7
+msgid "Fig"
+msgstr "ლეღვი"
+
+#: simulation/templates/gaia/flora_tree_fir.xml:4
+#: simulation/templates/gaia/flora_tree_fir_winter.xml:4
+msgid "Fir Tree"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_fir_sapling.xml:4
+msgid "Fir Sapling"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_juniper_prickly.xml:4
+msgid "Prickly Juniper"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_mangrove.xml:4
+msgid "Mangrove"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_maple.xml:4
+msgid "Maple"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_medit_fan_palm.xml:4
+msgid "Mediterranean Fan Palm"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_oak.xml:4
+#: simulation/templates/gaia/flora_tree_oak_aut.xml:4
+#: simulation/templates/gaia/flora_tree_oak_aut_new.xml:4
+#: simulation/templates/gaia/flora_tree_oak_dead.xml:4
+#: simulation/templates/gaia/flora_tree_oak_new.xml:4
+msgid "Oak Tree"
+msgstr "მუხა"
+
+#: simulation/templates/gaia/flora_tree_oak_holly.xml:4
+msgid "Holly Oak"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_oak_hungarian.xml:4
+#: simulation/templates/gaia/flora_tree_oak_hungarian_autumn.xml:4
+msgid "Hungarian Oak"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_oak_large.xml:4
+msgid "Large Oak Tree"
+msgstr "დიდი მუხა"
+
+#: simulation/templates/gaia/flora_tree_olive.xml:4
+msgid "Olive Tree"
+msgstr "ზეთის ხილი"
+
+#: simulation/templates/gaia/flora_tree_palm_areca.xml:4
+msgid "Areca Palm"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_palm_doum.xml:4
+msgid "Doum Palm"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_palm_palmyra.xml:4
+msgid "Palmyra Palm"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_palm_tropic.xml:4
+msgid "Palm"
+msgstr "პალმა"
+
+#: simulation/templates/gaia/flora_tree_palm_tropical.xml:4
+msgid "Tropical Palm"
+msgstr "ტროპიკული პალმა"
+
+#: simulation/templates/gaia/flora_tree_pine.xml:4
+#: simulation/templates/gaia/flora_tree_pine_w.xml:4
+msgid "Pine Tree"
+msgstr "ფიჭვი"
+
+#: simulation/templates/gaia/flora_tree_pine_black.xml:4
+#: simulation/templates/gaia/flora_tree_pine_black_dead.xml:4
+msgid "Black Pine"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_pine_maritime.xml:4
+#: simulation/templates/gaia/flora_tree_pine_maritime_short.xml:4
+msgid "Maritime Pine"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_poplar.xml:4
+msgid "Poplar Tree"
+msgstr "ალვის ხე"
+
+#: simulation/templates/gaia/flora_tree_poplar_lombardy.xml:4
+msgid "Black Poplar Tree"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_senegal_date_palm.xml:4
+msgid "Senegal Date Palm"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_strangler.xml:8
+msgid "Strangler Fig"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_tamarix.xml:4
+msgid "Tamarix Tree"
+msgstr "იალღუნი"
+
+#: simulation/templates/gaia/flora_tree_teak.xml:8
+msgid "Teak"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_temperate.xml:4
+#: simulation/templates/gaia/flora_tree_temperate_autumn.xml:4
+#: simulation/templates/gaia/flora_tree_temperate_winter.xml:4
+msgid "Deciduous Tree"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_toona.xml:4
+msgid "Toona Tree"
+msgstr ""
+
+#: simulation/templates/gaia/flora_tree_tropic_rainforest.xml:4
+msgid "Rainforest Tree"
+msgstr ""
+
+#: simulation/templates/gaia/ruins/column_doric.xml:8
+msgid "Ancient Ruins"
+msgstr "ძველი ნანგრევები"
+
+#: simulation/templates/gaia/ruins/pyramid_great.xml:8
+msgid "Great Pyramid"
+msgstr "დიდი პირამიდა"
+
+#: simulation/templates/gaia/ruins/pyramid_minor.xml:8
+msgid "Minor Pyramid"
+msgstr "მცირე პირამიდა"
+
+#: simulation/templates/gaia/ruins/standing_stone.xml:8
+#: simulation/templates/gaia/treasure/standing_stone.xml:8
+msgid "Celtic Standing Stone"
+msgstr "კელტური მდგარი ქვა"
+
+#: simulation/templates/gaia/ruins/stone_statues_egyptian.xml:8
+msgid "Ptolemaic Egyptian Statues"
+msgstr "პტოლემეების ეგვიპტური ძეგლები"
+
+#: simulation/templates/gaia/ruins/stone_statues_kushite.xml:8
+msgid "Kushite Statue"
+msgstr ""
+
+#: simulation/templates/gaia/ruins/stone_statues_roman.xml:8
+msgid "Roman Statues"
+msgstr "რომაული ძეგლები"
+
+#: simulation/templates/gaia/ruins/unfinished_greek_temple.xml:8
+msgid "Unfinished Greek Temple"
+msgstr "დაუსრულებელი ბერძნული ტაძარი"
+
+#: simulation/templates/gaia/treasure/food_barrel.xml:8
+#: simulation/templates/gaia/treasure/food_bin.xml:8
+#: simulation/templates/gaia/treasure/food_crate.xml:8
+#: simulation/templates/gaia/treasure/food_jars.xml:8
+msgid "Food Treasure"
+msgstr "საჭმლის განძი"
+
+#: simulation/templates/gaia/treasure/food_barrels_buried.xml:8
+msgid "Half-buried Barrels"
+msgstr "ნახევრად ჩაფულული კასრები"
+
+#: simulation/templates/gaia/treasure/food_persian_big.xml:8
+msgid "Persian Food Stores"
+msgstr "სპარსული საჭმლის საწყობები"
+
+#: simulation/templates/gaia/treasure/food_persian_small.xml:8
+msgid "Persian Food Treasure"
+msgstr "სპარსული საჭმლის განძი"
+
+#: simulation/templates/gaia/treasure/golden_fleece.xml:8
+msgid "Golden Fleece"
+msgstr "ოქროს საწმისი"
+
+#: simulation/templates/gaia/treasure/metal.xml:8
+msgid "Secret Box"
+msgstr "ფარული ყუთი"
+
+#: simulation/templates/gaia/treasure/metal_persian_big.xml:8
+msgid "Persian Wares"
+msgstr "სწარსული საქონელი"
+
+#: simulation/templates/gaia/treasure/metal_persian_small.xml:8
+msgid "Persian Rugs"
+msgstr "სპარსული ხალიჩები"
+
+#: simulation/templates/gaia/treasure/pegasus.xml:8
+msgid "Pegasus"
+msgstr "პეგასი"
+
+#: simulation/templates/gaia/treasure/shipwreck.xml:8
+#: simulation/templates/gaia/treasure/shipwreck_ram_bow.xml:8
+#: simulation/templates/gaia/treasure/shipwreck_sail_boat.xml:8
+#: simulation/templates/gaia/treasure/shipwreck_sail_boat_cut.xml:8
+msgid "Shipwreck"
+msgstr "გემის ნამტვრევები"
+
+#: simulation/templates/gaia/treasure/shipwreck_debris.xml:8
+msgid "Shipwreck Cargo"
+msgstr "გემის ნამტვრევების ტვირთი"
+
+#: simulation/templates/gaia/treasure/stone.xml:8
+msgid "Stone Treasure"
+msgstr "ქვის განძი"
+
+#: simulation/templates/gaia/treasure/wood.xml:8
+msgid "Wood Treasure"
+msgstr "ხის განძი"
+
+#: simulation/templates/other/bench.xml:19
+msgid "Bench"
+msgstr "მერხი"
+
+#: simulation/templates/other/bench.xml:20
+msgid "Wooden Bench"
+msgstr "ხის მერხი"
+
+#: simulation/templates/other/bridge_hele.xml:15
+#: simulation/templates/other/bridge_hele.xml:16
+msgid "Bridge"
+msgstr "ხიდი"
+
+#: simulation/templates/other/bridge_wooden.xml:15
+#: simulation/templates/other/bridge_wooden.xml:16
+msgid "Wooden Bridge"
+msgstr "ხის ხიდი"
+
+#: simulation/templates/other/celt_hut.xml:21
+msgid "Hut"
+msgstr "ქოხი"
+
+#: simulation/templates/other/celt_longhouse.xml:21
+msgid "Longhouse"
+msgstr ""
+
+#: simulation/templates/other/column_doric.xml:19
+#: simulation/templates/other/column_doric_fallen.xml:19
+#: simulation/templates/other/column_doric_fallen_b.xml:19
+msgid "Column"
+msgstr "სვეტი"
+
+#: simulation/templates/other/column_doric.xml:20
+msgid "Doric Column"
+msgstr "დორიული სვეტი"
+
+#: simulation/templates/other/column_doric_fallen.xml:20
+#: simulation/templates/other/column_doric_fallen_b.xml:20
+msgid "Fallen Doric Column"
+msgstr "დაცემული დორიული სვეტი"
+
+#: simulation/templates/other/desert_trading_post.xml:14
+msgid "Desert Trading Post"
+msgstr ""
+
+#: simulation/templates/other/desert_trading_post.xml:15
+msgid "Ardatašta"
+msgstr "Ardatašta"
+
+#: simulation/templates/other/fence_long.xml:20
+#: simulation/templates/other/fence_short.xml:20
+msgid "Fence"
+msgstr "ღობე"
+
+#: simulation/templates/other/fence_long.xml:21
+msgid "Long Wooden Fence"
+msgstr "გრძელი ხის ღობე"
+
+#: simulation/templates/other/fence_short.xml:21
+msgid "Short Wooden Fence"
+msgstr "მოკლე ხის ღობ"
+
+#: simulation/templates/other/fence_stone.xml:20
+#: simulation/templates/other/fence_stone.xml:21
+msgid "Stone Fence"
+msgstr "ქვის ღობე"
+
+#: simulation/templates/other/generic_field.xml:8
+msgid "Wheat Field"
+msgstr "ხორბლის ყანა"
+
+#: simulation/templates/other/hellenic_epic_temple.xml:23
+msgid "Epic Temple"
+msgstr "ეპიკური ტაძარი"
+
+#: simulation/templates/other/hellenic_epic_temple.xml:24
+msgid "Naos Parthenos"
+msgstr "ტაძარი პართენონი"
+
+#: simulation/templates/other/hellenic_epic_temple.xml:25
+msgid "Garrison units to heal them at a quick rate."
+msgstr ""
+
+#: simulation/templates/other/hellenic_propylaea.xml:24
+msgid "Portico"
+msgstr "პორტიკი"
+
+#: simulation/templates/other/hellenic_propylaea.xml:25
+msgid "Propylaea"
+msgstr "პროპილეა"
+
+#: simulation/templates/other/hellenic_stoa.xml:24
+msgid "Stoa"
+msgstr "სტოა"
+
+#: simulation/templates/other/hellenic_stoa.xml:25
+msgid "Hellenic Stoa"
+msgstr "ბერძნული სტოა"
+
+#: simulation/templates/other/obelisk.xml:19
+msgid "Obelisk"
+msgstr "ობელისკი"
+
+#: simulation/templates/other/obelisk.xml:20
+msgid "Egyptian Obelisk"
+msgstr "ეგვიპტური ობელისკი"
+
+#: simulation/templates/other/sele_colonnade.xml:19
+msgid "Colonnade"
+msgstr ""
+
+#: simulation/templates/other/sele_colonnade.xml:20
+msgid "Corinthian Colonnade"
+msgstr ""
+
+#: simulation/templates/other/stall_big.xml:11
+msgid "Big stall"
+msgstr "დიდი ჯიხური"
+
+#: simulation/templates/other/stall_med.xml:11
+msgid "Medium stall"
+msgstr "საშუალო ჯიხური"
+
+#: simulation/templates/other/stall_small_a.xml:11
+#: simulation/templates/other/stall_small_b.xml:11
+msgid "Small stall"
+msgstr "პატარა ჯიხური"
+
+#: simulation/templates/other/table_rectangle.xml:19
+#: simulation/templates/other/table_square.xml:19
+msgid "Table"
+msgstr "მაგიდა"
+
+#: simulation/templates/other/table_rectangle.xml:20
+msgid "Rectangle Table"
+msgstr "ოთხკუთხა მაგიდა"
+
+#: simulation/templates/other/table_square.xml:20
+msgid "Square Table"
+msgstr "კვადრატული მაგიდა"
+
+#: simulation/templates/skirmish/structures/default_house_10.xml:5
+msgid ""
+"Changes in a 10-pop house for civilisations with those houses, is deleted "
+"for other civs"
+msgstr ""
+
+#: simulation/templates/skirmish/structures/default_house_5.xml:8
+msgid ""
+"Changes in a 5-pop house for civilisations with those houses, is deleted for"
+" other civs"
+msgstr ""
+
+#: simulation/templates/special/spy.xml:17
+msgid "Spy"
+msgstr ""
+
+#: simulation/templates/special/formations/anti_cavalry.xml:6
+#: simulation/templates/special/formations/testudo.xml:6
+msgid "Requires at least 16 Melee Infantry."
+msgstr ""
+
+#: simulation/templates/special/formations/anti_cavalry.xml:7
+msgid "Anti Cavalry"
+msgstr ""
+
+#: simulation/templates/special/formations/battle_line.xml:5
+msgid "Battle Line"
+msgstr "ბრძოლის ხაზი"
+
+#: simulation/templates/special/formations/box.xml:6
+msgid "Requires at least 4 Soldiers or Siege engines."
+msgstr ""
+
+#: simulation/templates/special/formations/box.xml:7
+msgid "Box"
+msgstr "ყუთი"
+
+#: simulation/templates/special/formations/column_closed.xml:5
+msgid "Forced March"
+msgstr ""
+
+#: simulation/templates/special/formations/column_open.xml:5
+msgid "Column Open"
+msgstr "სვეტი ღიაა"
+
+#: simulation/templates/special/formations/flank.xml:6
+msgid "Requires at least 8 Soldiers or Siege engines."
+msgstr ""
+
+#: simulation/templates/special/formations/flank.xml:7
+msgid "Flank"
+msgstr "გვერდი"
+
+#: simulation/templates/special/formations/line_closed.xml:5
+msgid "Close Order"
+msgstr ""
+
+#: simulation/templates/special/formations/line_open.xml:5
+msgid "Open Order"
+msgstr ""
+
+#: simulation/templates/special/formations/null.xml:5
+msgid "None"
+msgstr "არცერთი"
+
+#: simulation/templates/special/formations/phalanx.xml:6
+msgid "Requires at least 10 Infantry Hoplites."
+msgstr ""
+
+#: simulation/templates/special/formations/phalanx.xml:7
+msgid "Phalanx"
+msgstr "ფალანქსი"
+
+#: simulation/templates/special/formations/scatter.xml:5
+msgid "Scatter"
+msgstr "გაფანტვა"
+
+#: simulation/templates/special/formations/skirmish.xml:5
+msgid "Requires a Ranged Soldier."
+msgstr ""
+
+#: simulation/templates/special/formations/skirmish.xml:6
+msgid "Skirmish"
+msgstr "შეტაკება"
+
+#: simulation/templates/special/formations/syntagma.xml:6
+msgid "Requires at least 16 Infantry Pikemen."
+msgstr ""
+
+#: simulation/templates/special/formations/syntagma.xml:8
+msgid "Syntagma"
+msgstr "სინტაგმ"
+
+#: simulation/templates/special/formations/testudo.xml:8
+msgid "Testudo"
+msgstr "კუ"
+
+#: simulation/templates/special/formations/wedge.xml:6
+msgid "Requires at least 6 Cavalry."
+msgstr ""
+
+#: simulation/templates/special/formations/wedge.xml:7
+msgid "Wedge"
+msgstr "სოლი"
+
+#: simulation/templates/special/player/player.xml:60
+msgid "Player"
+msgstr ""

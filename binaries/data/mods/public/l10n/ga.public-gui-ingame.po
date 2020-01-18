@@ -1,0 +1,1612 @@
+# Translation template for 0 A.D. — Empires Ascendant.
+# Copyright (C) 2020 Wildfire Games
+# This file is distributed under the same license as the 0 A.D. — Empires Ascendant project.
+# 
+# Translators:
+# Brian Mac Giolla Mhuire <brian@oireas.com>, 2018-2019
+# Coinneach Donáll Mac Ocslaigh <coinneachoxley@gmail.com>, 2019
+# Cormac O'Brien <cormacm.obrien@gmail.com>, 2018
+# Coinneach Donáll Mac Ocslaigh <coinneachoxley@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2020-01-13 08:22+0000\n"
+"PO-Revision-Date: 2020-01-13 15:06+0000\n"
+"Last-Translator: Adrián Chaves Fernández <adriyetichaves@gmail.com>\n"
+"Language-Team: Irish (http://www.transifex.com/wildfire-games/0ad/language/ga/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ga\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);\n"
+
+#: gui/session/Menu.js:41
+#, javascript-format
+msgid "Press %(hotkey)s to toggle this menu."
+msgstr ""
+
+#: gui/session/MenuButtons.js:32
+msgid "Chat"
+msgstr "Comhrá"
+
+#: gui/session/MenuButtons.js:53
+msgid "Save"
+msgstr "Sábháil"
+
+#: gui/session/MenuButtons.js:74
+msgid "Summary"
+msgstr "Achoimre"
+
+#: gui/session/MenuButtons.js:87
+#, javascript-format
+msgid "Press %(hotkey)s to open the summary screen."
+msgstr ""
+
+#: gui/session/MenuButtons.js:130
+msgid "Lobby"
+msgstr "Forhalla"
+
+#: gui/session/MenuButtons.js:139
+#, javascript-format
+msgid ""
+"Press %(hotkey)s to open the multiplayer lobby page without leaving the "
+"game."
+msgstr ""
+
+#: gui/session/MenuButtons.js:158
+msgid "Options"
+msgstr "Roghanna"
+
+#: gui/session/MenuButtons.js:196
+msgid "Resume"
+msgstr "Lean"
+
+#: gui/session/MenuButtons.js:196
+msgid "Pause"
+msgstr "Sos"
+
+#: gui/session/MenuButtons.js:197
+#, javascript-format
+msgid "Press %(hotkey)s to pause or resume the game."
+msgstr ""
+
+#: gui/session/MenuButtons.js:213
+msgid "Resign"
+msgstr "Éirí as"
+
+#: gui/session/MenuButtons.js:237
+#: gui/session/NetworkStatusOverlay.xml:(caption):9
+msgid "Exit"
+msgstr "Imeacht"
+
+#: gui/session/NetworkStatusOverlay.js:38
+msgid "Connection to the server has been authenticated."
+msgstr "Bhí ceangal go dtí an freastalaí fíordheimhnithe."
+
+#: gui/session/NetworkStatusOverlay.js:39
+msgid "Connected to the server."
+msgstr "D'fhíordheimhnigh go dtí an freastalaí."
+
+#: gui/session/NetworkStatusOverlay.js:40
+msgid "Connection to the server has been lost."
+msgstr "Bhí ceangal go dtí an freastalaí cailte."
+
+#: gui/session/NetworkStatusOverlay.js:42
+msgid "Waiting for players to connect:"
+msgstr "Táimid ag fánacht ar na himreoirí seo:"
+
+#: gui/session/NetworkStatusOverlay.js:43
+msgid "Synchronizing gameplay with other players…"
+msgstr "Táimid ag sioncronú do chluiche le cluichí eile..."
+
+#: gui/session/NetworkStatusOverlay.js:47
+msgctxt "Separator for a list of client loading messages"
+msgid ", "
+msgstr ","
+
+#. Translation: The "x" means "times", with the mathematical meaning of
+#. multiplication.
+#: gui/session/OverlayCounterElapsedTime.js:33
+#, javascript-format
+msgid "%(time)s (%(speed)sx)"
+msgstr "%(time)s (%(speed)sx)"
+
+#: gui/session/PauseOverlay.js:40
+#: gui/session/message_box/OutOfSyncNetwork.js:20
+msgctxt "Separator for a list of players"
+msgid ", "
+msgstr ","
+
+#: gui/session/PauseOverlay.js:45
+#, javascript-format
+msgid "Paused by %(players)s"
+msgstr "Tá sos a chur le %(players)s"
+
+#: gui/session/ResearchProgress.js:108 gui/session/selection_details.js:262
+#: gui/session/selection_details.js:278 gui/session/selection_panels.js:597
+msgctxt "countdown format"
+msgid "m:ss"
+msgstr "n:ss"
+
+#: gui/session/input.js:176
+#, javascript-format
+msgid "Basic range: %(range)s meter"
+msgid_plural "Basic range: %(range)s meters"
+msgstr[0] "Raon búnusach: %(range)s mhéadar"
+msgstr[1] "Raon búnusach: %(range)s mhéadar"
+msgstr[2] "Raon búnusach: %(range)s méadar"
+msgstr[3] "Raon búnusach: %(range)s méadar"
+msgstr[4] "Raon búnusach: %(range)s méadar"
+
+#: gui/session/input.js:177
+#, javascript-format
+msgid "Average bonus range: %(range)s meter"
+msgid_plural "Average bonus range: %(range)s meters"
+msgstr[0] "Meánbhónas raoin: %(range)s mhéadar"
+msgstr[1] "Meánbhónas raoin: %(range)s mheádar"
+msgstr[2] "Meánbhónas raoin: %(range)s meádar"
+msgstr[3] "Meánbhónas raoin: %(range)s meádar"
+msgstr[4] "Meánbhónas raoin: %(range)s meádar"
+
+#: gui/session/input.js:691
+msgid "Cannot build wall here!"
+msgstr "Ní féidir leat balla a thógáil anseo!"
+
+#: gui/session/messages.js:88
+msgid "You have won!"
+msgstr "Tá tú buacach!"
+
+#: gui/session/messages.js:89
+msgid "You have been defeated!"
+msgstr "Tá tú cloíte!"
+
+#: gui/session/messages.js:358
+msgid "Click to quit this tutorial."
+msgstr "Cliceáil agus an cluiche teagaisc ag éirí as."
+
+#: gui/session/messages.js:359
+msgid "Quit"
+msgstr "Éirí as"
+
+#: gui/session/messages.js:363
+msgid "Click when ready."
+msgstr "Cliceáil nuair atá tú i do réidh."
+
+#: gui/session/messages.js:367
+msgid "Follow the instructions."
+msgstr "Cloígh leis na horduithe,"
+
+#: gui/session/messages.js:492
+msgid "Unknown Player"
+msgstr "Imreoir Anaithnid"
+
+#: gui/session/selection_details.js:68
+#, javascript-format
+msgid "%(genericName)s — Packed"
+msgstr "%(genericName)s — Pacáilte"
+
+#: gui/session/selection_details.js:78 gui/session/chat/ChatAddressees.js:74
+#, javascript-format
+msgid "\\[OFFLINE] %(player)s"
+msgstr "\\[AS LÍNE] %(player)s"
+
+#: gui/session/selection_details.js:83
+#, javascript-format
+msgid "%(rank)s Rank"
+msgstr "%(rank)s Céim"
+
+#: gui/session/selection_details.js:133
+#, javascript-format
+msgid "%(hitpoints)s / %(maxHitpoints)s"
+msgstr "%(hitpoints)s / %(maxHitpoints)s"
+
+#: gui/session/selection_details.js:172
+#, javascript-format
+msgid "%(capturePoints)s / %(maxCapturePoints)s"
+msgstr "%(capturePoints)s / %(maxCapturePoints)s"
+
+#: gui/session/selection_details.js:192
+#, javascript-format
+msgid "%(experience)s %(current)s / %(required)s"
+msgstr "%(experience)s %(current)s / %(required)s"
+
+#: gui/session/selection_details.js:193 gui/session/selection_details.js:199
+msgid "Experience:"
+msgstr "Taithí:"
+
+#: gui/session/selection_details.js:198
+#, javascript-format
+msgid "%(experience)s %(current)s"
+msgstr "%(experience)s %(current)s"
+
+#: gui/session/selection_details.js:208
+msgid "∞"
+msgstr "∞"
+
+#: gui/session/selection_details.js:209 gui/session/selection_details.js:239
+#: gui/session/selection_details.js:267
+#, javascript-format
+msgid "%(amount)s / %(max)s"
+msgstr "%(amount)s / %(max)s"
+
+#: gui/session/selection_details.js:221
+#, javascript-format
+msgid "%(resource)s:"
+msgstr "%(resource)s:"
+
+#: gui/session/selection_details.js:252 gui/session/unit_actions.js:573
+#: gui/session/unit_actions.js:582 gui/session/unit_actions.js:600
+#: gui/session/unit_actions.js:932
+#, javascript-format
+msgid "Gain: %(gain)s"
+msgstr "Brabús: %(gain)s"
+
+#: gui/session/selection_details.js:271
+msgid "Current/max gatherers"
+msgstr "Bailitheoir reatha/uasta"
+
+#: gui/session/selection_details.js:293
+#, javascript-format
+msgid "(%(genericName)s)"
+msgstr "(%(genericName)s)"
+
+#: gui/session/selection_details.js:424
+msgid "Capture Points:"
+msgstr "Pointe Gabhála:"
+
+#: gui/session/selection_details.js:432
+#, javascript-format
+msgid "%(label)s %(details)s\n"
+msgstr "%(label)s %(details)s\n"
+
+#: gui/session/selection_details.js:433
+msgid "Carrying:"
+msgstr "Iompartha:"
+
+#: gui/session/selection_details.js:436 gui/session/selection_details.js:445
+#, javascript-format
+msgid "%(type)s %(amount)s"
+msgstr "%(type)s %(amount)s"
+
+#: gui/session/selection_details.js:441
+#, javascript-format
+msgid "%(label)s %(details)s"
+msgstr "%(label)s %(details)s"
+
+#: gui/session/selection_details.js:442
+msgid "Loot:"
+msgstr "Creach:"
+
+#. Translation: Used in the trading gain tooltip
+#: gui/session/selection_details.js:503
+#, javascript-format
+msgid "%(gain)s (%(player)s)"
+msgstr "%(gain)s (%(player)s)"
+
+#. Translation: Used in the trading gain tooltip to concatenate profits of
+#. different players
+#: gui/session/selection_details.js:527
+msgid "+"
+msgstr "+"
+
+#: gui/session/selection_details.js:534
+msgctxt "Separation mark in an enumeration"
+msgid ", "
+msgstr "'"
+
+#: gui/session/selection_panels.js:65
+msgid "Raise an alert!"
+msgstr "Cuir foláireamh!"
+
+#: gui/session/selection_panels.js:68
+msgid "End of alert."
+msgstr "Deireadh foláirimh."
+
+#: gui/session/selection_panels.js:379
+#, javascript-format
+msgid "Unload %(name)s"
+msgstr "Dílódáil %(name)s"
+
+#: gui/session/selection_panels.js:380
+msgid "Single-click to unload 1. Shift-click to unload all of this type."
+msgstr "Clic amháin do 1 a dhílódáil. Iomlaidchlic do dhílódáil an sórt ar fad."
+
+#: gui/session/selection_panels.js:382 gui/session/selection_panels.js:872
+#, javascript-format
+msgid "Player: %(playername)s"
+msgstr "Imreoir: %(playername)s"
+
+#: gui/session/selection_panels.js:417
+msgid "Lock Gate"
+msgstr "Glasáil Geata"
+
+#: gui/session/selection_panels.js:423
+msgid "Unlock Gate"
+msgstr "Díghlasáil Geata"
+
+#: gui/session/selection_panels.js:473
+msgid "Pack"
+msgstr "Pacáil"
+
+#: gui/session/selection_panels.js:481
+msgid "Unpack"
+msgstr "Díphacáil"
+
+#: gui/session/selection_panels.js:489
+msgid "Cancel Packing"
+msgstr "Cealaigh Pacáil "
+
+#: gui/session/selection_panels.js:497
+msgid "Cancel Unpacking"
+msgstr "Cealaigh Díphacáil"
+
+#: gui/session/selection_panels.js:584
+msgid "Insufficient population capacity:"
+msgstr "Tá do thoilleadh daonra easpach:"
+
+#: gui/session/selection_panels.js:585
+#, javascript-format
+msgid "%(population)s %(neededSlots)s"
+msgstr "%(population)s %(neededSlots)s"
+
+#: gui/session/selection_panels.js:748
+#, javascript-format
+msgid "%(number)s entity of class %(class)s"
+msgid_plural "%(number)s entities of class %(class)s"
+msgstr[0] "Tá %(number)s aonán amháin d'aicme %(class)s"
+msgstr[1] "Tá %(number)s aonán d'aicme %(class)s"
+msgstr[2] "Tá %(number)s aonán d'aicme %(class)s"
+msgstr[3] "Tá %(number)s aonán d'aicme %(class)s"
+msgstr[4] "Tá %(number)s aonán d'aicme %(class)s"
+
+#: gui/session/selection_panels.js:754
+#, javascript-format
+msgid "Remaining: %(entityCounts)s"
+msgstr "Fágtha: %(entityCounts)s"
+
+#: gui/session/selection_panels.js:755
+msgctxt "Separator for a list of entity counts"
+msgid ", "
+msgstr ","
+
+#: gui/session/selection_panels.js:1064
+#, javascript-format
+msgid "Upgrade to %(name)s. %(tooltip)s"
+msgstr ""
+
+#: gui/session/selection_panels.js:1069
+#, javascript-format
+msgid "Upgrade to %(name)s."
+msgstr ""
+
+#: gui/session/selection_panels.js:1086
+msgid "Cancel Upgrading"
+msgstr "Cealaigh Uasghradú"
+
+#: gui/session/selection_panels.js:1091
+msgid "Cannot upgrade when the entity is already upgrading."
+msgstr "Ní féidir leis an aonán seo a uasghradú nuair atá sé fós ina uasghradú."
+
+#: gui/session/selection_panels_helpers.js:51
+msgctxt "stance"
+msgid "Violent"
+msgstr "Foiréigneach"
+
+#: gui/session/selection_panels_helpers.js:53
+msgctxt "stance"
+msgid "Aggressive"
+msgstr "Trodach"
+
+#: gui/session/selection_panels_helpers.js:55
+msgctxt "stance"
+msgid "Defensive"
+msgstr "Cosanta"
+
+#: gui/session/selection_panels_helpers.js:57
+msgctxt "stance"
+msgid "Passive"
+msgstr "Géilliúil"
+
+#: gui/session/selection_panels_helpers.js:59
+msgctxt "stance"
+msgid "Standground"
+msgstr "Dílis"
+
+#: gui/session/selection_panels_helpers.js:71
+msgctxt "stance"
+msgid "Attack nearby opponents, focus on attackers and chase while visible"
+msgstr "Ionsaigh céilí comhraic in aice láimhe, dírigh ar ionsaitheoirí agus téigh sa tóir orthu nuair atá siad sofheicthe"
+
+#: gui/session/selection_panels_helpers.js:73
+msgctxt "stance"
+msgid "Attack nearby opponents"
+msgstr "Ionsaigh céilí comhraic in aice láimhe"
+
+#: gui/session/selection_panels_helpers.js:75
+msgctxt "stance"
+msgid ""
+"Attack nearby opponents, chase a short distance and return to the original "
+"location"
+msgstr "Ionsaigh céilí comhraic in aice láimhe, téigh sa tóir ar achar gairid agus téigh ar ais go dtí an bunáit."
+
+#: gui/session/selection_panels_helpers.js:77
+msgctxt "stance"
+msgid "Flee if attacked"
+msgstr "Éalaigh má tá sé ionsaithe"
+
+#: gui/session/selection_panels_helpers.js:79
+msgctxt "stance"
+msgid "Attack opponents in range, but don't move"
+msgstr "Ionsaigh céilí comhraic in aice láimhe, ach ná gluais."
+
+#: gui/session/selection_panels_helpers.js:93
+#, javascript-format
+msgid "Current Count: %(count)s, Limit: %(limit)s."
+msgstr "Méid Reatha: %(count)s, Teorainn: %(limit)s."
+
+#: gui/session/selection_panels_helpers.js:107
+#, javascript-format
+msgid "%(changer)s enlarges the limit with %(change)s."
+msgstr "Méadú %(changer)s ar an uasdhonra le %(change)s."
+
+#: gui/session/selection_panels_helpers.js:108
+#, javascript-format
+msgid "%(changer)s lessens the limit with %(change)s."
+msgstr "Laghdú %(changer)s ar an uasdhaonra le %(change)s."
+
+#: gui/session/selection_panels_helpers.js:139
+#, javascript-format
+msgid "%(buildings)s*%(batchSize)s"
+msgstr "%(buildings)s*%(batchSize)s"
+
+#: gui/session/selection_panels_helpers.js:153
+#, javascript-format
+msgid "%(action)s to train %(number)s (%(fullBatch)s + %(remainderBatch)s)."
+msgstr "%(action)s agus %(number)s a thraenáil (%(fullBatch)s + %(remainderBatch)s)."
+
+#: gui/session/selection_panels_helpers.js:155
+#, javascript-format
+msgid "%(action)s to train %(number)s (%(fullBatch)s)."
+msgstr "%(action)s agus %(number)s a thraenáil (%(fullBatch)s)."
+
+#: gui/session/selection_panels_helpers.js:157
+#, javascript-format
+msgid "%(action)s to train %(number)s."
+msgstr "%(action)s agus %(number)s a thraenáil."
+
+#: gui/session/selection_panels_helpers.js:162
+msgid "Shift-click"
+msgstr "Iomlaidchliceáil"
+
+#: gui/session/unit_actions.js:571
+msgid "Origin trade market."
+msgstr "Margadh trádála búnusach."
+
+#: gui/session/unit_actions.js:577
+msgid "Right-click on another market to set it as a destination trade market."
+msgstr "Deaschliceáil ar margadh eile agus iad a chur mar mhargadh ceann scríbe."
+
+#: gui/session/unit_actions.js:581
+msgid "Destination trade market."
+msgstr "Margadh ceann scríbe."
+
+#: gui/session/unit_actions.js:588
+msgid "Right-click to set as origin trade market"
+msgstr "Deaschliceáil agus an margadh seo a chur mar mhargadh trádála búnusach"
+
+#: gui/session/unit_actions.js:595 gui/session/unit_actions.js:938
+msgid "This market is too close to the origin market."
+msgstr ""
+
+#: gui/session/unit_actions.js:599
+msgid "Right-click to set as destination trade market."
+msgstr "Deaschliceáil agus an margadh seo a chur mar mhargadh ceann scríbe."
+
+#: gui/session/unit_actions.js:660 gui/session/unit_actions.js:876
+#, javascript-format
+msgid "Current garrison: %(garrisoned)s/%(capacity)s"
+msgstr "Garastún reatha: %(garrisoned)s/%(capacity)s"
+
+#: gui/session/unit_actions.js:929
+msgid "Right-click to establish a default route for new traders."
+msgstr "Deaschliceáil agus bealach réamhshocraithe a chur do thradalaithe nua."
+
+#: gui/session/unit_actions.js:933
+#, javascript-format
+msgid "Expected gain: %(gain)s"
+msgstr "Brabús iarrtha: %(gain)s"
+
+#: gui/session/unit_actions.js:1071 gui/session/unit_actions.js:1399
+msgid "Unload All."
+msgstr "Dílódáil ar Fad."
+
+#: gui/session/unit_actions.js:1089
+msgid "Destroy the selected units or structures."
+msgstr ""
+
+#: gui/session/unit_actions.js:1091
+#, javascript-format
+msgid "Use %(hotkey)s to avoid the confirmation dialog."
+msgstr "Úsáid %(hotkey)s agus an dialóg déimhnithe a sheachaint."
+
+#: gui/session/unit_actions.js:1138
+msgid "Abort the current order."
+msgstr "Stop a chur leis an ordú reatha."
+
+#: gui/session/unit_actions.js:1157
+msgid "Order the selected units to garrison in a structure or unit."
+msgstr ""
+
+#: gui/session/unit_actions.js:1180
+msgid "Unload"
+msgstr "Dílódáil"
+
+#: gui/session/unit_actions.js:1198
+msgid "Order the selected units to repair a structure, ship, or siege engine."
+msgstr ""
+
+#: gui/session/unit_actions.js:1217
+msgid "Focus on Rally Point."
+msgstr "Dírigh ar Áit Slogaidh."
+
+#: gui/session/unit_actions.js:1252
+msgid "Back to Work"
+msgstr "Fill go hObair."
+
+#: gui/session/unit_actions.js:1271
+msgid "Order the selected units to guard a structure or unit."
+msgstr ""
+
+#: gui/session/unit_actions.js:1289
+msgid "Remove guard"
+msgstr "Bain garda"
+
+#: gui/session/unit_actions.js:1306
+#: gui/session/top_panel/IconButtons/TradeDialogButton.js:31
+#: gui/session/trade/TradeDialog.xml:(caption):9
+msgid "Barter & Trade"
+msgstr "Babhtáil & Trádáil"
+
+#: gui/session/unit_actions.js:1324
+msgid "Patrol"
+msgstr "Patról"
+
+#: gui/session/unit_actions.js:1325
+msgid "Attack all encountered enemy units while avoiding structures."
+msgstr ""
+
+#: gui/session/unit_actions.js:1351
+msgid "Press to allow allies to use this dropsite"
+msgstr "Brúigh agus ligeann do chomghuaillithe an áit léime seo a úsáid"
+
+#: gui/session/unit_actions.js:1355
+msgid "Press to prevent allies from using this dropsite"
+msgstr "Brúigh agus cur cosc ar do chomhghuaillithe an áit léime seo a úsáid"
+
+#: gui/session/unit_actions.js:1420
+msgid "You are allowed to use this dropsite"
+msgstr "Is féidir leat an áit léime seo a úsáid"
+
+#: gui/session/unit_actions.js:1425
+msgid "The use of this dropsite is prohibited"
+msgstr "Ní féidir leat an áit léime soe a úsáid"
+
+#: gui/session/unit_actions.js:1499
+msgid "The entity has to be killed before it can be gathered from"
+msgstr "Caithfear an aonán seo a mharú roimh bailiú den acmhainní"
+
+#: gui/session/unit_actions.js:1502
+msgid ""
+"You cannot destroy this entity as you own less than half the capture points"
+msgstr "Ní féidir leat an aonán seo a scriosadh mar tá d'úinéireacht níos lú ná leath pointí gabhála."
+
+#: gui/session/unit_actions.js:1505
+msgid "This entity is undeletable"
+msgstr "Ní féidir leat an t-aonán sea a scriosadh"
+
+#: gui/session/chat/ChatAddressees.js:88
+msgctxt "chat addressee"
+msgid "Everyone"
+msgstr "Gach Duine"
+
+#: gui/session/chat/ChatAddressees.js:94
+msgctxt "chat addressee"
+msgid "Allies"
+msgstr "Comhghuaillithe"
+
+#: gui/session/chat/ChatAddressees.js:95
+msgctxt "chat message context"
+msgid "Ally"
+msgstr "Comhghuaillí"
+
+#: gui/session/chat/ChatAddressees.js:105
+msgctxt "chat addressee"
+msgid "Enemies"
+msgstr "Naimhde"
+
+#: gui/session/chat/ChatAddressees.js:106
+msgctxt "chat message context"
+msgid "Enemy"
+msgstr "Namhaid"
+
+#: gui/session/chat/ChatAddressees.js:116
+msgctxt "chat addressee"
+msgid "Observers"
+msgstr "Breathnóirí"
+
+#: gui/session/chat/ChatAddressees.js:117
+msgctxt "chat message context"
+msgid "Observer"
+msgstr "Breathnóir"
+
+#: gui/session/chat/ChatAddressees.js:124
+msgctxt "chat message context"
+msgid "Private"
+msgstr "Príobháideach"
+
+#: gui/session/chat/ChatHistory.js:49
+#, javascript-format
+msgid "%(time)s %(message)s"
+msgstr "%(time)s %(message)s"
+
+#: gui/session/chat/ChatHistory.js:61
+#, javascript-format
+msgid "\\[%(time)s]"
+msgstr "\\[%(time)s]"
+
+#: gui/session/chat/ChatHistory.js:62
+msgid "HH:mm"
+msgstr "UU:nn"
+
+#: gui/session/chat/ChatHistory.js:82
+msgctxt "chat history filter"
+msgid "Chat and notifications"
+msgstr "Comhrá is fógra"
+
+#: gui/session/chat/ChatHistory.js:87
+msgctxt "chat history filter"
+msgid "Chat messages"
+msgstr "Teachtaireachtaí Comhrá"
+
+#: gui/session/chat/ChatHistory.js:92
+msgctxt "chat history filter"
+msgid "Players chat"
+msgstr "Comhrá Imreoirí"
+
+#: gui/session/chat/ChatHistory.js:99
+msgctxt "chat history filter"
+msgid "Ally chat"
+msgstr "Comhrá Comhguaillithe"
+
+#: gui/session/chat/ChatHistory.js:106
+msgctxt "chat history filter"
+msgid "Enemy chat"
+msgstr "Comhrá Naimhde"
+
+#: gui/session/chat/ChatHistory.js:113
+msgctxt "chat history filter"
+msgid "Observer chat"
+msgstr "Comhrá Breathnóirí"
+
+#: gui/session/chat/ChatHistory.js:120
+msgctxt "chat history filter"
+msgid "Private chat"
+msgstr "Comhrá Príobháideach"
+
+#: gui/session/chat/ChatHistory.js:125
+msgctxt "chat history filter"
+msgid "Game notifications"
+msgstr ""
+
+#: gui/session/chat/ChatHistory.js:130
+msgctxt "chat history filter"
+msgid "Network notifications"
+msgstr ""
+
+#: gui/session/chat/ChatInput.js:31
+msgctxt "chat input"
+msgid "Type the message to send."
+msgstr "Scríobh an teachtaireacht a sheol."
+
+#: gui/session/chat/ChatInput.js:37
+#, javascript-format
+msgid "Press %(hotkey)s to open the public chat."
+msgstr "Brúigh %(hotkey)s agus an comhrá poiblí a oscailt."
+
+#: gui/session/chat/ChatInput.js:40
+#, javascript-format
+msgid "Press %(hotkey)s to open the observer chat."
+msgstr "Brúigh %(hotkey)s agus comhrá na mbreathnóirí a oscailt."
+
+#: gui/session/chat/ChatInput.js:41
+#, javascript-format
+msgid "Press %(hotkey)s to open the ally chat."
+msgstr "Brúigh %(hotkey)s agus comhrá na gcomhghuaillithe a oscailt."
+
+#: gui/session/chat/ChatInput.js:43
+#, javascript-format
+msgid "Press %(hotkey)s to open the previously selected private chat."
+msgstr "Brúigh %(hotkey)s agus an comhrá príobháideach atá oscailte roimhe sin a oscailt."
+
+#. Translation: A player that left the game joins again
+#: gui/session/chat/ChatMessageFormatNetwork.js:23
+#, javascript-format
+msgid "%(player)s is starting to rejoin the game."
+msgstr "Tosaíonn %(player)s a dul ar ais chuig an gcluiche,"
+
+#. Translation: A player joins the game for the first time
+#: gui/session/chat/ChatMessageFormatNetwork.js:25
+#, javascript-format
+msgid "%(player)s is starting to join the game."
+msgstr "Tosaíonn %(player)s ag dul isteach sa chluiche."
+
+#: gui/session/chat/ChatMessageFormatNetwork.js:34
+#, javascript-format
+msgid "%(player)s has left the game."
+msgstr "Bhí %(player)s ag éirí as an cluiche."
+
+#: gui/session/chat/ChatMessageFormatNetwork.js:46
+#, javascript-format
+msgid "%(username)s has been banned"
+msgstr "Tá cosc a chur ar %(username)s"
+
+#: gui/session/chat/ChatMessageFormatNetwork.js:47
+#, javascript-format
+msgid "%(username)s has been kicked"
+msgstr "Tá %(username)s ciceáilte"
+
+#. Translation: A player that left the game joins again
+#: gui/session/chat/ChatMessageFormatNetwork.js:64
+#, javascript-format
+msgid "%(player)s has rejoined the game."
+msgstr "Chuaigh %(player)s ar ais chuig an gcluiche."
+
+#. Translation: A player joins the game for the first time
+#: gui/session/chat/ChatMessageFormatNetwork.js:66
+#, javascript-format
+msgid "%(player)s has joined the game."
+msgstr "Chuaigh %(player)s isteach sa chluiche."
+
+#: gui/session/chat/ChatMessageFormatPlayer.js:57
+msgid "no-context"
+msgstr ""
+
+#: gui/session/chat/ChatMessageFormatPlayer.js:61
+#, javascript-format
+msgid "<%(user)s>"
+msgstr "<%(user)s>"
+
+#: gui/session/chat/ChatMessageFormatPlayer.js:159
+#, javascript-format
+msgid "(%(context)s) %(userTag)s %(message)s"
+msgstr "(%(context)s) %(userTag)s %(message)s"
+
+#: gui/session/chat/ChatMessageFormatPlayer.js:160
+#, javascript-format
+msgid "%(userTag)s %(message)s"
+msgstr "%(userTag)s %(message)s"
+
+#: gui/session/chat/ChatMessageFormatPlayer.js:163
+#, javascript-format
+msgid "(%(context)s) * %(user)s %(message)s"
+msgstr "(%(context)s) * %(user)s %(message)s"
+
+#: gui/session/chat/ChatMessageFormatPlayer.js:164
+#, javascript-format
+msgid "* %(user)s %(message)s"
+msgstr "* %(user)s %(message)s"
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:16
+#, javascript-format
+msgid "Your livestock has been attacked by %(attacker)s!"
+msgstr "Tá do bheostoc ionsaithe le %(attacker)s!"
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:17
+#, javascript-format
+msgid "You have been attacked by %(attacker)s!"
+msgstr "Tá tú ionsaithe le %(attacker)s!"
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:38
+#, javascript-format
+msgid "%(player)s bartered %(amountsBought)s for %(amountsSold)s."
+msgstr "Bhabhtáil %(player)s %(amountsBought)s do %(amountsSold)s."
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:70
+#, javascript-format
+msgid "You are now allied with %(player)s."
+msgstr "Tá tú anois i do chomhghuaillí le %(player)s."
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:71
+#, javascript-format
+msgid "You are now at war with %(player)s."
+msgstr "Tá tú anois i gcogadh le %(player)s."
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:72
+#, javascript-format
+msgid "You are now neutral with %(player)s."
+msgstr "Tá tú i do neodrach le %(player)s."
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:75
+#, javascript-format
+msgid "%(player)s is now allied with you."
+msgstr "Tá %(player)s anois ina gcomhghuaillí leat."
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:76
+#, javascript-format
+msgid "%(player)s is now at war with you."
+msgstr "Tá %(player)s anois i gcogadh leat."
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:77
+#, javascript-format
+msgid "%(player)s is now neutral with you."
+msgstr "Tá %(player)s anois ina neodrach leat."
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:80
+#, javascript-format
+msgid "%(player)s is now allied with %(player2)s."
+msgstr "Tá %(player)s anois ina gcomhghuaillí le %(player2)s."
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:81
+#, javascript-format
+msgid "%(player)s is now at war with %(player2)s."
+msgstr "Tá %(player)s anois i gcogadh le %(player2)s."
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:82
+#, javascript-format
+msgid "%(player)s is now neutral with %(player2)s."
+msgstr "Tá %(player)s anois ina neodrach le %(player2)s."
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:98
+#, javascript-format
+msgid "%(player)s is advancing to the %(phaseName)s."
+msgstr "Ardaíonn %(player)s go dtí an %(phaseName)s."
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:100
+#, javascript-format
+msgid "The %(phaseName)s of %(player)s has been aborted."
+msgstr "Tá stop a chur leis an %(phaseName)s do %(player)s."
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:103
+#, javascript-format
+msgid "%(player)s has reached the %(phaseName)s."
+msgstr "D'ardaigh %(player)s go dtí an %(phaseName)s."
+
+#. Translation: This comma is used for separating first to penultimate
+#. elements in an enumeration.
+#: gui/session/chat/ChatMessageFormatSimulation.js:126
+msgid ", "
+msgstr ","
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:142
+#, javascript-format
+msgid "%(player)s has sent you %(amounts)s."
+msgstr "Sheol %(player)s %(amounts)schugat."
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:144
+#, javascript-format
+msgid "You have sent %(player2)s %(amounts)s."
+msgstr "Sheol tú %(amounts)s chuig %(player2)s."
+
+#: gui/session/chat/ChatMessageFormatSimulation.js:149
+#, javascript-format
+msgid "%(player)s has sent %(player2)s %(amounts)s."
+msgstr "Sheol %(player)s %(amounts)s chuig %(player2)s."
+
+#: gui/session/developer_overlay/DeveloperOverlay.js:67
+msgid "The Developer Overlay was opened."
+msgstr "Tá Forleagan an Fhorbróra oscailte."
+
+#: gui/session/developer_overlay/DeveloperOverlay.js:68
+msgid "The Developer Overlay was closed."
+msgstr "Tá Forleagan an Fhorbróra dúnta."
+
+#: gui/session/developer_overlay/DeveloperOverlayCheckboxes.js:15
+msgid "Control all units"
+msgstr "Rialaigh gach aonad"
+
+#: gui/session/developer_overlay/DeveloperOverlayCheckboxes.js:42
+msgid "Change perspective"
+msgstr "Athraigh amharc"
+
+#: gui/session/developer_overlay/DeveloperOverlayCheckboxes.js:60
+msgid "Display selection state"
+msgstr "Taispeáin staid roghnaithe"
+
+#: gui/session/developer_overlay/DeveloperOverlayCheckboxes.js:73
+msgid "Pathfinder overlay"
+msgstr "Forleagan ceannródaí"
+
+#: gui/session/developer_overlay/DeveloperOverlayCheckboxes.js:86
+msgid "Hierarchical pathfinder overlay"
+msgstr "Forleagan ceannródaí céimlathach"
+
+#: gui/session/developer_overlay/DeveloperOverlayCheckboxes.js:99
+msgid "Obstruction overlay"
+msgstr "Forleagan baic"
+
+#: gui/session/developer_overlay/DeveloperOverlayCheckboxes.js:112
+msgid "Unit motion overlay"
+msgstr "Forleagan gluaiseachta na n-aonad"
+
+#: gui/session/developer_overlay/DeveloperOverlayCheckboxes.js:125
+msgid "Range overlay"
+msgstr "Forleagan raoin"
+
+#: gui/session/developer_overlay/DeveloperOverlayCheckboxes.js:138
+msgid "Bounding box overlay"
+msgstr "Forleagan bosca críochantachta"
+
+#: gui/session/developer_overlay/DeveloperOverlayCheckboxes.js:151
+msgid "Restrict camera"
+msgstr "Srian a chur leis an gceamara"
+
+#: gui/session/developer_overlay/DeveloperOverlayCheckboxes.js:169
+msgid "Reveal map"
+msgstr "Léirigh léarscáil"
+
+#: gui/session/developer_overlay/DeveloperOverlayCheckboxes.js:195
+msgid "Enable time warp"
+msgstr "Cumasaigh freangadh ama"
+
+#: gui/session/developer_overlay/DeveloperOverlayCheckboxes.js:208
+msgid "Promote selected units"
+msgstr "Ardaigh aonaid roghnaithe"
+
+#: gui/session/developer_overlay/DeveloperOverlayCheckboxes.js:229
+msgid "Enable culling"
+msgstr "Cumasú a Mharú"
+
+#: gui/session/developer_overlay/DeveloperOverlayCheckboxes.js:247
+msgid "Lock cull camera"
+msgstr "Ceamara cuileála faoi ghlas"
+
+#: gui/session/developer_overlay/DeveloperOverlayCheckboxes.js:265
+msgid "Display camera frustum"
+msgstr "Frustum ceamara taispeána"
+
+#: gui/session/developer_overlay/TimeWarp.js:65
+msgid "Time warp mode"
+msgstr "Modh freangtha ama"
+
+#: gui/session/developer_overlay/TimeWarp.js:66
+msgid ""
+"Note: time warp mode is a developer option, and not intended for use over "
+"long periods of time. Using it incorrectly may cause the game to run out of "
+"memory or crash."
+msgstr "Nóta: is rogha forbróra é an modh 'freangadh ama', agus níl sé beartaithe do chluiche ag am fada. Nuair atá sé ina úsáid, b'fhéidir leat cuimhne a rith as, nó cliseadh a dhéanamh."
+
+#: gui/session/diplomacy/DiplomacyDialogCeasefireCounter.js:27
+#, javascript-format
+msgctxt "ceasefire"
+msgid "Remaining ceasefire time: %(time)s."
+msgstr "Am an tsosa chogaidh atá fágtha: %(time)s."
+
+#: gui/session/diplomacy/DiplomacyDialogColorsButton.js:30
+#: gui/session/minimap/MiniMapDiplomacyColorsButton.js:34
+#: gui/session/diplomacy/DiplomacyDialog.xml:(caption):85
+msgid "Toggle Diplomacy Colors"
+msgstr "Scoránaigh Dathanna Taidhleoireachta"
+
+#: gui/session/diplomacy/playercontrols/AttackRequestButton.js:38
+msgid "Request your allies to attack this enemy"
+msgstr "Iarratas a dhéanamh ar do chomhghuaillithe an namhaid seo a ionsaí"
+
+#: gui/session/diplomacy/playercontrols/DiplomacyPlayerText.js:75
+msgctxt "team"
+msgid "None"
+msgstr "Folamh"
+
+#: gui/session/diplomacy/playercontrols/DiplomacyPlayerText.js:78
+#: gui/session/diplomacy/DiplomacyDialog.xml:(tooltip):28
+msgid "Ally"
+msgstr "Comhghuaillí"
+
+#: gui/session/diplomacy/playercontrols/DiplomacyPlayerText.js:81
+#: gui/session/diplomacy/DiplomacyDialog.xml:(tooltip):32
+msgid "Neutral"
+msgstr "Neodrach"
+
+#: gui/session/diplomacy/playercontrols/DiplomacyPlayerText.js:84
+#: gui/session/diplomacy/DiplomacyDialog.xml:(tooltip):36
+msgid "Enemy"
+msgstr "Namhaid"
+
+#: gui/session/diplomacy/playercontrols/SpyRequestButton.js:139
+msgid ""
+"Bribe a random unit from this player and share its vision during a limited "
+"period."
+msgstr "Cuir breab ar aonad fánach don imreoir seo, agus a fhís a roinnt ag am áirithe."
+
+#: gui/session/diplomacy/playercontrols/SpyRequestButton.js:142
+msgid "A failed bribe will cost you:"
+msgstr "Cosnóidh breab treipthe go daor ort, den mhéid:"
+
+#: gui/session/diplomacy/playercontrols/StanceButton.js:60
+msgctxt "diplomatic stance selection"
+msgid "x"
+msgstr "x"
+
+#: gui/session/diplomacy/playercontrols/TributeButton.js:112
+#, javascript-format
+msgid ""
+"Tribute %(resourceAmount)s %(resourceType)s to %(playerName)s. Shift-click "
+"to tribute %(greaterAmount)s."
+msgstr "Gabh %(resourceAmount)s %(resourceType)s do %(playerName)s. Iomlaidchliceáil %(greaterAmount)s a chur mar do chíos féin."
+
+#: gui/session/message_box/DeleteSelectionConfirmation.js:10
+msgid "Delete"
+msgstr "Scrios"
+
+#: gui/session/message_box/DeleteSelectionConfirmation.js:11
+msgid "Destroy everything currently selected?"
+msgstr "Scrios gach rud atá roghnaithe?"
+
+#: gui/session/message_box/DeleteSelectionConfirmation.js:14
+#: gui/session/message_box/QuitConfirmation.js:14
+#: gui/session/message_box/QuitConfirmationMenu.js:49
+#: gui/session/message_box/ResignConfirmation.js:9
+#: gui/session/dialogs/yes_no.xml:(caption):24
+msgid "No"
+msgstr "Níl"
+
+#: gui/session/message_box/DeleteSelectionConfirmation.js:17
+#: gui/session/message_box/QuitConfirmation.js:17
+#: gui/session/message_box/QuitConfirmationMenu.js:52
+#: gui/session/message_box/ResignConfirmation.js:12
+#: gui/session/dialogs/yes_no.xml:(caption):19
+msgid "Yes"
+msgstr "Tá"
+
+#: gui/session/message_box/OutOfSyncNetwork.js:15
+#: gui/session/message_box/OutOfSyncReplay.js:26
+#, javascript-format
+msgid "Out-Of-Sync error on turn %(turn)s."
+msgstr "Earráid as Sionc ar an %(turn)sú seal."
+
+#: gui/session/message_box/OutOfSyncNetwork.js:19
+#, javascript-format
+msgctxt "Out-Of-Sync"
+msgid "Players: %(players)s"
+msgstr "Imreoirí: %(players)s"
+
+#: gui/session/message_box/OutOfSyncNetwork.js:24
+msgctxt "Out-Of-Sync"
+msgid "Your game state is identical to the hosts game state."
+msgstr "Tá do staid cluiche in comhionnan le staid cluiche an óstaigh."
+
+#: gui/session/message_box/OutOfSyncNetwork.js:25
+msgctxt "Out-Of-Sync"
+msgid "Your game state differs from the hosts game state."
+msgstr "Tá do staid cluiche in easaontú le staid cluiche an óstaigh."
+
+#: gui/session/message_box/OutOfSyncNetwork.js:31
+msgctxt "Out-Of-Sync"
+msgid "Rejoining Multiplayer games with AIs is not supported yet!"
+msgstr "Ní féidir le hathcheangal a dhéanamh do chluiche ilimreortha mar níl IS faoi thacaíocht fós! "
+
+#: gui/session/message_box/OutOfSyncNetwork.js:34
+msgctxt "Out-Of-Sync"
+msgid "Ensure all players use the same mods."
+msgstr "Deimhnigh go bhfuil modhanna céanna do gach imreoir."
+
+#: gui/session/message_box/OutOfSyncNetwork.js:35
+msgctxt "Out-Of-Sync"
+msgid "Click on \"Report a Bug\" in the main menu to help fix this."
+msgstr "Cliceáil ar \"Tuairiscigh Fabht\" sa phríomhroghchlár agus cabhróimid an fabht seo a chur ina cheart."
+
+#: gui/session/message_box/OutOfSyncNetwork.js:36
+#, javascript-format
+msgctxt "Out-Of-Sync"
+msgid "Replay saved to %(filepath)s"
+msgstr "Shábháil athimirt go %(filepath)s"
+
+#: gui/session/message_box/OutOfSyncNetwork.js:39
+#, javascript-format
+msgctxt "Out-Of-Sync"
+msgid "Dumping current state to %(filepath)s"
+msgstr "Dumpáil staid reatha go %(filepath)s"
+
+#: gui/session/message_box/OutOfSyncNetwork.js:51
+#: gui/session/message_box/OutOfSyncReplay.js:23
+msgid "Out of Sync"
+msgstr "As Sionc"
+
+#. Translation: This is shown if replay is out of sync
+#: gui/session/message_box/OutOfSyncReplay.js:28
+msgid "Out-Of-Sync"
+msgstr ""
+
+#: gui/session/message_box/QuitConfirmation.js:6
+#: gui/session/message_box/QuitConfirmationMenu.js:63
+#: gui/session/message_box/ResignConfirmation.js:5
+msgid "Confirmation"
+msgstr "Deimhniú"
+
+#: gui/session/message_box/QuitConfirmation.js:9
+msgid "Are you sure you want to quit?"
+msgstr "An bhfuil tú cinnte go mian leat éirí as."
+
+#: gui/session/message_box/QuitConfirmationDefeat.js:54
+msgid "VICTORIOUS!"
+msgstr "BUACACH!"
+
+#: gui/session/message_box/QuitConfirmationDefeat.js:55
+msgid "DEFEATED!"
+msgstr "CLOÍTE!"
+
+#: gui/session/message_box/QuitConfirmationDefeat.js:57
+msgid "Do you want to quit?"
+msgstr "An mhaith leat éirí as?"
+
+#: gui/session/message_box/QuitConfirmationMenu.js:33
+msgid ""
+"Are you sure you want to quit? Leaving will disconnect all other players."
+msgstr "An bhfuil tú cinnte go mian leat éirí as? Dícheanglóidh gach imreoir eile nuair atá tú ag imeacht."
+
+#: gui/session/message_box/QuitConfirmationMenu.js:64
+msgid "Do you want to resign or will you return soon?"
+msgstr "An mhaith leat éirí as, nó fillfidh tú ar ais go luath?"
+
+#: gui/session/message_box/QuitConfirmationMenu.js:67
+msgid "I will return"
+msgstr "Beidh mé ar ais"
+
+#: gui/session/message_box/QuitConfirmationMenu.js:71
+msgid "I resign"
+msgstr "Éirím as"
+
+#: gui/session/message_box/QuitConfirmationReplay.js:14
+msgctxt "replayFinished"
+msgid "Confirmation"
+msgstr "Deimhniú"
+
+#: gui/session/message_box/QuitConfirmationReplay.js:17
+msgctxt "replayFinished"
+msgid "The replay has finished. Do you want to quit?"
+msgstr "Chríochnaigh an athimirt. An mhaith leat éirí as?"
+
+#: gui/session/message_box/QuitConfirmationReplay.js:22
+msgctxt "replayFinished"
+msgid "No"
+msgstr "Ní hea"
+
+#: gui/session/message_box/QuitConfirmationReplay.js:25
+msgctxt "replayFinished"
+msgid "Yes"
+msgstr "Sea"
+
+#: gui/session/message_box/ResignConfirmation.js:6
+msgid "Are you sure you want to resign?"
+msgstr "An bhfuil tú cinnte go mian leat éirí as an cluiche?"
+
+#: gui/session/minimap/MiniMapIdleWorkerButton.js:39
+msgid "Find idle worker"
+msgstr "Aimsigh oibrí díomhaoin"
+
+#: gui/session/top_panel/CivIcon.js:77
+#, javascript-format
+msgid ""
+"%(civ)s\n"
+"%(hotkey_civinfo)s / %(hotkey_structree)s: View History / Structure Tree\n"
+"Last opened will be reopened on click."
+msgstr "%(civ)s\n%(hotkey_civinfo)s / %(hotkey_structree)s: Féach ar stair / Crann Tógála\nBeidh rud réamhoscailte ina oscailt arís ar clic."
+
+#: gui/session/top_panel/CounterManager.js:100
+#, javascript-format
+msgid "%(order)s: %(hotkey)s to change order."
+msgstr "%(order)s: brúigh %(hotkey)s agus an t-ordú a athrú."
+
+#: gui/session/top_panel/CounterManager.js:104
+msgid "Unordered"
+msgstr "Neamhordaithe"
+
+#: gui/session/top_panel/CounterManager.js:106
+msgid "Descending"
+msgstr "Íslitheach"
+
+#: gui/session/top_panel/CounterManager.js:107
+msgid "Ascending"
+msgstr "Ardaitheach"
+
+#: gui/session/top_panel/CounterManager.js:132
+#, javascript-format
+msgid "%(playername)s: %(statValue)s"
+msgstr "%(playername)s: %(statValue)s"
+
+#: gui/session/top_panel/CounterPopulation.js:56
+#, javascript-format
+msgid "%(popCount)s/%(popLimit)s"
+msgstr "%(popCount)s/%(popLimit)s"
+
+#: gui/session/top_panel/CounterPopulation.js:58
+msgid "Population (current / limit)"
+msgstr "Daonra (reatha / teorainn)"
+
+#: gui/session/top_panel/CounterPopulation.js:60
+#, javascript-format
+msgid "Maximum population: %(popCap)s"
+msgstr "Uasdhaonra: %(popCap)s"
+
+#: gui/session/top_panel/CounterPopulation.js:62
+#, javascript-format
+msgid "%(popCount)s/%(popLimit)s/%(popMax)s"
+msgstr "%(popCount)s/%(popLimit)s/%(popMax)s"
+
+#: gui/session/top_panel/PlayerViewControl.js:123
+msgid "Observer"
+msgstr "Breathnóir"
+
+#: gui/session/top_panel/IconButtons/DiplomacyDialogButton.js:29
+#: gui/session/diplomacy/DiplomacyDialog.xml:(caption):10
+msgid "Diplomacy"
+msgstr "Taidhleoireacht"
+
+#: gui/session/top_panel/IconButtons/ObjectivesDialogButton.js:23
+#: gui/session/objectives/ObjectivesDialog.xml:(caption):15
+msgid "Objectives"
+msgstr "Aidhmeanna"
+
+#: gui/session/trade/BarterButton.js:100
+#, javascript-format
+msgid "Buy %(resource)s"
+msgstr "Ceannaigh %(resource)s"
+
+#: gui/session/trade/BarterButton.js:101
+#, javascript-format
+msgid "Sell %(resource)s"
+msgstr "Díolaigh %(resource)s"
+
+#: gui/session/trade/BarterButton.js:102
+#, javascript-format
+msgctxt "buy action"
+msgid "+%(amount)s"
+msgstr ""
+
+#: gui/session/trade/BarterButton.js:103
+#, javascript-format
+msgctxt "sell action"
+msgid "-%(amount)s"
+msgstr ""
+
+#: gui/session/trade/TradeButton.js:56
+#, javascript-format
+msgctxt "trading good ratio"
+msgid "%(amount)s%%"
+msgstr ""
+
+#: gui/session/trade/TradeButtonManager.js:76
+#, javascript-format
+msgid ""
+"Select one type of goods you want to modify by clicking on it, and then use "
+"the arrows of the other types to modify their shares. You can also press "
+"%(hotkey)s while selecting one type of goods to bring its share to 100%%."
+msgstr "Roghnaigh aon chinéal éarraí ba mhaith leat a mhodhnú, agus cliceáil air. Anois, úsáid na saigheada do na scaireanna a mhodhnú. Is féidir leat brúigh ar %(hotkey)s nuair a roghnú tú aon chinéal éarraí agus a scair a athrú go 100%%."
+
+#: gui/session/trade/TradeDialogBarterPanel.js:45
+#, javascript-format
+msgid ""
+"Start by selecting the resource you wish to sell from the upper row. For "
+"each time the lower buttons are pressed, %(quantity)s of the upper resource "
+"will be sold for the displayed quantity of the lower. Press and hold "
+"%(hotkey)s to temporarily multiply the traded amount by %(multiplier)s."
+msgstr "Tosaigh le roghnú acmhainne ba mhaith leat a dhíol den bharr-líne. Gach uair atá na cnaipí íochtaracha faoi bhrú, díolfar %(quantity)s den acmhainn in uachtair do gach méid in íochtair. Brúigh is coinnigh ar %(hotkey)s don mhéid trádála a iolrú faoi %(multiplier)s go sealadach."
+
+#: gui/session/trade/TraderStatusTextLand.js:15
+#, javascript-format
+msgid "There is %(numberTrading)s land trader trading"
+msgid_plural "There are %(numberTrading)s land traders trading"
+msgstr[0] "Tá %(numberTrading)s trádálaí talún amháin ag trádáil"
+msgstr[1] "Tá %(numberTrading)s trádálaí talún ag trádáil"
+msgstr[2] "Tá beagán %(numberTrading)s trádálaithe talún ag trádáil"
+msgstr[3] "Tá cúpla %(numberTrading)s trádálaithe talún ag trádáil"
+msgstr[4] "Tá %(numberTrading)s trádálaithe talún ag trádáil"
+
+#: gui/session/trade/TraderStatusTextLand.js:25
+#, javascript-format
+msgid "%(numberOfLandTraders)s inactive"
+msgid_plural "%(numberOfLandTraders)s inactive"
+msgstr[0] "Tá %(numberOfLandTraders)s amháin neamhghníomhach"
+msgstr[1] "Tá %(numberOfLandTraders)sneamhghníomhach "
+msgstr[2] "Tá %(numberOfLandTraders)s neamhghníomhacha"
+msgstr[3] "Tá %(numberOfLandTraders)s neamhghníomhacha"
+msgstr[4] "Tá %(numberOfLandTraders)s neamhghníomhacha"
+
+#: gui/session/trade/TraderStatusTextLand.js:30
+#, javascript-format
+msgid "%(numberOfLandTraders)s land trader inactive"
+msgid_plural "%(numberOfLandTraders)s land traders inactive"
+msgstr[0] "Tá %(numberOfLandTraders)s trádálaí talún amháin neamhghníomhach"
+msgstr[1] "Tá %(numberOfLandTraders)s trádálaí talún neamhghníomhach"
+msgstr[2] "Tá %(numberOfLandTraders)s trádálaithe talún neamhghníomhacha"
+msgstr[3] "Tá %(numberOfLandTraders)s trádálaithe talún neamhghníomhacha"
+msgstr[4] "Tá %(numberOfLandTraders)s trádálaithe talún neamhghníomhacha"
+
+#: gui/session/trade/TraderStatusTextLand.js:40
+#, javascript-format
+msgid "%(numberGarrisoned)s garrisoned on a trading merchant ship"
+msgid_plural "%(numberGarrisoned)s garrisoned on a trading merchant ship"
+msgstr[0] "Tá %(numberGarrisoned)s aonad atá i ngarastún i long thrádála"
+msgstr[1] "Tá %(numberGarrisoned)s aonad atá i ngarstún i long thrádála"
+msgstr[2] "Tá %(numberGarrisoned)s aonad atá i ngarastún atá i long trádála"
+msgstr[3] "Tá %(numberGarrisoned)s aonad atá i ngarastún i long thrádála"
+msgstr[4] "Tá %(numberGarrisoned)s aonad atá i ngarastún i long thrádála"
+
+#: gui/session/trade/TraderStatusTextLand.js:45
+#, javascript-format
+msgid ""
+"There is %(numberGarrisoned)s land trader garrisoned on a trading merchant "
+"ship"
+msgid_plural ""
+"There are %(numberGarrisoned)s land traders garrisoned on a trading merchant"
+" ship"
+msgstr[0] "Tá %(numberGarrisoned)s thrádálaí tálun atá i ngarastún sa long thrádála seo."
+msgstr[1] "Tá %(numberGarrisoned)s thrádálaí tálun atá i ngarastún sa long thrádála seo."
+msgstr[2] "Tá %(numberGarrisoned)s trádálaí tálun atá i ngarastún sa long thrádála seo."
+msgstr[3] "Tá %(numberGarrisoned)s trádálaí tálun atá i ngarastún sa long thrádála seo."
+msgstr[4] "Tá %(numberGarrisoned)s trádálaí tálun atá i ngarastún sa long thrádála seo."
+
+#: gui/session/trade/TraderStatusTextLand.js:65
+#, javascript-format
+msgid "%(openingTradingString)s, and %(garrisonedString)s."
+msgstr "%(openingTradingString)s, agus %(garrisonedString)s."
+
+#: gui/session/trade/TraderStatusTextLand.js:66
+#, javascript-format
+msgid ""
+"%(openingTradingString)s, %(garrisonedString)s, and %(inactiveString)s."
+msgstr "%(openingTradingString)s, %(garrisonedString)s, agus %(inactiveString)s."
+
+#: gui/session/trade/TraderStatusTextLand.js:69
+#: gui/session/trade/TraderStatusTextShip.js:47
+#, javascript-format
+msgid "%(openingTradingString)s."
+msgstr "%(openingTradingString)s."
+
+#: gui/session/trade/TraderStatusTextLand.js:70
+#: gui/session/trade/TraderStatusTextShip.js:46
+#, javascript-format
+msgid "%(openingTradingString)s, and %(inactiveString)s."
+msgstr "%(openingTradingString)s, agus %(inactiveString)s."
+
+#: gui/session/trade/TraderStatusTextLand.js:75
+#, javascript-format
+msgid "%(openingGarrisonedString)s."
+msgstr "%(openingGarrisonedString)s."
+
+#: gui/session/trade/TraderStatusTextLand.js:76
+#, javascript-format
+msgid "%(openingGarrisonedString)s, and %(inactiveString)s."
+msgstr "%(openingGarrisonedString)s, agus %(inactiveString)s."
+
+#: gui/session/trade/TraderStatusTextLand.js:79
+#: gui/session/trade/TraderStatusTextShip.js:50
+#, javascript-format
+msgid "There is %(inactiveString)s."
+msgid_plural "There are %(inactiveString)s."
+msgstr[0] "Tá %(inactiveString)s."
+msgstr[1] "Tá %(inactiveString)s"
+msgstr[2] "Tá %(inactiveString)s"
+msgstr[3] "Tá %(inactiveString)s."
+msgstr[4] "Tá %(inactiveString)s."
+
+#: gui/session/trade/TraderStatusTextLand.js:80
+msgid "There are no land traders."
+msgstr "Nil aon trádálaithe talún ar bith."
+
+#: gui/session/trade/TraderStatusTextShip.js:14
+#, javascript-format
+msgid "There is %(numberTrading)s merchant ship trading"
+msgid_plural "There are %(numberTrading)s merchant ships trading"
+msgstr[0] "Tá %(numberTrading)s long thrádála ag trádáil"
+msgstr[1] "Tá %(numberTrading)s long thrádála ag trádáil"
+msgstr[2] "Tá %(numberTrading)s long thrádála ag trádáil"
+msgstr[3] "Tá %(numberTrading)s long thrádála ag trádáil"
+msgstr[4] "Tá %(numberTrading)s long thrádála ag trádáil"
+
+#: gui/session/trade/TraderStatusTextShip.js:24
+#, javascript-format
+msgid "%(numberOfShipTraders)s inactive"
+msgid_plural "%(numberOfShipTraders)s inactive"
+msgstr[0] "Tá %(numberOfShipTraders)s trádálaí neamhghníomhach"
+msgstr[1] "Tá %(numberOfShipTraders)s thrádálaí neamhgníomhach"
+msgstr[2] "Tá %(numberOfShipTraders)s trádálaíthe neamhghníomhach"
+msgstr[3] "Tá %(numberOfShipTraders)s trádálaithe neamhghníomhach"
+msgstr[4] "Tá %(numberOfShipTraders)s trádálaí neamhghníomhach"
+
+#: gui/session/trade/TraderStatusTextShip.js:29
+#, javascript-format
+msgid "%(numberOfShipTraders)s merchant ship inactive"
+msgid_plural "%(numberOfShipTraders)s merchant ships inactive"
+msgstr[0] "Tá %(numberOfShipTraders)s long thrádála neamhgníomhach"
+msgstr[1] "Tá %(numberOfShipTraders)s long thrádála neamhgníomhach"
+msgstr[2] "Tá %(numberOfShipTraders)s longa trádála neamhgníomhach"
+msgstr[3] "Tá %(numberOfShipTraders)s longa trádála neamhgníomhach"
+msgstr[4] "Tá %(numberOfShipTraders)s long thrádála neamhgníomhach"
+
+#: gui/session/trade/TraderStatusTextShip.js:51
+msgid "There are no merchant ships."
+msgstr "Níl aon long trádála ar bith."
+
+#: gui/session/GameSpeedControl.xml:(tooltip):11
+msgid "Choose game speed"
+msgstr "Roghnaigh luas an chluiche"
+
+#: gui/session/PauseOverlay.xml:(caption):7
+msgid "Game Paused"
+msgstr "Cluiche faoi sos"
+
+#: gui/session/PauseOverlay.xml:(caption):11
+msgid "Click to Resume Game"
+msgstr "Cliceáil don chluiche a atosú"
+
+#: gui/session/tutorial_panel.xml:(caption):11
+msgid "Ready"
+msgstr "Réidh"
+
+#: gui/session/chat/chat_window.xml:(caption):19
+msgctxt "chat input"
+msgid "Filter:"
+msgstr "Scagaire:"
+
+#: gui/session/chat/chat_window.xml:(caption):46
+msgctxt "chat input"
+msgid "To:"
+msgstr "Go dTí:"
+
+#: gui/session/chat/chat_window.xml:(caption):60
+msgctxt "chat input"
+msgid "Text:"
+msgstr "Téacs:"
+
+#: gui/session/chat/chat_window.xml:(caption):71
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: gui/session/chat/chat_window.xml:(caption):85
+msgctxt "chat"
+msgid "History"
+msgstr "Stair"
+
+#: gui/session/chat/chat_window.xml:(caption):90
+msgid "Send"
+msgstr "Seol"
+
+#: gui/session/chat/chat_window.xml:(tooltip):29
+msgctxt "chat input"
+msgid "Filter the chat history."
+msgstr "Cuir scagaire ar stair comhrá."
+
+#: gui/session/chat/chat_window.xml:(tooltip):55
+msgctxt "chat input"
+msgid "Select chat addressee."
+msgstr "Roghnaigh seolaí comhrá."
+
+#: gui/session/dialogs/yes_no.xml:(caption):11
+msgid "Question"
+msgstr "Céist"
+
+#: gui/session/dialogs/yes_no.xml:(caption):15
+msgid "Yes or no?"
+msgstr "Sea nó ní hea?"
+
+#: gui/session/diplomacy/DiplomacyDialog.xml:(caption):15
+msgid "Name"
+msgstr "Ainm"
+
+#: gui/session/diplomacy/DiplomacyDialog.xml:(caption):18
+msgid "Civilization"
+msgstr "Sibhialtacht"
+
+#: gui/session/diplomacy/DiplomacyDialog.xml:(caption):21
+msgid "Team"
+msgstr "Foireann"
+
+#: gui/session/diplomacy/DiplomacyDialog.xml:(caption):24
+msgid "Theirs"
+msgstr "D'iad"
+
+#: gui/session/diplomacy/DiplomacyDialog.xml:(caption):27
+msgid "A"
+msgstr "A"
+
+#: gui/session/diplomacy/DiplomacyDialog.xml:(caption):31
+msgid "N"
+msgstr "N"
+
+#: gui/session/diplomacy/DiplomacyDialog.xml:(caption):35
+msgid "E"
+msgstr "E"
+
+#: gui/session/diplomacy/DiplomacyDialog.xml:(caption):39
+msgid "Tribute"
+msgstr "Cíos"
+
+#: gui/session/diplomacy/DiplomacyDialog.xml:(caption):90
+#: gui/session/objectives/ObjectivesDialog.xml:(caption):43
+#: gui/session/trade/TradeDialog.xml:(caption):22
+msgid "Close"
+msgstr "Dún"
+
+#: gui/session/selection_panels_left/garrison_panel.xml:(tooltip):14
+msgid "Hitpoints"
+msgstr "Aonaid Sláinte"
+
+#: gui/session/selection_panels_middle/single_details_area.xml:(tooltip):18
+msgid "Health:"
+msgstr "Sláinte"
+
+#: gui/session/selection_panels_middle/single_details_area.xml:(tooltip):32
+msgid "Capture points:"
+msgstr "Pointí Gabhála:"
+
+#: gui/session/selection_panels_middle/single_details_area.xml:(tooltip):60
+msgid "Attack and Armor"
+msgstr "Ionsaí is armúr"
+
+#: gui/session/selection_panels_middle/single_details_area.xml:(tooltip):75
+msgid "Experience"
+msgstr "Taithí"
+
+#: gui/session/selection_panels_middle/single_details_area.xml:(tooltip):83
+msgid "Rank"
+msgstr "Céim"
+
+#: gui/session/selection_panels_right/queue_panel.xml:(tooltip):8
+msgid "Production queue"
+msgstr "Scuaine táirgthe"
+
+#: gui/session/session_objects/selection_group_icons.xml:(tooltip):8
+msgid ""
+"Click to select grouped units, double-click to focus the grouped units and "
+"right-click to disband the group."
+msgstr "Cliceáil agus aonaid grúpáilte a roghnú, cliceáil faoi dhó agus na haonaid a díriú orthu, agus deaschliceáil agus an grúpa a scor."
+
+#: gui/session/top_panel/BuildLabel.xml:(caption):6
+msgid "ALPHA XXIV"
+msgstr "ALPHA XXIV"
+
+#: gui/session/top_panel/FollowPlayer.xml:(tooltip):11
+#: gui/session/top_panel/FollowPlayer.xml:(caption):15
+msgctxt "observer mode"
+msgid "Follow Player"
+msgstr "Lean Imreoir"
+
+#: gui/session/top_panel/MenuButton.xml:(caption):15
+msgid "Menu"
+msgstr "Roghchlár"
+
+#: gui/session/top_panel/PlayerViewControl.xml:(tooltip):13
+msgid "Choose player to view"
+msgstr "Roghnaigh imreoir a scrúdú"
+
+#: gui/session/top_panel/PlayerViewControl.xml:(caption):17
+msgid "Observer Mode"
+msgstr "Modh Breathnóra"
+
+#: gui/session/top_panel/IconButtons/GameSpeedButton.xml:(tooltip):9
+msgid "Game Speed"
+msgstr "Luas Cluiche"
+
+#: gui/session/trade/BarterPanel.xml:(caption):5
+msgid "Barter"
+msgstr "Babhtáil"
+
+#: gui/session/trade/BarterPanel.xml:(caption):13
+msgid "Sell:"
+msgstr "Díol:"
+
+#: gui/session/trade/BarterPanel.xml:(caption):17
+msgid "Buy:"
+msgstr "Ceannaigh:"
+
+#: gui/session/trade/BarterPanel.xml:(caption):21
+msgid "No Markets Available"
+msgstr "Níl aon mhargadh ar fáil"
+
+#: gui/session/trade/TradePanel.xml:(caption):5
+msgid "Trade"
+msgstr "Trádáil"
+
+#: gui/session/trade/TradePanel.xml:(caption):14
+msgid "Resources:"
+msgstr ""

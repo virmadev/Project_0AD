@@ -1,0 +1,4 @@
+QUINQUEREME
+The heaviest standard warship. Available to: Carthaginians, Ptolemies, Romans, and Seleucids.
+Transports up to 50 units.
+Increases firepower with garrisoned catapults.
