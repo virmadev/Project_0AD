@@ -1,0 +1,473 @@
+# Translation template for Pyrogenesis - Mod Selector.
+# Copyright (C) 2018 Wildfire Games
+# This file is distributed under the same license as the Pyrogenesis - Mod Selector project.
+# 
+# Translators:
+# Victor Butko <victor.butko@gmail.com>, 2014
+# Микола Франчук <thekolian1996@gmail.com>, 2018
+# Тарас Коржик <ordinarystory@i.ua>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2018-12-31 09:46+0100\n"
+"PO-Revision-Date: 2018-12-31 15:46+0000\n"
+"Last-Translator: Victor Butko <victor.butko@gmail.com>\n"
+"Language-Team: Ukrainian (http://www.transifex.com/wildfire-games/0ad/language/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: gui/common/functions_msgbox.js:57
+#, javascript-format
+msgid ""
+"Opening %(url)s\n"
+" in default web browser. Please wait…"
+msgstr "Відкриття %(url)s\nу стандартному веб браузері. Будь ласка, зачекайте..."
+
+#: gui/common/functions_msgbox.js:60
+msgid "Opening page"
+msgstr "Початкова сторінка"
+
+#: gui/common/l10n.js:9
+msgctxt "filesize unit"
+msgid "B"
+msgstr "Б"
+
+#: gui/common/l10n.js:10
+msgctxt "filesize unit"
+msgid "KiB"
+msgstr "КіБ"
+
+#: gui/common/l10n.js:11
+msgctxt "filesize unit"
+msgid "MiB"
+msgstr "МіБ"
+
+#: gui/common/l10n.js:12
+msgctxt "filesize unit"
+msgid "GiB"
+msgstr "ГіБ"
+
+#. Translation: For example: 123.4 KiB
+#: gui/common/l10n.js:33
+#, javascript-format
+msgid "%(filesize)s %(unit)s"
+msgstr "%(filesize)s %(unit)s"
+
+#. Translation: Time-format string. See http://userguide.icu-
+#. project.org/formatparse/datetime for a guide to the meaning of the letters.
+#: gui/common/l10n.js:46
+msgid "mm:ss"
+msgstr "mm:ss"
+
+#: gui/common/l10n.js:46
+msgid "HH:mm:ss"
+msgstr "HH:mm:ss"
+
+#: gui/common/l10n.js:143
+msgctxt "enumeration"
+msgid ", "
+msgstr ", "
+
+#: gui/common/mod.js:17
+#, javascript-format
+msgctxt "Mod comparison"
+msgid "%(mod)s (%(version)s)"
+msgstr "%(mod)s (%(version)s)"
+
+#: gui/common/mod.js:20
+msgid ", "
+msgstr ", "
+
+#: gui/common/mod.js:28
+#, javascript-format
+msgctxt "Mod comparison"
+msgid "Required: %(mods)s"
+msgstr "Потребує: %(mods)s"
+
+#: gui/common/mod.js:30
+#, javascript-format
+msgctxt "Mod comparison"
+msgid "Active: %(mods)s"
+msgstr "Активний: %(mods)s"
+
+#: gui/modio/modio.js:80
+#, javascript-format
+msgctxt "mod.io error message"
+msgid ""
+"Game ID could not be retrieved.\n"
+"\n"
+"%(technicalDetails)s"
+msgstr "ID гри недоступний.\n\n%(technicalDetails)s"
+
+#: gui/modio/modio.js:83
+msgctxt "mod.io error message"
+msgid "Initialization Error"
+msgstr "Помилка Ініціалізації"
+
+#: gui/modio/modio.js:84 gui/modio/modio.js:95 gui/modio/modio.js:106
+#: gui/modio/modio.js:117
+msgid "Abort"
+msgstr "Відмінити"
+
+#: gui/modio/modio.js:84 gui/modio/modio.js:95 gui/modio/modio.js:106
+msgid "Retry"
+msgstr "Повтор"
+
+#: gui/modio/modio.js:91
+#, javascript-format
+msgctxt "mod.io error message"
+msgid ""
+"Mod List could not be retrieved.\n"
+"\n"
+"%(technicalDetails)s"
+msgstr "Список модів недоступний.\n\n%(technicalDetails)s"
+
+#: gui/modio/modio.js:94
+msgctxt "mod.io error message"
+msgid "Fetch Error"
+msgstr "Помилка Перевірки"
+
+#: gui/modio/modio.js:102
+#, javascript-format
+msgctxt "mod.io error message"
+msgid ""
+"File download failed.\n"
+"\n"
+"%(technicalDetails)s"
+msgstr "Помилка завантаження файлу.\n\n%(technicalDetails)s"
+
+#: gui/modio/modio.js:105
+msgctxt "mod.io error message"
+msgid "Download Error"
+msgstr "Помилка Завантаження"
+
+#: gui/modio/modio.js:113
+#, javascript-format
+msgctxt "mod.io error message"
+msgid ""
+"File verification error.\n"
+"\n"
+"%(technicalDetails)s"
+msgstr "Помилка перевірки файлу.\n\n%(technicalDetails)s"
+
+#: gui/modio/modio.js:116
+msgctxt "mod.io error message"
+msgid "Verification Error"
+msgstr "Помилка Підтвердження"
+
+#: gui/modio/modio.js:133
+msgid "Initializing mod.io interface."
+msgstr "Ініціалізація інтерфейсу mod.io."
+
+#: gui/modio/modio.js:134
+msgid "Initializing"
+msgstr "Ініціалізація"
+
+#: gui/modio/modio.js:136 gui/modmod/modmod.xml:(caption):184
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: gui/modio/modio.js:232
+msgid "Fetching and updating list of available mods."
+msgstr "Перевірка та оновлення списку доступних модів."
+
+#: gui/modio/modio.js:233
+msgid "Updating"
+msgstr "Оновлення"
+
+#: gui/modio/modio.js:235
+msgid "Cancel Update"
+msgstr "Відміна Оновлення"
+
+#: gui/modio/modio.js:248
+#, javascript-format
+msgid "Downloading “%(modname)s”"
+msgstr "Завантаження \"%(modname)s\""
+
+#: gui/modio/modio.js:251
+msgid "Downloading"
+msgstr "Завантаження"
+
+#: gui/modio/modio.js:253
+msgid "Cancel Download"
+msgstr "Відміна Завантаження"
+
+#. Translation: Mod file download indicator. Current size over expected final
+#. size, with percentage complete.
+#: gui/modio/modio.js:320
+#, javascript-format
+msgid "%(current)s / %(total)s (%(percent)s%%)"
+msgstr "%(current)s / %(total)s (%(percent)s%%)"
+
+#. Translation: Mod file download status message.
+#: gui/modio/modio.js:330
+#, javascript-format
+msgid ""
+"Time Elapsed: %(elapsed)s\n"
+"Estimated Time Remaining: %(remaining)s\n"
+"Average Speed: %(avgSpeed)s"
+msgstr "Часу минуло: %(elapsed)s\nЗалишилося до завершення: %(remaining)s\nСередня швидкість: %(avgSpeed)s"
+
+#: gui/modio/modio.js:332
+msgid "∞"
+msgstr "∞"
+
+#. Translation: Average download speed, used to give the user a very rough and
+#. naive idea of the download time. For example: 123.4 KiB/s
+#: gui/modio/modio.js:334
+#, javascript-format
+msgid "%(number)s %(unit)s/s"
+msgstr "%(number)s %(unit)s/с"
+
+#: gui/modmod/modmod.js:102 gui/modmod/modmod.js:233
+msgid "Filter"
+msgstr "Фільтр"
+
+#: gui/modmod/modmod.js:286
+#, javascript-format
+msgid "Dependency not met: %(dep)s"
+msgstr "Залежність не знайдена: %(dep)s"
+
+#: gui/modmod/modmod.js:292
+msgid "All dependencies met"
+msgstr "Всі залежності дотримані"
+
+#: gui/modmod/modmod.js:370
+msgid "Enable"
+msgstr "Увімкнути"
+
+#: gui/modmod/modmod.js:370
+msgid "Disable"
+msgstr "Відключити"
+
+#: gui/modmod/modmod.js:380
+msgid "No mod has been selected."
+msgstr "Жоден мод не вибрано."
+
+#: gui/modmod/modmodio.js:5
+msgid "Disclaimer"
+msgstr "Відмова від відповідальності"
+
+#: gui/modmod/modmodio.js:12
+msgid "mod.io Terms"
+msgstr "Умови користування mod.io"
+
+#: gui/modmod/modmodio.js:16
+msgid "mod.io Privacy Policy"
+msgstr "Політика Конфіденційності mod.io"
+
+#: gui/msgbox/msgbox.js:25
+msgid "OK"
+msgstr "Гаразд"
+
+#. Translation: Label of a button that when pressed opens the Terms and
+#. Conditions in the default webbrowser.
+#: gui/termsdialog/termsdialog.js:30
+msgid "View online"
+msgstr "Переглянути онлайн"
+
+#: gui/termsdialog/termsdialog.js:38
+#, javascript-format
+msgid "Open %(url)s in the browser."
+msgstr "Відкрийте %(url)s в браузері."
+
+#: gui/modio/modio.xml:(caption):18
+msgid "mod.io Mods"
+msgstr "Модифікації mod.io"
+
+#: gui/modio/modio.xml:(caption):25 gui/modmod/modmod.xml:(caption):56
+msgid "Available Mods"
+msgstr "Доступні моди"
+
+#: gui/modio/modio.xml:(caption):73
+msgid "Back"
+msgstr "Повернутися"
+
+#: gui/modio/modio.xml:(caption):78
+msgid "Refresh List"
+msgstr "Оновити Список"
+
+#: gui/modio/modio.xml:(caption):83
+msgid "Download"
+msgstr "Завантажити"
+
+#: gui/modio/modio.xml:(heading):53 gui/modmod/modmod.xml:(heading):76
+#: gui/modmod/modmod.xml:(heading):116
+msgid "Name"
+msgstr "Ім’я"
+
+#: gui/modio/modio.xml:(heading):56 gui/modmod/modmod.xml:(heading):79
+#: gui/modmod/modmod.xml:(heading):119
+msgid "Version"
+msgstr "Версія"
+
+#: gui/modio/modio.xml:(heading):59 gui/modmod/modmod.xml:(heading):85
+#: gui/modmod/modmod.xml:(heading):125
+msgid "Mod Label"
+msgstr "Позначка моду"
+
+#: gui/modio/modio.xml:(heading):62
+msgid "File Size"
+msgstr "Розмір Файлу"
+
+#: gui/modio/modio.xml:(heading):65 gui/modmod/modmod.xml:(heading):88
+#: gui/modmod/modmod.xml:(heading):128
+msgid "Dependencies"
+msgstr "Залежності"
+
+#: gui/modmod/modmod.xml:(caption):12
+msgid "Modifications"
+msgstr "Модифікації"
+
+#: gui/modmod/modmod.xml:(caption):37
+msgid "Negate"
+msgstr "Недійсне"
+
+#: gui/modmod/modmod.xml:(caption):49
+msgid "Description"
+msgstr "Опис"
+
+#: gui/modmod/modmod.xml:(caption):100
+msgid "Enabled Mods"
+msgstr "Увімкнути моди"
+
+#: gui/modmod/modmod.xml:(caption):167
+msgid "Enable/Disable"
+msgstr "Увімкнути/Вимкнути"
+
+#: gui/modmod/modmod.xml:(caption):170
+msgid "Visit Website"
+msgstr "Відвідайте Веб-сайт"
+
+#: gui/modmod/modmod.xml:(caption):179
+msgid "Quit"
+msgstr "Вийти"
+
+#: gui/modmod/modmod.xml:(caption):189
+msgid "Help"
+msgstr "Довідка"
+
+#: gui/modmod/modmod.xml:(caption):194
+msgid "Download Mods"
+msgstr "Завантажити Моди"
+
+#: gui/modmod/modmod.xml:(caption):199
+msgid "Save Configuration"
+msgstr "Зберегти налаштування"
+
+#: gui/modmod/modmod.xml:(caption):204
+msgid "Start Mods"
+msgstr "Запустити моди"
+
+#: gui/modmod/modmod.xml:(heading):82 gui/modmod/modmod.xml:(heading):122
+msgid "(Folder)"
+msgstr "(Тека)"
+
+#: gui/modmod/modmod.xml:(heading):91 gui/modmod/modmod.xml:(heading):131
+msgid "Website"
+msgstr "Web-сайт"
+
+#: gui/modmod/modmod.xml:(tooltip):146 gui/modmod/modmod.xml:(tooltip):160
+msgid ""
+"Change the order in which mods are launched. This should match the mods "
+"dependencies."
+msgstr "Змінити порядок запуску модів. Він має відповідати залежностям модів."
+
+#: gui/modmod/help/help.xml:(caption):13
+msgid "Pyrogenesis Mod Selector"
+msgstr "Вибір Модів Pyrogenesis"
+
+#: gui/modmod/help/help.xml:(caption):21
+msgid "Close"
+msgstr "Закрити"
+
+#: gui/modmod/help/help.xml:(caption):25
+msgid "Modding Guide"
+msgstr "Керівництво по Моддингу"
+
+#: gui/modmod/help/help.xml:(caption):29
+msgid "Visit mod.io"
+msgstr "Відвідати mod.io"
+
+#: gui/termsdialog/termsdialog.xml:(caption):15
+msgid "Language"
+msgstr "Мова"
+
+#: gui/termsdialog/termsdialog.xml:(caption):33
+msgid "Decline"
+msgstr "Відмінити"
+
+#: gui/termsdialog/termsdialog.xml:(caption):38
+msgid "Accept"
+msgstr "Приймати"
+
+#: gui/modio/Disclaimer.txt:1
+msgid "0 A.D. Empires Ascendant mod.io Disclaimer"
+msgstr "Відмова від відповідальності 0 A.D. Піднесення Імперій mod.io"
+
+#: gui/modio/Disclaimer.txt:3
+msgid "Document Date: 2018-10-12"
+msgstr "Дата документу: 2018-10-12"
+
+#: gui/modio/Disclaimer.txt:5
+msgid "You are about to connect to the mod.io online service."
+msgstr "Ви збираєтеся підключитися до онлайн-сервісу mod.io."
+
+#: gui/modio/Disclaimer.txt:6
+msgid ""
+"This service provides an easy way to download and install community-made "
+"mods and is provided by DBolical Pty Ltd, the company behind IndieDB and "
+"ModDB."
+msgstr "Цей сервіс дозволяє завантажувати і встановлювати моди, створені спільнотою, простим способом, та постачається компанією DBolical Pty Ltd, яка володіє IndieDB і ModDB."
+
+#: gui/modio/Disclaimer.txt:7
+msgid "The service is for users age 13 and over."
+msgstr "Сервіс призначений для користувачів старше 13 років."
+
+#: gui/modio/Disclaimer.txt:9
+msgid ""
+"Wildfire Games has taken care to make this connection secure and reviewed "
+"the mods for security flaws, but cannot guarantee that this does not pose "
+"any risks."
+msgstr "Wildfire Games подбала про безпеку цього з'єднання і перевірила моди на наявність вразливостей, але не може гарантувати відсутність будь-яких ризиків при їх використанні."
+
+#: gui/modio/Disclaimer.txt:11
+msgid ""
+"By using the service, you understand that mod.io's Terms of Use and Privacy "
+"Policy apply and that Wildfire Games is not liable for any damages resulting"
+" from this service."
+msgstr "Використовуючи сервіс, ви погоджуєтесь із Умовами Використання і Політикою Конфіденційності mod.io, а також приймаєте, що Wildfire Games не несе відповідальності за будь-які збитки, завдані вам при використанні даного сервісу."
+
+#: gui/modmod/help/help.txt:1
+msgid ""
+"0 A.D. is designed to be easily modded. Mods are distributed in the form of "
+".pyromod files, which can be opened like .zip files."
+msgstr "0 A.D. розроблена з розрахунком на легке створення модів. Моди поширюються в вигляді файлів .pyromod, які можуть бути відкриті як .zip архіви."
+
+#: gui/modmod/help/help.txt:3
+msgid ""
+"In order to install a mod, just open the file with 0 A.D. (either double-"
+"click on the file and choose to open it with the game, or run \"pyrogenesis "
+"file.pyromod\" in a terminal). The mod will then be available in the mod "
+"selector. You can enable it and disable it at will. You can delete the mod "
+"manually using your file browser if needed (see "
+"https://trac.wildfiregames.com/wiki/GameDataPaths)."
+msgstr "Для установки мода, відкрийте файл за допомогою 0 A.D. (Подвійний клік або команда \"pyrogenesis file.pyromod\" в консолі). Мод стане доступним в списку і його можна буде вмикати і вимикати за бажанням. Видалити мод можна вручну, використовуючи файловий менеджер (див. https://trac.wildfiregames.com/wiki/GameDataPaths)."
+
+#: gui/modmod/help/help.txt:5
+msgid ""
+"For more information about modding the game, see the Modding Guide online "
+"(click the Modding Guide button below)."
+msgstr "Для отримання додаткової інформації по модингу гри, дивіться Керівництво по Модингу онлайн (натисніть кнопку внизу)."
+
+#: gui/modmod/help/help.txt:7
+msgid ""
+"The mod.io service is developed by DBolical, the company behind IndieDB and "
+"ModDB. Those websites have spread the word about 0 A.D. and other indie "
+"projects for a long time! Today, mod.io allows us to list and download all "
+"the mods that were verified by the team. Click \"Download Mods\" to try it "
+"out and install some!"
+msgstr "Сервіс mod.io розроблений командою DBolical, розробником IndieDB і ModDB. Ці сайти поширюють інформацію про 0 A.D. та інші інді-проекти вже давно! Зараз mod.io дає можливість нам каталогізувати та завантажувати перевірені командою моди. Натисніть \"Завантажити моди\", щоб спробувати сервіс і встановити деякі!"

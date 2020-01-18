@@ -1,0 +1,475 @@
+# Translation template for Pyrogenesis - Mod Selector.
+# Copyright (C) 2018 Wildfire Games
+# This file is distributed under the same license as the Pyrogenesis - Mod Selector project.
+# 
+# Translators:
+# banginis <asesuarbanesu@gmail.com>, 2015
+# Mantas <mantaksam@gmail.com>, 2018
+# Paulius Damaška <pauldam000@gmail.com>, 2016
+# Serafim Mockus <serafimas96@gmail.com>, 2015
+# Vytautas, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2018-12-31 09:46+0100\n"
+"PO-Revision-Date: 2018-12-31 15:46+0000\n"
+"Last-Translator: banginis <asesuarbanesu@gmail.com>\n"
+"Language-Team: Lithuanian (http://www.transifex.com/wildfire-games/0ad/language/lt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#: gui/common/functions_msgbox.js:57
+#, javascript-format
+msgid ""
+"Opening %(url)s\n"
+" in default web browser. Please wait…"
+msgstr "Atveriame %(url)s\nnumatytoje naršyklėje. Prašome palaukti..."
+
+#: gui/common/functions_msgbox.js:60
+msgid "Opening page"
+msgstr "Atveriamas puslapis"
+
+#: gui/common/l10n.js:9
+msgctxt "filesize unit"
+msgid "B"
+msgstr "B"
+
+#: gui/common/l10n.js:10
+msgctxt "filesize unit"
+msgid "KiB"
+msgstr "KiB"
+
+#: gui/common/l10n.js:11
+msgctxt "filesize unit"
+msgid "MiB"
+msgstr "MiB"
+
+#: gui/common/l10n.js:12
+msgctxt "filesize unit"
+msgid "GiB"
+msgstr "GiB"
+
+#. Translation: For example: 123.4 KiB
+#: gui/common/l10n.js:33
+#, javascript-format
+msgid "%(filesize)s %(unit)s"
+msgstr "%(filesize)s %(unit)s"
+
+#. Translation: Time-format string. See http://userguide.icu-
+#. project.org/formatparse/datetime for a guide to the meaning of the letters.
+#: gui/common/l10n.js:46
+msgid "mm:ss"
+msgstr "mm:ss"
+
+#: gui/common/l10n.js:46
+msgid "HH:mm:ss"
+msgstr "HH:mm:ss"
+
+#: gui/common/l10n.js:143
+msgctxt "enumeration"
+msgid ", "
+msgstr ","
+
+#: gui/common/mod.js:17
+#, javascript-format
+msgctxt "Mod comparison"
+msgid "%(mod)s (%(version)s)"
+msgstr "%(mod)s (%(version)s)"
+
+#: gui/common/mod.js:20
+msgid ", "
+msgstr ","
+
+#: gui/common/mod.js:28
+#, javascript-format
+msgctxt "Mod comparison"
+msgid "Required: %(mods)s"
+msgstr "Privaloma: %(mods)s"
+
+#: gui/common/mod.js:30
+#, javascript-format
+msgctxt "Mod comparison"
+msgid "Active: %(mods)s"
+msgstr "Aktyvus: %(mods)s"
+
+#: gui/modio/modio.js:80
+#, javascript-format
+msgctxt "mod.io error message"
+msgid ""
+"Game ID could not be retrieved.\n"
+"\n"
+"%(technicalDetails)s"
+msgstr "Nepavyko gauti žaidimo identifikatoriaus\n\n%(technicalDetails)s"
+
+#: gui/modio/modio.js:83
+msgctxt "mod.io error message"
+msgid "Initialization Error"
+msgstr "Inicijavimo klaida"
+
+#: gui/modio/modio.js:84 gui/modio/modio.js:95 gui/modio/modio.js:106
+#: gui/modio/modio.js:117
+msgid "Abort"
+msgstr "Atšaukti"
+
+#: gui/modio/modio.js:84 gui/modio/modio.js:95 gui/modio/modio.js:106
+msgid "Retry"
+msgstr "Bandyti dar kartą"
+
+#: gui/modio/modio.js:91
+#, javascript-format
+msgctxt "mod.io error message"
+msgid ""
+"Mod List could not be retrieved.\n"
+"\n"
+"%(technicalDetails)s"
+msgstr "Nepavyko gauti modifikacijų sąrašo\n\n%(technicalDetails)s"
+
+#: gui/modio/modio.js:94
+msgctxt "mod.io error message"
+msgid "Fetch Error"
+msgstr "Paėmimo klaida"
+
+#: gui/modio/modio.js:102
+#, javascript-format
+msgctxt "mod.io error message"
+msgid ""
+"File download failed.\n"
+"\n"
+"%(technicalDetails)s"
+msgstr "Nepavyko atsiųsti failo\n\n%(technicalDetails)s"
+
+#: gui/modio/modio.js:105
+msgctxt "mod.io error message"
+msgid "Download Error"
+msgstr "Atsiuntimo klaida"
+
+#: gui/modio/modio.js:113
+#, javascript-format
+msgctxt "mod.io error message"
+msgid ""
+"File verification error.\n"
+"\n"
+"%(technicalDetails)s"
+msgstr "Failo tikrinimo klaida\n\n%(technicalDetails)s"
+
+#: gui/modio/modio.js:116
+msgctxt "mod.io error message"
+msgid "Verification Error"
+msgstr "Tikrinimo klaida"
+
+#: gui/modio/modio.js:133
+msgid "Initializing mod.io interface."
+msgstr "Inicijuojama mod.io sąsaja."
+
+#: gui/modio/modio.js:134
+msgid "Initializing"
+msgstr "Inicijuojama"
+
+#: gui/modio/modio.js:136 gui/modmod/modmod.xml:(caption):184
+msgid "Cancel"
+msgstr "Atšaukti"
+
+#: gui/modio/modio.js:232
+msgid "Fetching and updating list of available mods."
+msgstr "Paimamas ir atnaujinamas prieinamų modifikacijų sąrašas."
+
+#: gui/modio/modio.js:233
+msgid "Updating"
+msgstr "Atnaujinama"
+
+#: gui/modio/modio.js:235
+msgid "Cancel Update"
+msgstr "Atšaukti atnaujinimą"
+
+#: gui/modio/modio.js:248
+#, javascript-format
+msgid "Downloading “%(modname)s”"
+msgstr "Atsiunčiama \"%(modname)s\""
+
+#: gui/modio/modio.js:251
+msgid "Downloading"
+msgstr "Atsiunčiama"
+
+#: gui/modio/modio.js:253
+msgid "Cancel Download"
+msgstr "Atšaukti atsiuntimą"
+
+#. Translation: Mod file download indicator. Current size over expected final
+#. size, with percentage complete.
+#: gui/modio/modio.js:320
+#, javascript-format
+msgid "%(current)s / %(total)s (%(percent)s%%)"
+msgstr "%(current)s / %(total)s (%(percent)s%%)"
+
+#. Translation: Mod file download status message.
+#: gui/modio/modio.js:330
+#, javascript-format
+msgid ""
+"Time Elapsed: %(elapsed)s\n"
+"Estimated Time Remaining: %(remaining)s\n"
+"Average Speed: %(avgSpeed)s"
+msgstr "Praėjęs laikas: %(elapsed)s\nApytiksliai likęs laikas: %(remaining)s\nVidutinis greitis: %(avgSpeed)s"
+
+#: gui/modio/modio.js:332
+msgid "∞"
+msgstr "∞"
+
+#. Translation: Average download speed, used to give the user a very rough and
+#. naive idea of the download time. For example: 123.4 KiB/s
+#: gui/modio/modio.js:334
+#, javascript-format
+msgid "%(number)s %(unit)s/s"
+msgstr "%(number)s %(unit)s/s"
+
+#: gui/modmod/modmod.js:102 gui/modmod/modmod.js:233
+msgid "Filter"
+msgstr "Filtras"
+
+#: gui/modmod/modmod.js:286
+#, javascript-format
+msgid "Dependency not met: %(dep)s"
+msgstr "Reikalavimai nesutikti: %(dep)s"
+
+#: gui/modmod/modmod.js:292
+msgid "All dependencies met"
+msgstr "Visi reikalavimai įvykdyti"
+
+#: gui/modmod/modmod.js:370
+msgid "Enable"
+msgstr "Įgalinti"
+
+#: gui/modmod/modmod.js:370
+msgid "Disable"
+msgstr ""
+
+#: gui/modmod/modmod.js:380
+msgid "No mod has been selected."
+msgstr "Nepasirinkta jokia modifikacija."
+
+#: gui/modmod/modmodio.js:5
+msgid "Disclaimer"
+msgstr "Atsakomybės neprisiėmimas"
+
+#: gui/modmod/modmodio.js:12
+msgid "mod.io Terms"
+msgstr "mod.io sąlygos"
+
+#: gui/modmod/modmodio.js:16
+msgid "mod.io Privacy Policy"
+msgstr "mod.io privatumo politika"
+
+#: gui/msgbox/msgbox.js:25
+msgid "OK"
+msgstr "Gerai"
+
+#. Translation: Label of a button that when pressed opens the Terms and
+#. Conditions in the default webbrowser.
+#: gui/termsdialog/termsdialog.js:30
+msgid "View online"
+msgstr "Internetinė versija"
+
+#: gui/termsdialog/termsdialog.js:38
+#, javascript-format
+msgid "Open %(url)s in the browser."
+msgstr "Atverti %(url)s naršyklėje"
+
+#: gui/modio/modio.xml:(caption):18
+msgid "mod.io Mods"
+msgstr "mod.io modifikacijos"
+
+#: gui/modio/modio.xml:(caption):25 gui/modmod/modmod.xml:(caption):56
+msgid "Available Mods"
+msgstr "Galimos modifikacijos"
+
+#: gui/modio/modio.xml:(caption):73
+msgid "Back"
+msgstr "Grįžti"
+
+#: gui/modio/modio.xml:(caption):78
+msgid "Refresh List"
+msgstr "Atnaujinti sąrašą"
+
+#: gui/modio/modio.xml:(caption):83
+msgid "Download"
+msgstr "Atsiųsti"
+
+#: gui/modio/modio.xml:(heading):53 gui/modmod/modmod.xml:(heading):76
+#: gui/modmod/modmod.xml:(heading):116
+msgid "Name"
+msgstr "Vardas"
+
+#: gui/modio/modio.xml:(heading):56 gui/modmod/modmod.xml:(heading):79
+#: gui/modmod/modmod.xml:(heading):119
+msgid "Version"
+msgstr "Versija"
+
+#: gui/modio/modio.xml:(heading):59 gui/modmod/modmod.xml:(heading):85
+#: gui/modmod/modmod.xml:(heading):125
+msgid "Mod Label"
+msgstr "Modifikacijos etiketė"
+
+#: gui/modio/modio.xml:(heading):62
+msgid "File Size"
+msgstr "Failo dydis"
+
+#: gui/modio/modio.xml:(heading):65 gui/modmod/modmod.xml:(heading):88
+#: gui/modmod/modmod.xml:(heading):128
+msgid "Dependencies"
+msgstr "Reikalavimai"
+
+#: gui/modmod/modmod.xml:(caption):12
+msgid "Modifications"
+msgstr "Modifikacijos"
+
+#: gui/modmod/modmod.xml:(caption):37
+msgid "Negate"
+msgstr "Negalimas"
+
+#: gui/modmod/modmod.xml:(caption):49
+msgid "Description"
+msgstr "Aprašymas"
+
+#: gui/modmod/modmod.xml:(caption):100
+msgid "Enabled Mods"
+msgstr "Įgalintos modifikacijos"
+
+#: gui/modmod/modmod.xml:(caption):167
+msgid "Enable/Disable"
+msgstr "Įjungti / išjungti"
+
+#: gui/modmod/modmod.xml:(caption):170
+msgid "Visit Website"
+msgstr "Aplankykite svetainę"
+
+#: gui/modmod/modmod.xml:(caption):179
+msgid "Quit"
+msgstr "Baigti"
+
+#: gui/modmod/modmod.xml:(caption):189
+msgid "Help"
+msgstr "Pagalba"
+
+#: gui/modmod/modmod.xml:(caption):194
+msgid "Download Mods"
+msgstr "Atsiusti modifikacijas"
+
+#: gui/modmod/modmod.xml:(caption):199
+msgid "Save Configuration"
+msgstr "Išsaugoti konfigūraciją"
+
+#: gui/modmod/modmod.xml:(caption):204
+msgid "Start Mods"
+msgstr "Paleisti Modifikacijas"
+
+#: gui/modmod/modmod.xml:(heading):82 gui/modmod/modmod.xml:(heading):122
+msgid "(Folder)"
+msgstr "(aplankas)"
+
+#: gui/modmod/modmod.xml:(heading):91 gui/modmod/modmod.xml:(heading):131
+msgid "Website"
+msgstr "Interneto svetainė"
+
+#: gui/modmod/modmod.xml:(tooltip):146 gui/modmod/modmod.xml:(tooltip):160
+msgid ""
+"Change the order in which mods are launched. This should match the mods "
+"dependencies."
+msgstr "Pakeisti modifikacijų paleidimo tvarką. Turi atitikti modifikacijų priklausomybes."
+
+#: gui/modmod/help/help.xml:(caption):13
+msgid "Pyrogenesis Mod Selector"
+msgstr "Pyrogenesis modifikacijų selektorius"
+
+#: gui/modmod/help/help.xml:(caption):21
+msgid "Close"
+msgstr "Uždaryti"
+
+#: gui/modmod/help/help.xml:(caption):25
+msgid "Modding Guide"
+msgstr "Modifikavimo gidas"
+
+#: gui/modmod/help/help.xml:(caption):29
+msgid "Visit mod.io"
+msgstr "Aplankyti mod.io"
+
+#: gui/termsdialog/termsdialog.xml:(caption):15
+msgid "Language"
+msgstr "Kalba"
+
+#: gui/termsdialog/termsdialog.xml:(caption):33
+msgid "Decline"
+msgstr "Atsisakyti"
+
+#: gui/termsdialog/termsdialog.xml:(caption):38
+msgid "Accept"
+msgstr "Sutikti"
+
+#: gui/modio/Disclaimer.txt:1
+msgid "0 A.D. Empires Ascendant mod.io Disclaimer"
+msgstr "0 A.D. Empires Ascendant mod.io atsakomybės neprisiėmimas"
+
+#: gui/modio/Disclaimer.txt:3
+msgid "Document Date: 2018-10-12"
+msgstr "Dokumento data: 2018-10-12"
+
+#: gui/modio/Disclaimer.txt:5
+msgid "You are about to connect to the mod.io online service."
+msgstr "Jūs netrukus jungsitės prie mod.io internetinės paslaugos."
+
+#: gui/modio/Disclaimer.txt:6
+msgid ""
+"This service provides an easy way to download and install community-made "
+"mods and is provided by DBolical Pty Ltd, the company behind IndieDB and "
+"ModDB."
+msgstr "Ši tarnyba leidžia lengvai atsiųsti ir įdiegti bendruomenės sukurtas modifikacijas. Šias paslaugas teikia DBolical Pty Ltd - kompanija, kuriai priklauso IndieDB ir ModDB."
+
+#: gui/modio/Disclaimer.txt:7
+msgid "The service is for users age 13 and over."
+msgstr "Ši paslauga skirta 13-os ir daugiau metų vartotojams."
+
+#: gui/modio/Disclaimer.txt:9
+msgid ""
+"Wildfire Games has taken care to make this connection secure and reviewed "
+"the mods for security flaws, but cannot guarantee that this does not pose "
+"any risks."
+msgstr "Wildfire Games užtikrino ryšio saugumą ir patikrino galimas modifikacijų saugumo spragas, tačiau negali garantuoti, kad nekils jokių grėsmių."
+
+#: gui/modio/Disclaimer.txt:11
+msgid ""
+"By using the service, you understand that mod.io's Terms of Use and Privacy "
+"Policy apply and that Wildfire Games is not liable for any damages resulting"
+" from this service."
+msgstr "Jums suprantama, kad naudojant šią paslaugą galioja mod.io naudojimo sąlygos ir privatumo taisyklės, ir kad Wildfire Games neatsako už jokią žalą, patirtą naudojant šią paslaugą."
+
+#: gui/modmod/help/help.txt:1
+msgid ""
+"0 A.D. is designed to be easily modded. Mods are distributed in the form of "
+".pyromod files, which can be opened like .zip files."
+msgstr "0 A.D. buvo suprojektuotas lengvam modifikavimui. Modifikacijos yra platinamos \".pyromod\" failų pavidalu, kurie gali būti atverti lygiai kaip ir \".zip\" failai."
+
+#: gui/modmod/help/help.txt:3
+msgid ""
+"In order to install a mod, just open the file with 0 A.D. (either double-"
+"click on the file and choose to open it with the game, or run \"pyrogenesis "
+"file.pyromod\" in a terminal). The mod will then be available in the mod "
+"selector. You can enable it and disable it at will. You can delete the mod "
+"manually using your file browser if needed (see "
+"https://trac.wildfiregames.com/wiki/GameDataPaths)."
+msgstr "Norėdami įdiegti modifikaciją, paprasčiausiai atverkite failą su \"0 A.D.\" (dvigubu pelės paspaudimu ir pasirenkant atverti su žaidimo programa, arba paleisdami \"pyrogenesis file.pyromod\" termnale). Modifikacija taps prieinama modifikacijų sąraše, ir ją galėsite įjungti ir išjungti kada panorėję. Esant reikalui modifikaciją galite ištrinti rankiniu būdu failų naršyklės pagalba (žiūrėkite https://trac.wildfiregames.com/wiki/GameDataPaths)."
+
+#: gui/modmod/help/help.txt:5
+msgid ""
+"For more information about modding the game, see the Modding Guide online "
+"(click the Modding Guide button below)."
+msgstr "Daugiau informacijos apie žaidimo modifikaciją rasite internetiniame modifikavimo gide (spustelėkite žemiau esantį \"Modifikavimo gidas\" mygtuką)."
+
+#: gui/modmod/help/help.txt:7
+msgid ""
+"The mod.io service is developed by DBolical, the company behind IndieDB and "
+"ModDB. Those websites have spread the word about 0 A.D. and other indie "
+"projects for a long time! Today, mod.io allows us to list and download all "
+"the mods that were verified by the team. Click \"Download Mods\" to try it "
+"out and install some!"
+msgstr "mod.io paslaugą sukūrė DBolical - kompanija, kuriai priklauso IndieDB ir ModDB. Šios svetainės jau ilgą laiką skleidžia informaciją apie 0 A.D. ir kitus nepriklausomus projektus. mod.io leidžia teikti ir atsiųsti visas komandos patikrintas modifikacijas. Spauskite \"Atsiųsti modifikacijas\" ir išbandykite!"

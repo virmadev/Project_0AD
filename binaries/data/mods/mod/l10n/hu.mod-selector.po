@@ -1,0 +1,476 @@
+# Translation template for Pyrogenesis - Mod Selector.
+# Copyright (C) 2018 Wildfire Games
+# This file is distributed under the same license as the Pyrogenesis - Mod Selector project.
+# 
+# Translators:
+# Balázs Meskó <meskobalazs@gmail.com>, 2017-2018
+# Balázs Úr <ur.balazs@fsf.hu>, 2015-2016,2018
+# Gyuris Gellért <bubu@ujevangelizacio.hu>, 2014
+# Gyuris Gellért <bubu@ujevangelizacio.hu>, 2018
+# Nagy András <asd0707@freemail.hu>, 2018
+# Stew Den <stewden55@hotmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2018-12-31 09:46+0100\n"
+"PO-Revision-Date: 2018-12-31 15:46+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/wildfire-games/0ad/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: gui/common/functions_msgbox.js:57
+#, javascript-format
+msgid ""
+"Opening %(url)s\n"
+" in default web browser. Please wait…"
+msgstr "%(url)s megnyitása\naz alapértelmezett böngészőben, várj…"
+
+#: gui/common/functions_msgbox.js:60
+msgid "Opening page"
+msgstr "Nyitólap"
+
+#: gui/common/l10n.js:9
+msgctxt "filesize unit"
+msgid "B"
+msgstr "B"
+
+#: gui/common/l10n.js:10
+msgctxt "filesize unit"
+msgid "KiB"
+msgstr "KiB"
+
+#: gui/common/l10n.js:11
+msgctxt "filesize unit"
+msgid "MiB"
+msgstr "MiB"
+
+#: gui/common/l10n.js:12
+msgctxt "filesize unit"
+msgid "GiB"
+msgstr "GiB"
+
+#. Translation: For example: 123.4 KiB
+#: gui/common/l10n.js:33
+#, javascript-format
+msgid "%(filesize)s %(unit)s"
+msgstr "%(filesize)s %(unit)s"
+
+#. Translation: Time-format string. See http://userguide.icu-
+#. project.org/formatparse/datetime for a guide to the meaning of the letters.
+#: gui/common/l10n.js:46
+msgid "mm:ss"
+msgstr "mm:ss"
+
+#: gui/common/l10n.js:46
+msgid "HH:mm:ss"
+msgstr "HH:mm:ss"
+
+#: gui/common/l10n.js:143
+msgctxt "enumeration"
+msgid ", "
+msgstr ", "
+
+#: gui/common/mod.js:17
+#, javascript-format
+msgctxt "Mod comparison"
+msgid "%(mod)s (%(version)s)"
+msgstr "%(mod)s (%(version)s)"
+
+#: gui/common/mod.js:20
+msgid ", "
+msgstr ", "
+
+#: gui/common/mod.js:28
+#, javascript-format
+msgctxt "Mod comparison"
+msgid "Required: %(mods)s"
+msgstr "Szükséges: %(mods)s"
+
+#: gui/common/mod.js:30
+#, javascript-format
+msgctxt "Mod comparison"
+msgid "Active: %(mods)s"
+msgstr "Aktív: %(mods)s"
+
+#: gui/modio/modio.js:80
+#, javascript-format
+msgctxt "mod.io error message"
+msgid ""
+"Game ID could not be retrieved.\n"
+"\n"
+"%(technicalDetails)s"
+msgstr "A játék azonosítóját nem sikerült lekérni.\n\n%(technicalDetails)s"
+
+#: gui/modio/modio.js:83
+msgctxt "mod.io error message"
+msgid "Initialization Error"
+msgstr "Előkészítési hiba"
+
+#: gui/modio/modio.js:84 gui/modio/modio.js:95 gui/modio/modio.js:106
+#: gui/modio/modio.js:117
+msgid "Abort"
+msgstr "Megszakítás"
+
+#: gui/modio/modio.js:84 gui/modio/modio.js:95 gui/modio/modio.js:106
+msgid "Retry"
+msgstr "Újra"
+
+#: gui/modio/modio.js:91
+#, javascript-format
+msgctxt "mod.io error message"
+msgid ""
+"Mod List could not be retrieved.\n"
+"\n"
+"%(technicalDetails)s"
+msgstr "A modok listáját nem sikerült lekérni.\n\n%(technicalDetails)s"
+
+#: gui/modio/modio.js:94
+msgctxt "mod.io error message"
+msgid "Fetch Error"
+msgstr "Lekérési hiba"
+
+#: gui/modio/modio.js:102
+#, javascript-format
+msgctxt "mod.io error message"
+msgid ""
+"File download failed.\n"
+"\n"
+"%(technicalDetails)s"
+msgstr "Fájlletöltés sikertelen.\n\n%(technicalDetails)s"
+
+#: gui/modio/modio.js:105
+msgctxt "mod.io error message"
+msgid "Download Error"
+msgstr "Letöltési hiba"
+
+#: gui/modio/modio.js:113
+#, javascript-format
+msgctxt "mod.io error message"
+msgid ""
+"File verification error.\n"
+"\n"
+"%(technicalDetails)s"
+msgstr "Fájlellenőrzési hiba.\n\n%(technicalDetails)s"
+
+#: gui/modio/modio.js:116
+msgctxt "mod.io error message"
+msgid "Verification Error"
+msgstr "Ellenőrzési hiba"
+
+#: gui/modio/modio.js:133
+msgid "Initializing mod.io interface."
+msgstr "A mod.io felület előkészítése."
+
+#: gui/modio/modio.js:134
+msgid "Initializing"
+msgstr "Előkészítés"
+
+#: gui/modio/modio.js:136 gui/modmod/modmod.xml:(caption):184
+msgid "Cancel"
+msgstr "Mégse"
+
+#: gui/modio/modio.js:232
+msgid "Fetching and updating list of available mods."
+msgstr "Az elérhető modok listájának lekérésre és frissítése."
+
+#: gui/modio/modio.js:233
+msgid "Updating"
+msgstr "Frissítés"
+
+#: gui/modio/modio.js:235
+msgid "Cancel Update"
+msgstr "Frissítés megszakítása"
+
+#: gui/modio/modio.js:248
+#, javascript-format
+msgid "Downloading “%(modname)s”"
+msgstr "„%(modname)s” letöltése"
+
+#: gui/modio/modio.js:251
+msgid "Downloading"
+msgstr "Letöltés"
+
+#: gui/modio/modio.js:253
+msgid "Cancel Download"
+msgstr "Letöltés megszakítása"
+
+#. Translation: Mod file download indicator. Current size over expected final
+#. size, with percentage complete.
+#: gui/modio/modio.js:320
+#, javascript-format
+msgid "%(current)s / %(total)s (%(percent)s%%)"
+msgstr "%(current)s / %(total)s (%(percent)s%%)"
+
+#. Translation: Mod file download status message.
+#: gui/modio/modio.js:330
+#, javascript-format
+msgid ""
+"Time Elapsed: %(elapsed)s\n"
+"Estimated Time Remaining: %(remaining)s\n"
+"Average Speed: %(avgSpeed)s"
+msgstr "Eltelt idő: %(elapsed)s\nBecsült hátralévő idő: %(remaining)s\nÁtlagsebesség: %(avgSpeed)s"
+
+#: gui/modio/modio.js:332
+msgid "∞"
+msgstr "∞"
+
+#. Translation: Average download speed, used to give the user a very rough and
+#. naive idea of the download time. For example: 123.4 KiB/s
+#: gui/modio/modio.js:334
+#, javascript-format
+msgid "%(number)s %(unit)s/s"
+msgstr "%(number)s %(unit)s/s"
+
+#: gui/modmod/modmod.js:102 gui/modmod/modmod.js:233
+msgid "Filter"
+msgstr "Szűrő"
+
+#: gui/modmod/modmod.js:286
+#, javascript-format
+msgid "Dependency not met: %(dep)s"
+msgstr "Nem teljesülő függőség: %(dep)s"
+
+#: gui/modmod/modmod.js:292
+msgid "All dependencies met"
+msgstr "Minden függőség kielégítve"
+
+#: gui/modmod/modmod.js:370
+msgid "Enable"
+msgstr "Engedélyezés"
+
+#: gui/modmod/modmod.js:370
+msgid "Disable"
+msgstr "Letiltás"
+
+#: gui/modmod/modmod.js:380
+msgid "No mod has been selected."
+msgstr "Nincs kijelölt módosítás."
+
+#: gui/modmod/modmodio.js:5
+msgid "Disclaimer"
+msgstr "Nyilatkozat"
+
+#: gui/modmod/modmodio.js:12
+msgid "mod.io Terms"
+msgstr "mod.io Feltételek"
+
+#: gui/modmod/modmodio.js:16
+msgid "mod.io Privacy Policy"
+msgstr "mod.io Adatvédelmi nyilatkozat"
+
+#: gui/msgbox/msgbox.js:25
+msgid "OK"
+msgstr "OK"
+
+#. Translation: Label of a button that when pressed opens the Terms and
+#. Conditions in the default webbrowser.
+#: gui/termsdialog/termsdialog.js:30
+msgid "View online"
+msgstr "Megtekintés online"
+
+#: gui/termsdialog/termsdialog.js:38
+#, javascript-format
+msgid "Open %(url)s in the browser."
+msgstr "%(url)s megnyitása böngészőben."
+
+#: gui/modio/modio.xml:(caption):18
+msgid "mod.io Mods"
+msgstr "mod.io modok"
+
+#: gui/modio/modio.xml:(caption):25 gui/modmod/modmod.xml:(caption):56
+msgid "Available Mods"
+msgstr "Elérhető modok"
+
+#: gui/modio/modio.xml:(caption):73
+msgid "Back"
+msgstr "Vissza"
+
+#: gui/modio/modio.xml:(caption):78
+msgid "Refresh List"
+msgstr "Lista frissítése"
+
+#: gui/modio/modio.xml:(caption):83
+msgid "Download"
+msgstr "Letöltés"
+
+#: gui/modio/modio.xml:(heading):53 gui/modmod/modmod.xml:(heading):76
+#: gui/modmod/modmod.xml:(heading):116
+msgid "Name"
+msgstr "Név"
+
+#: gui/modio/modio.xml:(heading):56 gui/modmod/modmod.xml:(heading):79
+#: gui/modmod/modmod.xml:(heading):119
+msgid "Version"
+msgstr "Verzió"
+
+#: gui/modio/modio.xml:(heading):59 gui/modmod/modmod.xml:(heading):85
+#: gui/modmod/modmod.xml:(heading):125
+msgid "Mod Label"
+msgstr "Módosítás címke"
+
+#: gui/modio/modio.xml:(heading):62
+msgid "File Size"
+msgstr "Fájlméret"
+
+#: gui/modio/modio.xml:(heading):65 gui/modmod/modmod.xml:(heading):88
+#: gui/modmod/modmod.xml:(heading):128
+msgid "Dependencies"
+msgstr "Függőségek"
+
+#: gui/modmod/modmod.xml:(caption):12
+msgid "Modifications"
+msgstr "Módosítások"
+
+#: gui/modmod/modmod.xml:(caption):37
+msgid "Negate"
+msgstr "Tagadás"
+
+#: gui/modmod/modmod.xml:(caption):49
+msgid "Description"
+msgstr "Leírás"
+
+#: gui/modmod/modmod.xml:(caption):100
+msgid "Enabled Mods"
+msgstr "Engedélyezett modok"
+
+#: gui/modmod/modmod.xml:(caption):167
+msgid "Enable/Disable"
+msgstr "Engedélyezés/letiltás"
+
+#: gui/modmod/modmod.xml:(caption):170
+msgid "Visit Website"
+msgstr "Webhely felkeresése"
+
+#: gui/modmod/modmod.xml:(caption):179
+msgid "Quit"
+msgstr "Kilépés"
+
+#: gui/modmod/modmod.xml:(caption):189
+msgid "Help"
+msgstr "Súgó"
+
+#: gui/modmod/modmod.xml:(caption):194
+msgid "Download Mods"
+msgstr "Modok letöltése"
+
+#: gui/modmod/modmod.xml:(caption):199
+msgid "Save Configuration"
+msgstr "Beállítások mentése"
+
+#: gui/modmod/modmod.xml:(caption):204
+msgid "Start Mods"
+msgstr "Modok indítása"
+
+#: gui/modmod/modmod.xml:(heading):82 gui/modmod/modmod.xml:(heading):122
+msgid "(Folder)"
+msgstr "(Mappa)"
+
+#: gui/modmod/modmod.xml:(heading):91 gui/modmod/modmod.xml:(heading):131
+msgid "Website"
+msgstr "Weboldal"
+
+#: gui/modmod/modmod.xml:(tooltip):146 gui/modmod/modmod.xml:(tooltip):160
+msgid ""
+"Change the order in which mods are launched. This should match the mods "
+"dependencies."
+msgstr "Módosítja a modok indítási sorrendjét. Ez meg kell feleljen a modok függőségeinek."
+
+#: gui/modmod/help/help.xml:(caption):13
+msgid "Pyrogenesis Mod Selector"
+msgstr "Pyrogenesis modválasztó"
+
+#: gui/modmod/help/help.xml:(caption):21
+msgid "Close"
+msgstr "Bezárás"
+
+#: gui/modmod/help/help.xml:(caption):25
+msgid "Modding Guide"
+msgstr "Modolási útmutató"
+
+#: gui/modmod/help/help.xml:(caption):29
+msgid "Visit mod.io"
+msgstr "mod.io felkeresése"
+
+#: gui/termsdialog/termsdialog.xml:(caption):15
+msgid "Language"
+msgstr "Nyelv"
+
+#: gui/termsdialog/termsdialog.xml:(caption):33
+msgid "Decline"
+msgstr "Elutasítás"
+
+#: gui/termsdialog/termsdialog.xml:(caption):38
+msgid "Accept"
+msgstr "Elfogadás"
+
+#: gui/modio/Disclaimer.txt:1
+msgid "0 A.D. Empires Ascendant mod.io Disclaimer"
+msgstr "0 A.D. Felemelkedő birodalmak mod.io nyilatkozat"
+
+#: gui/modio/Disclaimer.txt:3
+msgid "Document Date: 2018-10-12"
+msgstr "Dokumentum dátuma: 2018. október 12."
+
+#: gui/modio/Disclaimer.txt:5
+msgid "You are about to connect to the mod.io online service."
+msgstr "A mod.io online szolgáltatáshoz kapcsolódáshoz készül."
+
+#: gui/modio/Disclaimer.txt:6
+msgid ""
+"This service provides an easy way to download and install community-made "
+"mods and is provided by DBolical Pty Ltd, the company behind IndieDB and "
+"ModDB."
+msgstr "Ez a szolgáltatás könnyű módot biztosít a közösség által készített modok letöltéséhez és telepítéséhez. A szolgáltatást a DBolical Pty Ltd., az IndieDB és a ModDB mögött álló cég nyújtja."
+
+#: gui/modio/Disclaimer.txt:7
+msgid "The service is for users age 13 and over."
+msgstr "A szolgáltatás 13 éves vagy ennél idősebbek számára érhető el."
+
+#: gui/modio/Disclaimer.txt:9
+msgid ""
+"Wildfire Games has taken care to make this connection secure and reviewed "
+"the mods for security flaws, but cannot guarantee that this does not pose "
+"any risks."
+msgstr "A Wildfire Games figyelt arra hogy a kapcsolat biztonságos legyen, és a modok is biztonsági hibaellenőrzésen esnek át, de nem garantálhatjuk, hogy nem jelentenek kockázatot."
+
+#: gui/modio/Disclaimer.txt:11
+msgid ""
+"By using the service, you understand that mod.io's Terms of Use and Privacy "
+"Policy apply and that Wildfire Games is not liable for any damages resulting"
+" from this service."
+msgstr "A szolgáltatás használatával jelzed, hogy megértetted a mod.io felhasználási feltételeit, az adatvédelmi nyilatkozatot, és hogy a Wildfire Games semmilyen a szolgáltatás használatából eredő kárért nem felelős."
+
+#: gui/modmod/help/help.txt:1
+msgid ""
+"0 A.D. is designed to be easily modded. Mods are distributed in the form of "
+".pyromod files, which can be opened like .zip files."
+msgstr "A 0 A.D. úgy lett tervezve, hogy könnyen módosítható legyen. A modok .pyromod fájlként kerülnek terjesztésre, melyeket .zip fájlként lehet megnyitni."
+
+#: gui/modmod/help/help.txt:3
+msgid ""
+"In order to install a mod, just open the file with 0 A.D. (either double-"
+"click on the file and choose to open it with the game, or run \"pyrogenesis "
+"file.pyromod\" in a terminal). The mod will then be available in the mod "
+"selector. You can enable it and disable it at will. You can delete the mod "
+"manually using your file browser if needed (see "
+"https://trac.wildfiregames.com/wiki/GameDataPaths)."
+msgstr "A módosítás telepítéséhez csak nyisd meg a fájlt a 0 A.D. programmal (vagy dupla kattintás a fájlon, és válaszd a játékkal való megnyitást, vagy futtasd a „pyrogenesis fájl.pyromod” parancsot a terminálban). A módosítás ezek után elérhető lesz a módosításválasztóban, és tetszés szerint engedélyezhető vagy letiltható. A módosítás kézzel letörölhető a fájlkezelőben (lásd: https://trac.wildfiregames.com/wiki/GameDataPaths)"
+
+#: gui/modmod/help/help.txt:5
+msgid ""
+"For more information about modding the game, see the Modding Guide online "
+"(click the Modding Guide button below)."
+msgstr "A játék további módosítási információihoz lásd az online módosítási útmutatót (Kattints alább a „Módosítási útmutató” gombon)"
+
+#: gui/modmod/help/help.txt:7
+msgid ""
+"The mod.io service is developed by DBolical, the company behind IndieDB and "
+"ModDB. Those websites have spread the word about 0 A.D. and other indie "
+"projects for a long time! Today, mod.io allows us to list and download all "
+"the mods that were verified by the team. Click \"Download Mods\" to try it "
+"out and install some!"
+msgstr "A mod.io szolgáltatást a DBolical, az IndieDB és a ModDB mögött álló vállalat fejlesztette ki. Ezek a weboldalak hosszú ideje terjesztik a 0 A.D. és más indie projekteket. Ma a mod.io lehetővé teszi, hogy listázd és letöltsd az összes módosítást, amelyet e csapat ellenőriz. Kattints a „Modok letöltése” gombra, hogy kipróbálhass és telepíts néhányat!"

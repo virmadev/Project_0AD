@@ -1,0 +1,476 @@
+# Translation template for Pyrogenesis - Mod Selector.
+# Copyright (C) 2018 Wildfire Games
+# This file is distributed under the same license as the Pyrogenesis - Mod Selector project.
+# 
+# Translators:
+# Jeff Huang <s8321414@gmail.com>, 2014,2018
+# Po-Chun Huang <aphroteus@gmail.com>, 2014
+# Shoichi Chou <shoichi.chou@gmail.com>, 2018
+# 林建霖 <johhycain@gmail.com>, 2018
+# 張峻瑜 <a728728728@gmail.com>, 2018
+# 林建霖 <johhycain@gmail.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2018-12-31 09:46+0100\n"
+"PO-Revision-Date: 2018-12-31 15:46+0000\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/wildfire-games/0ad/language/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: gui/common/functions_msgbox.js:57
+#, javascript-format
+msgid ""
+"Opening %(url)s\n"
+" in default web browser. Please wait…"
+msgstr "即將使用預設的網頁瀏覽器開啟 %(url)s，請稍候..."
+
+#: gui/common/functions_msgbox.js:60
+msgid "Opening page"
+msgstr "正在開啟頁面"
+
+#: gui/common/l10n.js:9
+msgctxt "filesize unit"
+msgid "B"
+msgstr "B"
+
+#: gui/common/l10n.js:10
+msgctxt "filesize unit"
+msgid "KiB"
+msgstr "KiB"
+
+#: gui/common/l10n.js:11
+msgctxt "filesize unit"
+msgid "MiB"
+msgstr "MiB"
+
+#: gui/common/l10n.js:12
+msgctxt "filesize unit"
+msgid "GiB"
+msgstr "GiB"
+
+#. Translation: For example: 123.4 KiB
+#: gui/common/l10n.js:33
+#, javascript-format
+msgid "%(filesize)s %(unit)s"
+msgstr "%(filesize)s%(unit)s"
+
+#. Translation: Time-format string. See http://userguide.icu-
+#. project.org/formatparse/datetime for a guide to the meaning of the letters.
+#: gui/common/l10n.js:46
+msgid "mm:ss"
+msgstr "mm:ss"
+
+#: gui/common/l10n.js:46
+msgid "HH:mm:ss"
+msgstr "HH:mm:ss"
+
+#: gui/common/l10n.js:143
+msgctxt "enumeration"
+msgid ", "
+msgstr "，"
+
+#: gui/common/mod.js:17
+#, javascript-format
+msgctxt "Mod comparison"
+msgid "%(mod)s (%(version)s)"
+msgstr "%(mod)s (%(version)s)"
+
+#: gui/common/mod.js:20
+msgid ", "
+msgstr "，"
+
+#: gui/common/mod.js:28
+#, javascript-format
+msgctxt "Mod comparison"
+msgid "Required: %(mods)s"
+msgstr "需要：%(mods)s"
+
+#: gui/common/mod.js:30
+#, javascript-format
+msgctxt "Mod comparison"
+msgid "Active: %(mods)s"
+msgstr "啟用：%(mods)s"
+
+#: gui/modio/modio.js:80
+#, javascript-format
+msgctxt "mod.io error message"
+msgid ""
+"Game ID could not be retrieved.\n"
+"\n"
+"%(technicalDetails)s"
+msgstr "無法取得遊戲 ID。\n\n%(technicalDetails)s"
+
+#: gui/modio/modio.js:83
+msgctxt "mod.io error message"
+msgid "Initialization Error"
+msgstr "安裝錯誤"
+
+#: gui/modio/modio.js:84 gui/modio/modio.js:95 gui/modio/modio.js:106
+#: gui/modio/modio.js:117
+msgid "Abort"
+msgstr "中止"
+
+#: gui/modio/modio.js:84 gui/modio/modio.js:95 gui/modio/modio.js:106
+msgid "Retry"
+msgstr "重試"
+
+#: gui/modio/modio.js:91
+#, javascript-format
+msgctxt "mod.io error message"
+msgid ""
+"Mod List could not be retrieved.\n"
+"\n"
+"%(technicalDetails)s"
+msgstr "無法取得 Mod 列表。\n\n%(technicalDetails)s"
+
+#: gui/modio/modio.js:94
+msgctxt "mod.io error message"
+msgid "Fetch Error"
+msgstr "存取錯誤"
+
+#: gui/modio/modio.js:102
+#, javascript-format
+msgctxt "mod.io error message"
+msgid ""
+"File download failed.\n"
+"\n"
+"%(technicalDetails)s"
+msgstr "檔案下載失敗\n\n%(technicalDetails)s"
+
+#: gui/modio/modio.js:105
+msgctxt "mod.io error message"
+msgid "Download Error"
+msgstr "下載錯誤"
+
+#: gui/modio/modio.js:113
+#, javascript-format
+msgctxt "mod.io error message"
+msgid ""
+"File verification error.\n"
+"\n"
+"%(technicalDetails)s"
+msgstr "檔案驗證錯誤。\n\n%(technicalDetails)s"
+
+#: gui/modio/modio.js:116
+msgctxt "mod.io error message"
+msgid "Verification Error"
+msgstr "錯誤驗證"
+
+#: gui/modio/modio.js:133
+msgid "Initializing mod.io interface."
+msgstr "安裝 mod.io 介面。"
+
+#: gui/modio/modio.js:134
+msgid "Initializing"
+msgstr "正在安裝"
+
+#: gui/modio/modio.js:136 gui/modmod/modmod.xml:(caption):184
+msgid "Cancel"
+msgstr "取消"
+
+#: gui/modio/modio.js:232
+msgid "Fetching and updating list of available mods."
+msgstr "存取並更新列表當中 Mods。"
+
+#: gui/modio/modio.js:233
+msgid "Updating"
+msgstr "更新中"
+
+#: gui/modio/modio.js:235
+msgid "Cancel Update"
+msgstr "取消更新"
+
+#: gui/modio/modio.js:248
+#, javascript-format
+msgid "Downloading “%(modname)s”"
+msgstr "下載中 “%(modname)s”"
+
+#: gui/modio/modio.js:251
+msgid "Downloading"
+msgstr "下載中"
+
+#: gui/modio/modio.js:253
+msgid "Cancel Download"
+msgstr "取消下載"
+
+#. Translation: Mod file download indicator. Current size over expected final
+#. size, with percentage complete.
+#: gui/modio/modio.js:320
+#, javascript-format
+msgid "%(current)s / %(total)s (%(percent)s%%)"
+msgstr "%(current)s/ %(total)s (%(percent)s%%)"
+
+#. Translation: Mod file download status message.
+#: gui/modio/modio.js:330
+#, javascript-format
+msgid ""
+"Time Elapsed: %(elapsed)s\n"
+"Estimated Time Remaining: %(remaining)s\n"
+"Average Speed: %(avgSpeed)s"
+msgstr "花費時間:%(elapsed)s\n估計剩餘時間:%(remaining)s\n平均速度:%(avgSpeed)s"
+
+#: gui/modio/modio.js:332
+msgid "∞"
+msgstr "∞"
+
+#. Translation: Average download speed, used to give the user a very rough and
+#. naive idea of the download time. For example: 123.4 KiB/s
+#: gui/modio/modio.js:334
+#, javascript-format
+msgid "%(number)s %(unit)s/s"
+msgstr "%(number)s%(unit)s/s"
+
+#: gui/modmod/modmod.js:102 gui/modmod/modmod.js:233
+msgid "Filter"
+msgstr "過濾器"
+
+#: gui/modmod/modmod.js:286
+#, javascript-format
+msgid "Dependency not met: %(dep)s"
+msgstr "無法相容:%(dep)s"
+
+#: gui/modmod/modmod.js:292
+msgid "All dependencies met"
+msgstr "所有相依性皆已滿足"
+
+#: gui/modmod/modmod.js:370
+msgid "Enable"
+msgstr "啟用"
+
+#: gui/modmod/modmod.js:370
+msgid "Disable"
+msgstr "停用"
+
+#: gui/modmod/modmod.js:380
+msgid "No mod has been selected."
+msgstr "沒有已被選取的 mod。"
+
+#: gui/modmod/modmodio.js:5
+msgid "Disclaimer"
+msgstr "放棄"
+
+#: gui/modmod/modmodio.js:12
+msgid "mod.io Terms"
+msgstr "mod.io 條款"
+
+#: gui/modmod/modmodio.js:16
+msgid "mod.io Privacy Policy"
+msgstr "mod.io 隱私政策"
+
+#: gui/msgbox/msgbox.js:25
+msgid "OK"
+msgstr "確定"
+
+#. Translation: Label of a button that when pressed opens the Terms and
+#. Conditions in the default webbrowser.
+#: gui/termsdialog/termsdialog.js:30
+msgid "View online"
+msgstr "線上檢視"
+
+#: gui/termsdialog/termsdialog.js:38
+#, javascript-format
+msgid "Open %(url)s in the browser."
+msgstr "在瀏覽器開啟 %(url)s 。"
+
+#: gui/modio/modio.xml:(caption):18
+msgid "mod.io Mods"
+msgstr "mod.io Mods"
+
+#: gui/modio/modio.xml:(caption):25 gui/modmod/modmod.xml:(caption):56
+msgid "Available Mods"
+msgstr "可用的 Mods"
+
+#: gui/modio/modio.xml:(caption):73
+msgid "Back"
+msgstr "返回"
+
+#: gui/modio/modio.xml:(caption):78
+msgid "Refresh List"
+msgstr "更新列表"
+
+#: gui/modio/modio.xml:(caption):83
+msgid "Download"
+msgstr "下載"
+
+#: gui/modio/modio.xml:(heading):53 gui/modmod/modmod.xml:(heading):76
+#: gui/modmod/modmod.xml:(heading):116
+msgid "Name"
+msgstr "名稱"
+
+#: gui/modio/modio.xml:(heading):56 gui/modmod/modmod.xml:(heading):79
+#: gui/modmod/modmod.xml:(heading):119
+msgid "Version"
+msgstr "版本"
+
+#: gui/modio/modio.xml:(heading):59 gui/modmod/modmod.xml:(heading):85
+#: gui/modmod/modmod.xml:(heading):125
+msgid "Mod Label"
+msgstr "Mod 標籤"
+
+#: gui/modio/modio.xml:(heading):62
+msgid "File Size"
+msgstr "檔案大小"
+
+#: gui/modio/modio.xml:(heading):65 gui/modmod/modmod.xml:(heading):88
+#: gui/modmod/modmod.xml:(heading):128
+msgid "Dependencies"
+msgstr "相依性"
+
+#: gui/modmod/modmod.xml:(caption):12
+msgid "Modifications"
+msgstr "修改"
+
+#: gui/modmod/modmod.xml:(caption):37
+msgid "Negate"
+msgstr "取消"
+
+#: gui/modmod/modmod.xml:(caption):49
+msgid "Description"
+msgstr "描述"
+
+#: gui/modmod/modmod.xml:(caption):100
+msgid "Enabled Mods"
+msgstr "已啟用的 Mods"
+
+#: gui/modmod/modmod.xml:(caption):167
+msgid "Enable/Disable"
+msgstr "啟用/停用"
+
+#: gui/modmod/modmod.xml:(caption):170
+msgid "Visit Website"
+msgstr "拜訪網站"
+
+#: gui/modmod/modmod.xml:(caption):179
+msgid "Quit"
+msgstr "離開"
+
+#: gui/modmod/modmod.xml:(caption):189
+msgid "Help"
+msgstr "幫助"
+
+#: gui/modmod/modmod.xml:(caption):194
+msgid "Download Mods"
+msgstr "下載 Mods"
+
+#: gui/modmod/modmod.xml:(caption):199
+msgid "Save Configuration"
+msgstr "儲存設定"
+
+#: gui/modmod/modmod.xml:(caption):204
+msgid "Start Mods"
+msgstr "啟動 Mods"
+
+#: gui/modmod/modmod.xml:(heading):82 gui/modmod/modmod.xml:(heading):122
+msgid "(Folder)"
+msgstr "(資料夾)"
+
+#: gui/modmod/modmod.xml:(heading):91 gui/modmod/modmod.xml:(heading):131
+msgid "Website"
+msgstr "網站"
+
+#: gui/modmod/modmod.xml:(tooltip):146 gui/modmod/modmod.xml:(tooltip):160
+msgid ""
+"Change the order in which mods are launched. This should match the mods "
+"dependencies."
+msgstr "改變 Mod 開啟的順序，符合模組彼此之間的支配關係。"
+
+#: gui/modmod/help/help.xml:(caption):13
+msgid "Pyrogenesis Mod Selector"
+msgstr "熱門 Mod 安裝"
+
+#: gui/modmod/help/help.xml:(caption):21
+msgid "Close"
+msgstr "關閉"
+
+#: gui/modmod/help/help.xml:(caption):25
+msgid "Modding Guide"
+msgstr "模組指南"
+
+#: gui/modmod/help/help.xml:(caption):29
+msgid "Visit mod.io"
+msgstr "拜訪 mod.io"
+
+#: gui/termsdialog/termsdialog.xml:(caption):15
+msgid "Language"
+msgstr "語言"
+
+#: gui/termsdialog/termsdialog.xml:(caption):33
+msgid "Decline"
+msgstr "拒絕"
+
+#: gui/termsdialog/termsdialog.xml:(caption):38
+msgid "Accept"
+msgstr "接受"
+
+#: gui/modio/Disclaimer.txt:1
+msgid "0 A.D. Empires Ascendant mod.io Disclaimer"
+msgstr "0 A.D. Empires Ascendant mod.io 免責聲明"
+
+#: gui/modio/Disclaimer.txt:3
+msgid "Document Date: 2018-10-12"
+msgstr "文件日期: 2018-10-12"
+
+#: gui/modio/Disclaimer.txt:5
+msgid "You are about to connect to the mod.io online service."
+msgstr "您即將連接到mod.io線上服務。"
+
+#: gui/modio/Disclaimer.txt:6
+msgid ""
+"This service provides an easy way to download and install community-made "
+"mods and is provided by DBolical Pty Ltd, the company behind IndieDB and "
+"ModDB."
+msgstr "這項服務提供了一種簡單的方式來下載和安裝社群所製作的mod，技術提供者是IndolDB 和ModDB 背後的公司：DBolical Pty Ltd。"
+
+#: gui/modio/Disclaimer.txt:7
+msgid "The service is for users age 13 and over."
+msgstr "該服務適用於13歲及以上的用戶。"
+
+#: gui/modio/Disclaimer.txt:9
+msgid ""
+"Wildfire Games has taken care to make this connection secure and reviewed "
+"the mods for security flaws, but cannot guarantee that this does not pose "
+"any risks."
+msgstr "Wildfire Games已經留意連線的安全性也審查了這個mod 有無安全漏洞，但不保證這沒有任何風險。"
+
+#: gui/modio/Disclaimer.txt:11
+msgid ""
+"By using the service, you understand that mod.io's Terms of Use and Privacy "
+"Policy apply and that Wildfire Games is not liable for any damages resulting"
+" from this service."
+msgstr "使用本服務時，您了解mod.io 的使用條款和隱私政策聲明，且Wildfire Games 不對此服務造成的任何損害承擔責任。"
+
+#: gui/modmod/help/help.txt:1
+msgid ""
+"0 A.D. is designed to be easily modded. Mods are distributed in the form of "
+".pyromod files, which can be opened like .zip files."
+msgstr "0 A.D. 被設計成能輕易套用 Mod。Mod 的格式副檔名為 .pyromod 就和 .zip 檔一樣能被開啟。"
+
+#: gui/modmod/help/help.txt:3
+msgid ""
+"In order to install a mod, just open the file with 0 A.D. (either double-"
+"click on the file and choose to open it with the game, or run \"pyrogenesis "
+"file.pyromod\" in a terminal). The mod will then be available in the mod "
+"selector. You can enable it and disable it at will. You can delete the mod "
+"manually using your file browser if needed (see "
+"https://trac.wildfiregames.com/wiki/GameDataPaths)."
+msgstr "安裝 Mod 只需要在 0 A.D. 裡打開檔案 (雙擊檔案並且選擇以遊戲開啟，或者在是在電腦上執行「pyrogenesis file.pyromod」)。Mod 便會出現在〔Mod 選擇〕清單裡。你可以自由地選擇套用與否。如果有需要，你可以直接從遊戲目錄資料夾裡手動刪除 Mod 檔案 (詳見 https://trac.wildfiregames.com/wiki/GameDataPaths)。"
+
+#: gui/modmod/help/help.txt:5
+msgid ""
+"For more information about modding the game, see the Modding Guide online "
+"(click the Modding Guide button below)."
+msgstr "如需了解更多關於 Mod 的訊息，請參見 Modding Guide online (雙擊底下的 Modding Guide 的按鈕)。"
+
+#: gui/modmod/help/help.txt:7
+msgid ""
+"The mod.io service is developed by DBolical, the company behind IndieDB and "
+"ModDB. Those websites have spread the word about 0 A.D. and other indie "
+"projects for a long time! Today, mod.io allows us to list and download all "
+"the mods that were verified by the team. Click \"Download Mods\" to try it "
+"out and install some!"
+msgstr "mod.io 服務也與 IndieDB、ModDB 一樣，是由 DBolical 這間公司所發展出來的網站。這些網站長期以來向大家推廣了0 A.D. 以及其他許多獨立專案！直至今日 mod.io 提供我們列出並下載所有經過團隊驗證過後的 Mod。雙擊〔下載 Mod〕來嘗試並安裝一些 Mod!"
