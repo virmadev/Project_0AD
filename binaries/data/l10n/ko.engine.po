@@ -1,0 +1,245 @@
+# Translation template for Pyrogenesis.
+# Copyright (C) 2019 Wildfire Games
+# This file is distributed under the same license as the Pyrogenesis project.
+# 
+# Translators:
+# 이정희 <daemul72@gmail.com>, 2019
+# 신 희윤 <eustaph7725@gmail.com>, 2017
+# Gr Nada <inactive+Granada45621@transifex.com>, 2016
+# Gr Nada <inactive+Granada45621@transifex.com>, 2016
+# Gu Hong Min <placidmoon1@gmail.com>, 2015
+# Hn Dsu <lomio97@naver.com>, 2016
+# moolow <copyhyeon@gmail.com>, 2018
+# jasonkimik <jasonkim@linux.com>, 2014
+# Gu Hong Min <placidmoon1@gmail.com>, 2015
+# ks k, 2019
+# ks k, 2019
+# moolow <copyhyeon@gmail.com>, 2018
+# Muk Myung-Hee MyungHee <exploration@ponp.be>, 2018
+# VictoriaKim <sis2468@hotmail.co.kr>, 2014
+# Suhyeon Park <qkr5145@gmail.com>, 2018
+# Taejin Kim <manowar72@gmail.com>, 2015
+# Valtiel <shinhs6291@naver.com>, 2014
+# VictoriaKim <sis2468@hotmail.co.kr>, 2014
+# zen kiss <gxaryu456@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2019-09-13 07:08+0000\n"
+"PO-Revision-Date: 2019-09-21 13:51+0000\n"
+"Last-Translator: ks k\n"
+"Language-Team: Korean (http://www.transifex.com/wildfire-games/0ad/language/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: i18n/L10n.cpp:251
+msgid "Long strings"
+msgstr "긴 문자열"
+
+#: lobby/XmppClient.cpp:855
+msgid "unknown subtype (see logs)"
+msgstr "알 수 없는 하위 유형(로그 참조)"
+
+#: lobby/XmppClient.cpp:1169
+msgid "The certificate is not trusted."
+msgstr "인증서를 신뢰할 수 없습니다."
+
+#: lobby/XmppClient.cpp:1170
+msgid "The certificate hasn't got a known issuer."
+msgstr "인증서에 알려진 발급자가 없습니다."
+
+#: lobby/XmppClient.cpp:1171
+msgid "The certificate has been revoked."
+msgstr "인증서가 해지되었습니다."
+
+#: lobby/XmppClient.cpp:1172
+msgid "The certificate has expired."
+msgstr "인증서가 만료되었습니다."
+
+#: lobby/XmppClient.cpp:1173
+msgid "The certifiacte is not yet active."
+msgstr "인증서가 아직 활성화되지 않았습니다."
+
+#: lobby/XmppClient.cpp:1174
+msgid "The certificate has not been issued for the peer connected to."
+msgstr "연결된 또래에 대한 인증서가 발급되지 않았습니다."
+
+#: lobby/XmppClient.cpp:1175
+msgid "The certificate signer is not a certificate authority."
+msgstr "인증 서명자는 인증 기관이 아닙니다."
+
+#: lobby/XmppClient.cpp:1197 lobby/XmppClient.cpp:1241
+#: lobby/XmppClient.cpp:1280
+msgid "Error"
+msgstr "오류"
+
+#: lobby/XmppClient.cpp:1200 lobby/XmppClient.cpp:1244
+msgid "No error"
+msgstr "오류 없음"
+
+#: lobby/XmppClient.cpp:1202
+msgid "Player already logged in"
+msgstr "선수는 이미 로그인되었습니다."
+
+#: lobby/XmppClient.cpp:1204
+msgid "Forbidden"
+msgstr "접근금지"
+
+#: lobby/XmppClient.cpp:1206
+msgid "Internal server error"
+msgstr "내부 서버 오류"
+
+#: lobby/XmppClient.cpp:1210
+msgid "Not allowed"
+msgstr "허용되지 않음"
+
+#: lobby/XmppClient.cpp:1211
+msgid "Not authorized"
+msgstr "권한이 없음 or 없습니다"
+
+#: lobby/XmppClient.cpp:1214
+msgid "Recipient temporarily unavailable"
+msgstr "수신자가 일시적으로 사용 불가능"
+
+#: lobby/XmppClient.cpp:1216
+msgid "Registration required"
+msgstr "등록이 필요합니다"
+
+#: lobby/XmppClient.cpp:1220
+msgid "Service unavailable"
+msgstr "서비스를 이용할수 없습니다"
+
+#: lobby/XmppClient.cpp:1225 lobby/XmppClient.cpp:1264
+msgid "Unknown error"
+msgstr "알 수 없는 오류"
+
+#: lobby/XmppClient.cpp:1245
+msgid "Stream error"
+msgstr "스트림 에러"
+
+#: lobby/XmppClient.cpp:1246
+msgid "The incoming stream version is unsupported"
+msgstr "받은 스트림 버전이 지원되지 않습니다"
+
+#: lobby/XmppClient.cpp:1247
+msgid "The stream has been closed by the server"
+msgstr "서버가 스트림을 닫았습니다"
+
+#: lobby/XmppClient.cpp:1251
+msgid "An I/O error occurred"
+msgstr "입출력 오류가 발생했습니다"
+
+#: lobby/XmppClient.cpp:1253
+msgid "The connection was refused by the server"
+msgstr "서버가 연결을 거부했습니다"
+
+#: lobby/XmppClient.cpp:1254
+msgid "Resolving the server's hostname failed"
+msgstr "서버가 호스트 이름 확인에 실패했습니다"
+
+#: lobby/XmppClient.cpp:1255
+msgid "This system is out of memory"
+msgstr "이 시스템의 메모리가 부족합니다"
+
+#: lobby/XmppClient.cpp:1257
+msgid ""
+"The server's certificate could not be verified or the TLS handshake did not "
+"complete successfully"
+msgstr "서버의 인증서를 확인할 수 없거나 TLS 핸드셰이크가 제대로 완료되지 않았습니다"
+
+#: lobby/XmppClient.cpp:1258
+msgid "The server did not offer required TLS encryption"
+msgstr "이 서버는 필요한 TLS 암호화를 제공하지 않았습니다"
+
+#: lobby/XmppClient.cpp:1260
+msgid "Authentication failed. Incorrect password or account does not exist"
+msgstr "인증에 실패했습니다. 암호가 다르거나 계정이 존재하지 않습니다"
+
+#: lobby/XmppClient.cpp:1261
+msgid "The user or system requested a disconnect"
+msgstr "사용자나 시스템이 연결을 끊도록 요쳥했습니다"
+
+#: lobby/XmppClient.cpp:1262
+msgid "There is no active connection"
+msgstr "활성화된 연결이 없습니다"
+
+#: lobby/XmppClient.cpp:1283
+msgid "Your account has been successfully registered"
+msgstr "계정이 등록되었습니다"
+
+#: lobby/XmppClient.cpp:1284
+msgid "Not all necessary information provided"
+msgstr "필요한 정보가 전부 준비되지 않았습니다"
+
+#: lobby/XmppClient.cpp:1285
+msgid "Username already exists"
+msgstr "사용자 이름은 이미 존재합니다"
+
+#: ps/ModIo.cpp:261
+#, c-format
+msgid "Failure while starting querying for game id. Error: %s; %s."
+msgstr "놀이 ID에 대한 조회를 시작하는 동안 오류가 발생했습니다. 오류: %s;%s"
+
+#: ps/ModIo.cpp:291
+#, c-format
+msgid "Failure while starting querying for mods. Error: %s; %s."
+msgstr "수정판(MOD)에 대한 조회를 시작하는 동안 오류가 발생했습니다 : %s ; %s."
+
+#: ps/ModIo.cpp:317
+#, c-format
+msgid "Could not create mod directory: %s."
+msgstr "수정판(MOD) 디렉토리를 만들 수 없습니다: %s."
+
+#: ps/ModIo.cpp:342
+#, c-format
+msgid "Could not open temporary file for mod download: %s."
+msgstr "수정판(MOD) 내려받기를 위한 임시 파일을 열 수 없습니다: %s."
+
+#: ps/ModIo.cpp:352
+#, c-format
+msgid "Failed to start the download. Error: %s; %s."
+msgstr "내려받기를 시작하지 못했습니다. 오류: %s; %s."
+
+#: ps/ModIo.cpp:397
+#, c-format
+msgid "Asynchronous download failure: %s, %s."
+msgstr "비동기 내려받기가 실패했습니다: %s, %s."
+
+#: ps/ModIo.cpp:426
+#, c-format
+msgid "Download failure. Server response: %s; %s."
+msgstr "내려받기가 실패했습니다. 서버 응답: %s; %s."
+
+#: ps/ModIo.cpp:529
+msgid "Mismatched filesize."
+msgstr "파일 크기가 일치하지 않습니다."
+
+#: ps/ModIo.cpp:547
+#, c-format
+msgid "Invalid file. Expected md5 %s, got %s."
+msgstr "파일이 잘못되었습니다. 예상 md5 값: %s, 받은 md5 값: %s"
+
+#: ps/ModIo.cpp:562
+msgid "Failed to compute final hash."
+msgstr "최종 해시를 계산하지 못했습니다."
+
+#: ps/ModIo.cpp:568
+msgid "Failed to verify signature."
+msgstr "서명을 확인하지 못했습니다."
+
+#: ps/SavedGame.cpp:139
+#, c-format
+msgid "Saved game to '%s'"
+msgstr "'%s'에 놀이가 저장됨"
+
+#: ps/Util.cpp:279 ps/Util.cpp:282 ps/Util.cpp:417 ps/Util.cpp:420
+#, c-format
+msgid "Screenshot written to '%s'"
+msgstr "'%s' 로 스크린샷을 저장함"
+
+#: ps/scripting/JSInterface_Debug.cpp:83
+msgid "custom build"
+msgstr "건축모드EHSMS 사용자 정의 빌드"

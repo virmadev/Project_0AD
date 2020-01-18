@@ -1,0 +1,234 @@
+# Translation template for Pyrogenesis.
+# Copyright (C) 2019 Wildfire Games
+# This file is distributed under the same license as the Pyrogenesis project.
+# 
+# Translators:
+# Beāte Lakševica <tava.unochka@inbox.lv>, 2016
+# jabalv <jabalv@protonmail.com>, 2014
+# Lafriks <lauris@nix.lv>, 2014
+# Martins M <mednismartins@inbox.lv>, 2014-2015
+# Raija, 2014
+# Rudolph Stickut <cooldbear@gmail.com>, 2018
+# Ukko Koknevics <TheZeus121@gmail.com>, 2015
+# Vladimirs Kuzmins, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2019-09-13 07:08+0000\n"
+"PO-Revision-Date: 2019-09-13 12:36+0000\n"
+"Last-Translator: Adrián Chaves Fernández <adriyetichaves@gmail.com>\n"
+"Language-Team: Latvian (http://www.transifex.com/wildfire-games/0ad/language/lv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+#: i18n/L10n.cpp:251
+msgid "Long strings"
+msgstr "Garas simbolu virknes"
+
+#: lobby/XmppClient.cpp:855
+msgid "unknown subtype (see logs)"
+msgstr "Nezināms apakštips (skatiet žurnālfailus)"
+
+#: lobby/XmppClient.cpp:1169
+msgid "The certificate is not trusted."
+msgstr ""
+
+#: lobby/XmppClient.cpp:1170
+msgid "The certificate hasn't got a known issuer."
+msgstr ""
+
+#: lobby/XmppClient.cpp:1171
+msgid "The certificate has been revoked."
+msgstr ""
+
+#: lobby/XmppClient.cpp:1172
+msgid "The certificate has expired."
+msgstr ""
+
+#: lobby/XmppClient.cpp:1173
+msgid "The certifiacte is not yet active."
+msgstr ""
+
+#: lobby/XmppClient.cpp:1174
+msgid "The certificate has not been issued for the peer connected to."
+msgstr ""
+
+#: lobby/XmppClient.cpp:1175
+msgid "The certificate signer is not a certificate authority."
+msgstr ""
+
+#: lobby/XmppClient.cpp:1197 lobby/XmppClient.cpp:1241
+#: lobby/XmppClient.cpp:1280
+msgid "Error"
+msgstr "Kļūda"
+
+#: lobby/XmppClient.cpp:1200 lobby/XmppClient.cpp:1244
+msgid "No error"
+msgstr "Nav kļūdas"
+
+#: lobby/XmppClient.cpp:1202
+msgid "Player already logged in"
+msgstr "Spēlētājs jau ir pieslēdzies"
+
+#: lobby/XmppClient.cpp:1204
+msgid "Forbidden"
+msgstr "Aizliegts"
+
+#: lobby/XmppClient.cpp:1206
+msgid "Internal server error"
+msgstr "Servera iekšēja kļūda"
+
+#: lobby/XmppClient.cpp:1210
+msgid "Not allowed"
+msgstr "Nav atļauts"
+
+#: lobby/XmppClient.cpp:1211
+msgid "Not authorized"
+msgstr "Nav autorizēts"
+
+#: lobby/XmppClient.cpp:1214
+msgid "Recipient temporarily unavailable"
+msgstr "Saņēmējs īslaicīgi nav pieejams"
+
+#: lobby/XmppClient.cpp:1216
+msgid "Registration required"
+msgstr "Nepieciešama reģistrācija"
+
+#: lobby/XmppClient.cpp:1220
+msgid "Service unavailable"
+msgstr "Pakalpojums nav pieejams"
+
+#: lobby/XmppClient.cpp:1225 lobby/XmppClient.cpp:1264
+msgid "Unknown error"
+msgstr "Nezināma kļūda"
+
+#: lobby/XmppClient.cpp:1245
+msgid "Stream error"
+msgstr "Plūsmas kļūda"
+
+#: lobby/XmppClient.cpp:1246
+msgid "The incoming stream version is unsupported"
+msgstr "Ienākošās plūsmas versija netiek atbalstīta"
+
+#: lobby/XmppClient.cpp:1247
+msgid "The stream has been closed by the server"
+msgstr "Plūsma tika slēgta no servera puses"
+
+#: lobby/XmppClient.cpp:1251
+msgid "An I/O error occurred"
+msgstr "Notika I/O kļūda"
+
+#: lobby/XmppClient.cpp:1253
+msgid "The connection was refused by the server"
+msgstr "Serveris noraidīja savienojumu"
+
+#: lobby/XmppClient.cpp:1254
+msgid "Resolving the server's hostname failed"
+msgstr "Servera vārda noskaidrošana neizdevās"
+
+#: lobby/XmppClient.cpp:1255
+msgid "This system is out of memory"
+msgstr "Sistēmai ir beigusies atmiņa"
+
+#: lobby/XmppClient.cpp:1257
+msgid ""
+"The server's certificate could not be verified or the TLS handshake did not "
+"complete successfully"
+msgstr "Servera sertifikāts ne varēja tikt verificēts vai TLS \"rokasspiediens\" netika pabeigts veiksmīgi"
+
+#: lobby/XmppClient.cpp:1258
+msgid "The server did not offer required TLS encryption"
+msgstr "Servers nepiedāvāja nepieciešamo TLS kriptēšanu"
+
+#: lobby/XmppClient.cpp:1260
+msgid "Authentication failed. Incorrect password or account does not exist"
+msgstr "Autentifikācija neizdevās. Nepareiza parole vai konts neeksistē"
+
+#: lobby/XmppClient.cpp:1261
+msgid "The user or system requested a disconnect"
+msgstr "Lietotājs vai sistēma pieprasīja atvienošanos"
+
+#: lobby/XmppClient.cpp:1262
+msgid "There is no active connection"
+msgstr "Nav aktīvu savienojumu"
+
+#: lobby/XmppClient.cpp:1283
+msgid "Your account has been successfully registered"
+msgstr "Tavs profils veiksmīgi tika reģistrēts"
+
+#: lobby/XmppClient.cpp:1284
+msgid "Not all necessary information provided"
+msgstr "Visa nepieciešamā informācija netika sagādāta"
+
+#: lobby/XmppClient.cpp:1285
+msgid "Username already exists"
+msgstr "Lietotājvārds jau eksistē"
+
+#: ps/ModIo.cpp:261
+#, c-format
+msgid "Failure while starting querying for game id. Error: %s; %s."
+msgstr ""
+
+#: ps/ModIo.cpp:291
+#, c-format
+msgid "Failure while starting querying for mods. Error: %s; %s."
+msgstr ""
+
+#: ps/ModIo.cpp:317
+#, c-format
+msgid "Could not create mod directory: %s."
+msgstr ""
+
+#: ps/ModIo.cpp:342
+#, c-format
+msgid "Could not open temporary file for mod download: %s."
+msgstr ""
+
+#: ps/ModIo.cpp:352
+#, c-format
+msgid "Failed to start the download. Error: %s; %s."
+msgstr ""
+
+#: ps/ModIo.cpp:397
+#, c-format
+msgid "Asynchronous download failure: %s, %s."
+msgstr ""
+
+#: ps/ModIo.cpp:426
+#, c-format
+msgid "Download failure. Server response: %s; %s."
+msgstr ""
+
+#: ps/ModIo.cpp:529
+msgid "Mismatched filesize."
+msgstr ""
+
+#: ps/ModIo.cpp:547
+#, c-format
+msgid "Invalid file. Expected md5 %s, got %s."
+msgstr ""
+
+#: ps/ModIo.cpp:562
+msgid "Failed to compute final hash."
+msgstr ""
+
+#: ps/ModIo.cpp:568
+msgid "Failed to verify signature."
+msgstr ""
+
+#: ps/SavedGame.cpp:139
+#, c-format
+msgid "Saved game to '%s'"
+msgstr "Spēle saglabāta '%s'"
+
+#: ps/Util.cpp:279 ps/Util.cpp:282 ps/Util.cpp:417 ps/Util.cpp:420
+#, c-format
+msgid "Screenshot written to '%s'"
+msgstr "Ekrānuzņēmums saglabāts '%s'"
+
+#: ps/scripting/JSInterface_Debug.cpp:83
+msgid "custom build"
+msgstr "pielāgots būvējums"
