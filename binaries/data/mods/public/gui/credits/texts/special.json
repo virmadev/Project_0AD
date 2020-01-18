@@ -12,6 +12,13 @@
 			"Title": "Special thanks to:",
 			"Content": [
 				{
+					"Subtitle": "Software maintenance",
+					"List": [
+						{ "nick": "Jorbe", "name": "Joonas Virmajoki" },
+						{ "nick": "Aki", "name": "Aleksi Ruokoniemi" }
+					]
+				},
+				{
 					"Subtitle": "0 A.D. Founder",
 					"List": [
 						{ "nick": "Wijitmaker", "name": "Jason Bishop" }
