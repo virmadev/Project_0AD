@@ -319,7 +319,7 @@ msgstr "Qotlh"
 msgid "For the first minute, other players will stay neutral."
 msgid_plural "For the first %(min)s minutes, other players will stay neutral."
 msgstr[0] "tup wa'DIch latlh DawI'pu' 'emDaq neutral."
-msgstr[1] "wa'DIch %(min) s tup, latlh DawI'pu' 'emDaq neutral."
+msgstr[1] "wa'DIch %(min)s tup, latlh DawI'pu' 'emDaq neutral."
 
 #: gui/common/gamedescription.js:288
 msgctxt "Map Selection"

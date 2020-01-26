@@ -212,14 +212,14 @@ msgid ""
 "you will start with a Civic Center and a couple units in Village Phase and "
 "ultimately, your goal will be to develop and expand your empire, often by "
 "evolving to Town Phase and City Phase afterward.\n"
-msgstr "basics economy Hach ghojmoH tutorial. motlh, start, 'ej SoH je civic botlh 'ej couple units vengHom Phase 'ej ultimately, ngoQ Hach 'ej wo' Sach pIj pong evolving veng SuvwI' Phase veng Phase 'ej qaSpu'DI' Hoch, mayItchu'. \n"
+msgstr "basics economy Hach ghojmoH tutorial. motlh, start, ej SoH je civic botlh ej couple units vengHom Phase ej ultimately, ngoQ Hach 'ej wo' Sach pIj pong evolving veng SuvwI Phase veng Phase 'ej qaSpu'DI' Hoch, mayItchu'. \n"
 
 #: maps/tutorials/starting_economy_walkthrough.js:6
 #, javascript-format
 msgid ""
 "\n"
 "Before starting, you can toggle between fullscreen and windowed mode using %(hotkey)s."
-msgstr "\nbefore starting, laH toggle, 'ej SoH DuqIppu'chugh fullscreen windowed mode, %(hotkey)s lo'."
+msgstr "nbefore starting, laH toggle, 'ej SoH DuqIppu'chugh fullscreen windowed mode, %(hotkey)s lo'."
 
 #: maps/tutorials/starting_economy_walkthrough.js:9
 msgid ""
@@ -263,7 +263,7 @@ msgid ""
 "technologies. Hover the cursor over the II icon. The tooltip will tell us "
 "that advancing to Town Phase requires both more constructed structures as "
 "well as more Food and Wood resources."
-msgstr "units 'ej QuQ chaq Do'qu' DeSDu' qach poStaHvIS bIS'ub wa' portraits Sev yor row buttons pagh researchable cham ghaj cha' rows. [cursor rIn ghu'vam icon. ghaHDaq hover BERNARDO. 'e' batlhchaj vI'Iprup construct tlham law' law' puS Soj 'ej Sor jo poQ 'Itlh veng SuvwI' Phase ja' maHvaD tooltip."
+msgstr "units 'ej QuQ chaq Do'qu' DeSDu' qach poStaHvIS bIS'ub wa' portraits Sev yor row buttons pagh researchable cham ghaj cha' rows. cursor rIn ghu'vam icon. ghaHDaq hover BERNARDO. 'e' batlhchaj vI'Iprup construct tlham law' law' puS Soj 'ej Sor jo poQ 'Itlh veng SuvwI' Phase ja' maHvaD tooltip."
 
 #: maps/tutorials/starting_economy_walkthrough.js:30
 msgid ""
@@ -620,7 +620,7 @@ msgid ""
 " panel on the bottom right. You will see several researchable technologies. "
 "Hover the cursor over them to see their costs and effects and click on the "
 "one you want to research."
-msgstr "example laH Dub farming rate, researchable cham, qaStaHvIS farmstead. farmstead wIv 'ej legh production beq bIngDaq pe'lu' lugh. puS cham researchable DaqaSmoHbej. [cursor rIn chaH costs 'ej 'angbogh Da vIlegh 'ej click wa' Qul DaneH'a'. ghaHDaq hover BERNARDO."
+msgstr "example laH Dub farming rate, researchable cham, qaStaHvIS farmstead. farmstead wIv 'ej legh production beq bIngDaq pe'lu' lugh. puS cham researchable DaqaSmoHbej. cursor rIn chaH costs 'ej 'angbogh Da vIlegh 'ej click wa' Qul DaneH'a'. ghaHDaq hover BERNARDO."
 
 #: maps/tutorials/starting_economy_walkthrough.js:371
 msgid ""
