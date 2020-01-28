@@ -14,6 +14,9 @@ jobs:
     - name: Build the game
       run: |
         sudo apt-get install libsodium-dev
+        sudo apt policy wx3.0-headers
+        sudo apt policy libwxgtk3.0-dev
+        sudo apt install wx3.0-headers=3.0.4+dfsg-8 libwxbase3.0-dev=3.0.4+dfsg-8 libwxgtk3.0-dev=3.0.4+dfsg-8 libwxbase3.0-0v5=3.0.4+dfsg-8 libwxgtk3.0-0v5=3.0.4+dfsg-8
         
         cd /home/runner/work/Project_0AD/Project_0AD/build/workspaces
         sed -i -e 's/\r$//' update-workspaces.sh
