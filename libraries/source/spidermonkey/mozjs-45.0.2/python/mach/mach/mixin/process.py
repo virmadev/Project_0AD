@@ -19,8 +19,8 @@ from .logging import LoggingMixin
 # Perform detection of operating system environment. This is used by command
 # execution. We only do this once to save redundancy. Yes, this can fail module
 # loading. That is arguably OK.
-
-_current_shell = /bin/bash
+if 'SHELL' in os.environ:
+    _current_shell = /bin/bash
 
 
 _in_msys = False
