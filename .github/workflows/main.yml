@@ -13,6 +13,8 @@ jobs:
       
     - name: Build the game
       run: |
+        chmod +x /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/build.sh
+        chmod +x /home/runner/work/Project_0AD/Project_0AD/build/workspaces/update-workspaces.sh
         sudo apt-get install libsodium-dev
         sudo apt policy wx3.0-headers
         sudo apt policy libwxgtk3.0-dev
@@ -20,8 +22,6 @@ jobs:
         
         cd /home/runner/work/Project_0AD/Project_0AD/build/workspaces
         sed -i -e 's/\r$//' update-workspaces.sh
-        chmod -R a+rX *
-        chmod +x update-workspaces.sh
         ./update-workspaces.sh -j3
         cd gcc
         make -j3
