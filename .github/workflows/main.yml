@@ -13,14 +13,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v1
-      with:
-        python-version: ${{ matrix.python-version }}
-    # You can test your matrix by printing the current Python version
-    - name: Display Python version
-      run: python -c "import sys; print(sys.version)"
-
     - name: Build the game
       run: |
         chmod +x /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/build.sh
@@ -41,6 +33,7 @@ jobs:
         ./update-workspaces.sh -j3
         cd gcc
         make -j3
+      shell: bash
         
     - name: Test
       run: |
