@@ -15,7 +15,8 @@ jobs:
         cd "D:/a/Project_0AD/Project_0AD/build/workspaces"
         DIR
         "D:/a/Project_0AD/Project_0AD/build/workspaces/update-workspaces.bat"
-    - name: Test2
+        DIR
+    - name: Test
       run: |
-        echo Add other actions to build,
+        "D:/a/Project_0AD/Project_0AD/binaries/system/test.exe"
         echo test, and deploy your project.
