@@ -12,16 +12,16 @@ jobs:
       uses: actions/checkout@v1
     - name: Setup workspace
       run: |
-        cd "D:/a/Project_0AD/Project_0AD/build/workspaces"
+        cd "/home/runner/work/Project_0AD/Project_0AD/build/workspaces"
         ./update-workspaces.bat
     - name: Build the game
       run: |
-        cd "D:/a/Project_0AD/Project_0AD/build/workspaces"
+        cd "/home/runner/work/Project_0AD/Project_0AD/build/workspaces"
         ./update-workspaces.sh -j3
         cd gcc
         make -j3
         
     - name: Test
       run: |
-        cd "D:/a/Project_0AD/Project_0AD/binaries/system"
+        cd "/home/runner/work/Project_0AD/Project_0AD/binaries/system"
         ./test.exe
