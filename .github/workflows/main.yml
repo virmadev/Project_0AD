@@ -14,7 +14,7 @@ jobs:
         echo Hello, world!
         cd "D:/a/Project_0AD/Project_0AD/build/workspaces"
         DIR
-        "D:/a/Project_0AD/Project_0AD/build/workspaces/update-workspaces.bat"
+        ./update-workspaces.bat
         DIR
     - name: Test
       run: |
