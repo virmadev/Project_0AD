@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
 
-    runs-on: windows-2019
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout
@@ -16,8 +16,11 @@ jobs:
         ./update-workspaces.bat
     - name: Build the game
       run: |
-        cd "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/"
-        ./MSBuild.exe $Env:GITHUB_WORKSPACE/build/workspaces/vc2015/pyrogenesis.sln /m:2 /p:PlatformToolset=v140_xp /t:pyrogenesis /t:test /p:Configuration=Release
+        cd "D:/a/Project_0AD/Project_0AD/build/workspaces"
+        ./update-workspaces.sh -j3
+        cd gcc
+        make -j3
+        
     - name: Test
       run: |
         cd "D:/a/Project_0AD/Project_0AD/binaries/system"
