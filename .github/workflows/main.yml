@@ -10,6 +10,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
+    - uses: ./
       
     - name: Build the game
       run: |
@@ -28,7 +29,7 @@ jobs:
         sed -i -e 's/\r$//' /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/patch.sh
         sed -i -e 's/\r$//' /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/build.sh
         
-        ./update-workspaces.sh -j3 --with-system-nvtt
+        ./update-workspaces.sh -j3
         cd gcc
         make -j3
         
