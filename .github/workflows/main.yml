@@ -1,0 +1,19 @@
+name: CI/CD
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup workspace
+      run: |
+        echo Hello, world!
+        cd build\\workspaces && update-workspaces.bat
+    - name: Test2
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
