@@ -8,16 +8,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v1
 
     - name: Build the game
       run: |
+        sudo apt-get install libboost-all-dev
+        sudo apt install build-essential
         cd /home/runner/work/Project_0AD/Project_0AD/build/workspaces
         sed -i -e 's/\r$//' update-workspaces.sh
         chmod -R a+rX *
         chmod +x update-workspaces.sh
-        ./update-workspaces.sh -j3 --with-system-nvtt
+        ./update-workspaces.sh -j3
         cd gcc
         make -j3
         
