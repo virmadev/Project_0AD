@@ -19,7 +19,7 @@ jobs:
       run: |
         cd "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/"
         DIR
-        ./MSBuild.exe $Env:GITHUB_WORKSPACE/build/workspaces/vc2015/pyrogenesis.sln
+        ./MSBuild.exe $Env:GITHUB_WORKSPACE/build/workspaces/vc2015/pyrogenesis.sln /p:PlatformToolset=v140_xp /t:pyrogenesis /t:test /p:Configuration=Release"
     - name: Test
       run: |
         cd "D:/a/Project_0AD/Project_0AD/binaries/system"
