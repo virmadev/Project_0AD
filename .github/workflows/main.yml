@@ -18,5 +18,5 @@ jobs:
         DIR
     - name: Test
       run: |
-        "D:/a/Project_0AD/Project_0AD/binaries/system/test.exe"
+        D:/a/Project_0AD/Project_0AD/binaries/system/test.exe
         echo test, and deploy your project.
