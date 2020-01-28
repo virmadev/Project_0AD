@@ -15,7 +15,7 @@ jobs:
       run: |
         cd /home/runner/work/Project_0AD/Project_0AD/build/workspaces
         sed -i -e 's/\r$//' update-workspaces.sh
-        find /home/runner/work/Project_0A -type d -exec chmod 755 {} \;
+        chmod -R a+rX *
         chmod +x update-workspaces.sh
         ./update-workspaces.sh -j3 --with-system-nvtt
         cd gcc
