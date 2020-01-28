@@ -13,10 +13,10 @@ jobs:
       
     - name: Build the game
       run: |
-        git clone https://github.com/0ad/0ad.git
         chmod +x /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/build.sh
         chmod +x /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/patch.sh
         chmod +x /home/runner/work/Project_0AD/Project_0AD/build/workspaces/update-workspaces.sh
+        
         sudo apt-get install libsodium-dev
         sudo apt policy wx3.0-headers
         sudo apt policy libwxgtk3.0-dev
@@ -28,7 +28,7 @@ jobs:
         sed -i -e 's/\r$//' /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/patch.sh
         sed -i -e 's/\r$//' /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/build.sh
         
-        ./update-workspaces.sh -j3
+        ./update-workspaces.sh -j3 --with-system-nvtt
         cd gcc
         make -j3
         
