@@ -16,7 +16,7 @@ jobs:
         cd /home/runner/work/Project_0AD/Project_0AD/build/workspaces
         sed -i -e 's/\r$//' update-workspaces.sh
         chmod +x update-workspaces.sh
-        ./update-workspaces.sh -j3
+        ./update-workspaces.sh -j3 --with-system-mozjs38
         cd gcc
         make -j3
         
