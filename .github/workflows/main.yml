@@ -15,7 +15,7 @@ jobs:
         cd /home/runner/work/Project_0AD/Project_0AD/build/workspaces
         ls
         chmod +x update-workspaces.sh
-        ./update-workspaces.sh
+        sh update-workspaces.sh
     - name: Build the game
       run: |
         cd /home/runner/work/Project_0AD/Project_0AD/build/workspaces
