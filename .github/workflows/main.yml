@@ -11,8 +11,8 @@ jobs:
 
     - name: Build the game
       run: |
-        sudo apt-get install libboost-all-dev
-        sudo apt install build-essential
+        sudo apt update
+        sudo apt install libenet-doc
         cd /home/runner/work/Project_0AD/Project_0AD/build/workspaces
         sed -i -e 's/\r$//' update-workspaces.sh
         chmod -R a+rX *
