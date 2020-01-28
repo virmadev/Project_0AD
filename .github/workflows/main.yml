@@ -8,11 +8,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
+    - name: Checkout
+      uses: actions/checkout@v1
+      
     - name: Build the game
       run: |
-        sudo apt update
-        sudo apt install libenet-doc
+        sudo apt-get install libsodium-dev
+        
         cd /home/runner/work/Project_0AD/Project_0AD/build/workspaces
         sed -i -e 's/\r$//' update-workspaces.sh
         chmod -R a+rX *
