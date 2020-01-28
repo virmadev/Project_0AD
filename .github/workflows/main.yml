@@ -12,7 +12,8 @@ jobs:
     - name: Setup workspace
       run: |
         echo Hello, world!
-        cd build\\workspaces && update-workspaces.bat
+        cd build\\workspaces
+        update-workspaces.bat
     - name: Test2
       run: |
         echo Add other actions to build,
