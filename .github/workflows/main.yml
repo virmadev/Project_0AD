@@ -33,9 +33,9 @@ jobs:
         sed -i -e 's/\r$//' /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/patch.sh
         sed -i -e 's/\r$//' /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/build.sh
         
-        bash update-workspaces.sh -j3
+        bash update-workspaces.sh -j1
         cd gcc
-        make -j3
+        make -j1
       shell: bash
         
     - name: Test
