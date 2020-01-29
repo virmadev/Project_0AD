@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-16.04
 
     steps:
     - name: Checkout
@@ -13,8 +13,9 @@ jobs:
     - name: Build the game
       run: |
         
-        sudo apt install subversion build-essential libboost-dev libboost-filesystem-dev libcurl4-gnutls-dev libenet-dev libgloox-dev libicu-dev libminiupnpc-dev libnspr4-dev libnvtt-dev libogg-dev libopenal-dev libpng-dev libsdl2-dev libvorbis-dev libwxgtk3.0-dev libxcursor-dev libxml2-dev  zlib1g-dev libsodium-dev
-       
+        sudo apt-get install build-essential cmake libboost-dev libboost-filesystem-dev libcurl4-gnutls-dev libenet-dev libgloox-dev libicu-dev libminiupnpc-dev libnvtt-dev libogg-dev libopenal-dev libpng-dev libsdl2-dev libvorbis-dev libxcursor-dev libxml2-dev python subversion zlib1g-dev libenet-dev libboost-system-dev
+        sudo apt-get install libsodium-dev
+        sudo apt install wx3.0-headers=3.0.4+dfsg-3 libwxbase3.0-dev=3.0.4+dfsg-3 libwxgtk3.0-dev=3.0.4+dfsg-3 libwxbase3.0-0v5=3.0.4+dfsg-3 libwxgtk3.0-0v5=3.0.4+dfsg-3
         
         cd /home/runner/work/Project_0AD/Project_0AD/build/workspaces
         chmod +x /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/build.sh
