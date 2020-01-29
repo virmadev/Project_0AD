@@ -8,8 +8,7 @@ jobs:
     runs-on: ubuntu-16.04
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v1
+
     - uses: actions/setup-python@v1
       with:
         python-version: '2.7'
@@ -18,6 +17,9 @@ jobs:
         
         
         sudo apt-get install libsodium-dev
+        sudo apt policy wx3.0-headers
+        sudo apt policy libwxgtk3.0-dev
+        
         sudo apt install wx3.0-headers=3.0.4+dfsg-3 libwxbase3.0-dev=3.0.4+dfsg-3 libwxgtk3.0-dev=3.0.4+dfsg-3 libwxbase3.0-0v5=3.0.4+dfsg-3 libwxgtk3.0-0v5=3.0.4+dfsg-3
         
         cd /home/runner/work/Project_0AD/Project_0AD/build/workspaces
