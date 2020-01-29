@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/bin/shss
+$export SHELL=/bin/bash
 
 if [ "$(id -u)" = "0" ]; then
    echo "Running as root will mess up file permissions. Aborting ..." 1>&2
