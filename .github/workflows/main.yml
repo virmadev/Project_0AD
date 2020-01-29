@@ -10,10 +10,13 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
+    - uses: actions/setup-python@v1
+      with:
+        python-version: '2.7'
     - name: Build the game
       run: |
         
-        sudo apt-get install build-essential cmake libboost-dev libboost-filesystem-dev libcurl4-gnutls-dev libenet-dev libgloox-dev libicu-dev libminiupnpc-dev libnvtt-dev libogg-dev libopenal-dev libpng-dev libsdl2-dev libvorbis-dev libxcursor-dev libxml2-dev python subversion zlib1g-dev libenet-dev libboost-system-dev
+        
         sudo apt-get install libsodium-dev
         sudo apt install wx3.0-headers=3.0.4+dfsg-3 libwxbase3.0-dev=3.0.4+dfsg-3 libwxgtk3.0-dev=3.0.4+dfsg-3 libwxbase3.0-0v5=3.0.4+dfsg-3 libwxgtk3.0-0v5=3.0.4+dfsg-3
         
