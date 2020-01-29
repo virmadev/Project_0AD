@@ -1,5 +1,5 @@
 #!/bin/sh
-$export SHELL=/bin/bash
+export SHELL=/bin/bash
 
 set -e
 
