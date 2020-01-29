@@ -12,22 +12,19 @@ jobs:
       uses: actions/checkout@v1
     - name: Build the game
       run: |
+        
+        sudo apt install subversion build-essential libboost-dev libboost-filesystem-dev libcurl4-gnutls-dev libenet-dev libgloox-dev libicu-dev libminiupnpc-dev libnspr4-dev libnvtt-dev libogg-dev libopenal-dev libpng-dev libsdl2-dev libvorbis-dev libwxgtk3.0-dev libxcursor-dev libxml2-dev  zlib1g-dev libsodium-dev
+       
+        
+        cd /home/runner/work/Project_0AD/Project_0AD/build/workspaces
         chmod +x /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/build.sh
         chmod +x /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/patch.sh
         chmod +x /home/runner/work/Project_0AD/Project_0AD/build/workspaces/update-workspaces.sh
-        
-        sudo apt-get install libsodium-dev
-        sudo apt policy wx3.0-headers
-        sudo apt policy libwxgtk3.0-dev
-        sudo apt install wx3.0-headers=3.0.4+dfsg-3 libwxbase3.0-dev=3.0.4+dfsg-3 libwxgtk3.0-dev=3.0.4+dfsg-3 libwxbase3.0-0v5=3.0.4+dfsg-3 libwxgtk3.0-0v5=3.0.4+dfsg-3
-        
-        cd /home/runner/work/Project_0AD/Project_0AD/build/workspaces
-        
         sed -i -e 's/\r$//' update-workspaces.sh
         sed -i -e 's/\r$//' /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/patch.sh
         sed -i -e 's/\r$//' /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/build.sh
         
-        bash update-workspaces.sh -j3
+        bash update-workspaces.sh -j3 --with-system-nvtt
         cd gcc
         make -j3
       shell: bash
