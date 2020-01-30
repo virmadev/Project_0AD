@@ -41,3 +41,5 @@ jobs:
         bash update-workspaces.sh -j3
         cd gcc
         make -j3
+        /home/runner/work/Project_0AD/Project_0AD/binaries/system/test.exe
+
