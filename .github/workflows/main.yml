@@ -42,7 +42,17 @@ jobs:
           cd gcc
           make -j3
       - name: Run unit tests
+        shell: bash
         run: |
           cd /home/runner/work/Project_0AD/Project_0AD/binaries/system/
           ls
           ./test
+      - name: Commit build
+        run: |
+          git config --global user.name 'Joonas Virmajoki
+          git config --global user.email 'jvirma@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
+          git checkout "${GITHUB_REF:11}"
+          git commit -am "Automated build"
+          git push
+        
