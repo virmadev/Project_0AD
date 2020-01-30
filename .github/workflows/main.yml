@@ -27,7 +27,6 @@ jobs:
         sudo apt install wx3.0-headers=3.0.4+dfsg-3 libwxbase3.0-dev=3.0.4+dfsg-3 libwxgtk3.0-dev=3.0.4+dfsg-3 libwxbase3.0-0v5=3.0.4+dfsg-3 libwxgtk3.0-0v5=3.0.4+dfsg-3
         cd /home/runner/work/Project_0AD/Project_0AD/build/workspaces
         
-        chmod +x /home/runner/work/Project_0AD/Project_0AD/libraries/source/cxxtest-4.4/cxxtestgen
         chmod +x /home/runner/work/Project_0AD/Project_0AD/libraries/source/cxxtest-4.4/cxxtestgen.sh
         chmod +x /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/build.sh
         chmod +x /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/patch.sh
