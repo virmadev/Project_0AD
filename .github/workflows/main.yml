@@ -10,9 +10,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        name: [ubuntu-16.04-gcc-4.8]
+        name: [ubuntu-18.04-gcc-4.8]
         include:
-            - name: ubuntu-16.04-gcc-4.8
+            - name: ubuntu-18.04-gcc-4.8
               os: ubuntu-latest
     
     steps:
@@ -41,5 +41,7 @@ jobs:
         bash update-workspaces.sh -j3
         cd gcc
         make -j3
-        /home/runner/work/Project_0AD/Project_0AD/binaries/system/test.exe
+        cd /home/runner/work/Project_0AD/Project_0AD/binaries/system/
+        ls
+        ./test
 
