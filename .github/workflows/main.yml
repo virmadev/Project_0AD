@@ -16,14 +16,13 @@ jobs:
         python-version: '2.7'
     - name: Build the game
       run: |
-        
-        
+        sudo apt-get update
         sudo apt-get install libsodium-dev
         sudo apt policy wx3.0-headers
         sudo apt policy libwxgtk3.0-dev
         
         sudo apt install wx3.0-headers=3.0.2+dfsg-1.3ubuntu0.1 libwxbase3.0-dev=3.0.2+dfsg-1.3ubuntu0.1 libwxgtk3.0-dev=3.0.2+dfsg-1.3ubuntu0.1 libwxbase3.0-0v5=3.0.2+dfsg-1.3ubuntu0.1 libwxgtk3.0-0v5=3.0.2+dfsg-1.3ubuntu0.1
-        
+        sudo apt-get install build-essential cmake libboost-dev libboost-filesystem-dev libcurl4-gnutls-dev libenet-dev libgloox-dev libicu-dev libminiupnpc-dev libnvtt-dev libogg-dev libopenal-dev libpng-dev libsdl2-dev libvorbis-dev libxcursor-dev libxml2-dev python subversion zlib1g-dev libenet-dev
         cd /home/runner/work/Project_0AD/Project_0AD/build/workspaces
         
         chmod +x /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/build.sh
@@ -33,9 +32,9 @@ jobs:
         sed -i -e 's/\r$//' /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/patch.sh
         sed -i -e 's/\r$//' /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/build.sh
         
-        bash update-workspaces.sh -j1
+        bash update-workspaces.sh -j3
         cd gcc
-        make -j1
+        make -j3
       shell: bash
         
     - name: Test
