@@ -34,6 +34,7 @@ jobs:
         sed -i -e 's/\r$//' update-workspaces.sh
         sed -i -e 's/\r$//' /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/patch.sh
         sed -i -e 's/\r$//' /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/build.sh
+        sed -i -e 's/\r$//' /home/runner/work/Project_0AD/Project_0AD/libraries/source/nvtt/build.sh
         
         bash update-workspaces.sh -j3
         cd gcc
