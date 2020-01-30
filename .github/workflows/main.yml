@@ -28,7 +28,9 @@ jobs:
         
         chmod +x /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/build.sh
         chmod +x /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/patch.sh
+        chmod +x /home/runner/work/Project_0AD/Project_0AD/libraries/source/nvtt/build.sh
         chmod +x /home/runner/work/Project_0AD/Project_0AD/build/workspaces/update-workspaces.sh
+        
         sed -i -e 's/\r$//' update-workspaces.sh
         sed -i -e 's/\r$//' /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/patch.sh
         sed -i -e 's/\r$//' /home/runner/work/Project_0AD/Project_0AD/libraries/source/spidermonkey/build.sh
