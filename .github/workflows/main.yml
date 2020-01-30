@@ -12,8 +12,8 @@ jobs:
       matrix:
         name: [ubuntu-16.04-gcc-4.8]
         include:
-            - name: ubuntu-18.04-gcc-4.8
-              os: ubuntu-18.04
+            - name: ubuntu-16.04-gcc-4.8
+              os: ubuntu-16.04
               compiler: gcc
               version: "4.8"
     
