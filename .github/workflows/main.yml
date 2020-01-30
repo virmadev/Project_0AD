@@ -20,7 +20,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Build the game
-    - shell: bash
       run: |
         sudo apt-get update
         sudo apt-get install libsodium-dev
