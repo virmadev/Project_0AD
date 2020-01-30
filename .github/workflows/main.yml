@@ -1,20 +1,20 @@
 name: CI/CD
-
 on: [push]
 
 jobs:
-  build:
-
-    runs-on: ubuntu-16.04
+  test:
+    name: Test on 
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-16.04, ubuntu-18.04]
+        compiler: [gcc]
 
     steps:
     - name: Checkout
       uses: actions/checkout@v1
-    - name: Setup Python
-      uses: actions/setup-python@v1
-      with:
-        python-version: '2.7'
     - name: Build the game
+    - shell: bash
       run: |
         sudo apt-get update
         sudo apt-get install libsodium-dev
@@ -35,9 +35,3 @@ jobs:
         bash update-workspaces.sh -j3
         cd gcc
         make -j3
-      shell: bash
-        
-    - name: Test
-      run: |
-        cd /home/runner/work/Project_0AD/Project_0AD/binaries/system
-        ./test.exe		
