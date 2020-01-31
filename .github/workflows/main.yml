@@ -48,8 +48,9 @@ jobs:
           ls
           ./test
       - name: Commit build
+        shell: bash
         run: |
-          git config --global user.name 'Joonas Virmajoki
+          git config --global user.name 'Joonas Virmajoki'
           git config --global user.email 'jvirma@users.noreply.github.com'
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
           git checkout "${GITHUB_REF:11}"
