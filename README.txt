@@ -1,3 +1,5 @@
+ ![CI/CD](https://github.com/jvirma/Project_0AD/workflows/CI/CD/badge.svg)
+ 
  0 A.D. Introductory Information
 =================================
 
