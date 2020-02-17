@@ -1,5 +1,5 @@
  ![CI/CD](https://github.com/jvirma/Project_0AD/workflows/CI/CD/badge.svg)
- ![Licence](https://raw.githubusercontent.com/jvirma/project_0ad/master/licence_mit.txt)
+ ![Licence](https://raw.githubusercontent.com/jvirma/Project_0AD/master/license_mit.txt)
  
  0 A.D. Introductory Information
 =================================
