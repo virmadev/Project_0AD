@@ -1,0 +1,13 @@
+{
+	"type": "range",
+	"radius": 20,
+	"affects": ["Soldier, Infantry"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack", "multiply": 0.98 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 0.98 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 0.98 }
+	],
+	"auraName": "Riveting Fear",
+	"auraDescription": "Infantry slight attack damage loss.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

@@ -5,14 +5,14 @@
       <food>40</food>
       <metal>20</metal>
     </Resources>
-    <BuildTime op="add">+8</BuildTime>
+    <BuildTime op="add">-8</BuildTime>
   </Cost>
   <Attack>
     <Melee>
       <Damage>
-        <Hack>5</Hack>
-        <Pierce>4</Pierce>
-        <Crush>2</Crush>
+        <Hack>6</Hack>
+        <Pierce>5</Pierce>
+        <Crush>3</Crush>
       </Damage>
       <MaxRange>3.5</MaxRange>
       <PrepareTime>500</PrepareTime>
@@ -23,6 +23,9 @@
   <Health>
     <Max>200</Max>
   </Health>
+  <Auras datatype="tokens">
+    units/special/spart_infantry_berserker
+  </Auras>
   <UnitMotion>
     <WalkSpeed op="mul">1.2</WalkSpeed>
   </UnitMotion>
@@ -38,4 +41,17 @@
   <VisualActor>
     <Actor>units/spartans/infantry_berserker.xml</Actor>
   </VisualActor>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>voice/spartan/civ/civ_berserker_attack.xml</attack_melee>
+      <death>voice/spartan/civ/civ_berserker_death.xml</death>
+      <select>voice/spartan/civ/civ_berserker_scream.xml</select>
+      <trained>voice/spartan/civ/civ_berserker_scream4.xml</trained>
+      <order_walk>voice/spartan/civ/civ_berserker_scream2.xml</order_walk>
+      <order_build>voice/spartan/civ/civ_berserker_scream3.xml</order_build>
+      <order_repair>voice/spartan/civ/civ_berserker_scream3.xml</order_repair>
+      <order_gather>voice/spartan/civ/civ_berserker_scream3.xml</order_gather>
+      <order_attack>voice/spartan/civ/civ_berserker_scream4.xml</order_attack>
+    </SoundGroups>
+  </Sound>
 </Entity>
