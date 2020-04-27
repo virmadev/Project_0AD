@@ -19,6 +19,7 @@ jobs:
       - name: Build the game
         shell: bash
         run: |
+          export HOMEBREW_TEMP=/usr/local/temp 
           sudo apt-get update
           sudo apt install g++
           sudo apt install gcc
